@@ -1,0 +1,118 @@
+\documentclass[12pt,Bold,letterpaper,TexShade]{thesis}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{texshade}
+\usepackage{textcomp}
+%\usepackage{tex4ht}
+%\usepackage{amsmath}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Have you configured your TeX system for proper  %%
+%% page alignment? See the McGillETD documentation %%
+%% for two methods that can be used to control     %%
+%% page alignment. One method is demonstrated      %%
+%% below. See documentation and the ufalign.tex    %%
+%% file for instructions on how to adjust these    %%
+%% parameters.                                     %%
+\addtolength{\hoffset}{0pt}                        %%
+\addtolength{\voffset}{0pt}                        %%
+%%                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%       Define student-specific info
+\SetTitle{\huge{Local charge to global structure in the face of disorder.}}%
+\SetAuthor{Carlos G. Oliver}%
+\SetDegreeType{Master of Science}%
+\SetDepartment{Department of Biology}%
+\SetUniversity{McGill University}%
+\SetUniversityAddr{Montreal,Quebec}%
+\SetThesisDate{\today}%
+\SetRequirements{A thesis submitted to McGill University in partial fulfillment of the requirements of the degree of Master of Science}%
+\SetCopyright{\textcopyright  Carlos G. Oliver, 2016}%
+
+\makeindex[keylist]
+\makeindex[abbr]
+
+%% Input any special commands below
+%\newcommand{\Kron}[1]{\ensuremath{\delta_{K}\left(#1\right)}}
+\listfiles%
+\begin{document}
+\maketitle%
+
+\begin{romanPagenumber}{2}%
+
+\SetDedicationName{\MakeUppercase{Dedication}}%
+\SetDedicationText{This document is dedicated to the graduate students of the McGill University.}%
+\Dedication%
+
+\SetAcknowledgeName{\MakeUppercase{Acknowledgements}}%
+\SetAcknowledgeText{Acknowledgments, if included, must be written in complete sentences.  Do not use direct address.  For example, instead of Thanks, Mom and Dad!, you should say I thank my parents. }%
+\Acknowledge%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%         English Abstract                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\SetAbstractEnName{\MakeUppercase{Abstract}}%
+\SetAbstractEnText{ Abstract in English and French are required. The text of the abstract in English begins here.}
+\AbstractEn%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%         French Abstract                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\SetAbstractFrName{\MakeUppercase{ABR\'{E}G\'{E}}}%
+\SetAbstractFrText{ The text of the abstract in French begins here.  }%
+\AbstractFr%
+
+\TOCHeading{\MakeUppercase{Table of Contents}}%
+\LOTHeading{\MakeUppercase{List of Tables}}%
+\LOFHeading{\MakeUppercase{List of Figures}}%
+\LOFHeading{\MakeUppercase{List of Abbreviations}}%
+\tableofcontents %
+\listoftables %
+\listoffigures %
+
+\end{romanPagenumber}
+
+%\mainmatter %
+ 
+\chapter{Introduction}
+
+\chapter{Theory}
+\section{Intrinsically Disordered Proteins}
+\section{Gamma tubulin}
+\section{Molecular Dynamics Simulations}
+\subsection{Fixed-temperature Molecular Dynamics}
+\subsection{Replica Exchange Molecular Dynamics}
+\section{Evolutionary Algorithms}
+\input{gctmd_chapter.tex}
+\chapter{MEDIEVAL}
+\chapter{Conclusions}
+
+
+\SetAppendixName{Appendix}%
+\SetAppendixText{Here is the text of an Appendix.  If only one appendix is required, place it here.}%
+\ETDAppendix{Appendix A}{Here is the text of an Appendix.}%
+\ETDAppendix{Appendix B}{Here is the text of a second, additional Appendix}%
+%fjklsdafjklsdafjkldasjfkldjaskl
+%\end{\ETDAppendix}%
+\bibHeading{References}
+\bibliography{mcgilletd}
+\bibliographystyle{plain}
+
+\index[abbr]{IEEE@IEEE: Institute of Electrical and Electronics Engineers, Inc.}
+\index[abbr]{CDMA@CDMA: code-division multiple access}
+\index[abbr]{CTAN@CTAN: comprehensive \protect\TeX{} archive network}
+
+
+\printindex[keylist]{Index}{Index}{}
+\printindex[abbr]{KEY TO ABBREVIATIONS}{KEY TO ABBREVIATIONS}{}
+
+\end{document}
+
+
+ 
+
+
+
+
+
+
