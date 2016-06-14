@@ -1093,6 +1093,7 @@
 \@onlypreamble{\SetCopyright}%
 
 
+
 %%    Adding personal notes to your text
 \newboolean{ShowNotes}% Used to display private notes.
 \setboolean{ShowNotes}{false}%

@@ -2,8 +2,8 @@
 \contentsline {extrachapter}{\MakeUppercase {Acknowledgements}}{iii}
 \contentsline {extrachapter}{\MakeUppercase {Abstract}}{iv}
 \contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{v}
-\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{vii}
-\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{viii}
+\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{viii}
+\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Theory}{2}
 \contentsline {section}{\numberline {2.1}Intrinsically Disordered Proteins}{2}
@@ -13,7 +13,11 @@
 \contentsline {subsection}{\numberline {2.3.2}Replica Exchange Molecular Dynamics}{2}
 \contentsline {section}{\numberline {2.4}Evolutionary Algorithms}{2}
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{3}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{4}
-\contentsline {chapter}{\numberline {5}Conclusions}{5}
-\contentsline {extrachapter}{Appendix A}{6}
-\contentsline {extrachapter}{Appendix B}{7}
+\contentsline {section}{\numberline {3.1}NMR}{3}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{3}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CTisoforms}{4}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{12}
+\contentsline {chapter}{\numberline {5}Conclusions}{13}
+\contentsline {extrachapter}{Appendix A}{14}
+\contentsline {extrachapter}{Appendix B}{15}
+\contentsline {extrachapter}{References}{16}
