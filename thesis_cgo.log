@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUN 2016 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUN 2016 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -649,26 +649,26 @@ LaTeX Warning: Unused global option(s):
 (./thesis_cgo.aux)
 \openout1 = `thesis_cgo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 44.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 42.
+LaTeX Info: Redefining \selectfont on input line 44.
 
 **************************************
 * Executing Begin Document Statement *
@@ -768,11 +768,11 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count163
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -823,61 +823,11 @@ Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!] [7
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
 Non-PDF special ignored!] (./thesis_cgo.lot)
 \tf@lot=\write8
 \openout8 = `thesis_cgo.lot'.
 
- [8
+ [7
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -889,15 +839,13 @@ Non-PDF special ignored!] (./thesis_cgo.lof)
 \tf@lof=\write9
 \openout9 = `thesis_cgo.lof'.
 
- [9
+ [8
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 
 
-Non-PDF special ignored!
-Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
 ***************************
@@ -924,24 +872,53 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 3.
 ***************************
+
+LaTeX Warning: Citation `hess2008gromacs' on page 3 undefined on input line 11.
+
+
+
+LaTeX Warning: Citation `kaminski2001evaluation' on page 3 undefined on input l
+ine 11.
+
+
+LaTeX Warning: Citation `kallberg2012template' on page 3 undefined on input lin
+e 11.
+
+
+LaTeX Warning: Citation `ozenne2012flexible' on page 3 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation `de2000hydronmr' on page 3 undefined on input line 11.
+
 [3
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored!] [4
+Non-PDF special ignored!]
+
+LaTeX Warning: Reference `dc' on page 4 undefined on input line 16.
+
+[4
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
-<figures/Figure_7.png, id=50, 236.3229pt x 338.9463pt>
+<figures/Figure_7.png, id=47, 236.3229pt x 338.9463pt>
 File: figures/Figure_7.png Graphic file (type png)
 
 <use figures/Figure_7.png>
 Package pdftex.def Info: figures/Figure_7.png used on input line 19.
 (pdftex.def)             Requested size: 236.32231pt x 338.94548pt.
- [5
+
+Overfull \hbox (9.193pt too wide) in paragraph at lines 24--25
+\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 = [][]) as well as the time steps at [][] (
+$\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 =[][]
+ []
+
+[5
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -956,7 +933,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored! <./figures/Figure_7.png>]
-<figures/Figure_8_Dc_version.png, id=63, 228.6141pt x 263.0628pt>
+<figures/Figure_8_Dc_version.png, id=60, 228.6141pt x 263.0628pt>
 File: figures/Figure_8_Dc_version.png Graphic file (type png)
 
 <use figures/Figure_8_Dc_version.png>
@@ -975,7 +952,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored! <./figures/Figure_8_Dc_version.png>] [9
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [10
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -984,19 +967,9 @@ Non-PDF special ignored!]
 File: figures/Figure_9.png Graphic file (type png)
 
 <use figures/Figure_9.png>
-Package pdftex.def Info: figures/Figure_9.png used on input line 37.
+Package pdftex.def Info: figures/Figure_9.png used on input line 39.
 (pdftex.def)             Requested size: 226.68634pt x 253.42618pt.
-)
-Overfull \hbox (2.21895pt too wide) in paragraph at lines 40--93
-\OML/cmm/m/it/12 ^^M$\OT1/cmr/m/n/12 ?CTs across eu-kary-otes ad-di-tion-ally c
-on-tain clus-ters of hy-dropho-bic or po-lar residues
- []
-
-[10
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!] [11
+) [11
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1004,11 +977,15 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored! <./figures/Figure_9.png>]
+Non-PDF special ignored! <./figures/Figure_9.png>] [12
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
 ***************************
 CHAPTER 4.
 ***************************
-[12
+[13
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1018,19 +995,19 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 5.
 ***************************
-[13
-Non-PDF special ignored!
-Non-PDF special ignored!
-
-
-Non-PDF special ignored!
-Non-PDF special ignored!] [14
+[14
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
 Non-PDF special ignored!] [15
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!] [16
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1043,7 +1020,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 32--39
 -rong Huang, Ma-
  []
 
-[16
+[17
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1131,12 +1108,18 @@ figures/Figure_9.png
 thesis_cgo.bbl
  ***********
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 16231 strings out of 493089
- 296104 string characters out of 6134842
- 402724 words of memory out of 5000000
- 19571 multiletter control sequences out of 15000+600000
+ 16234 strings out of 493089
+ 296127 string characters out of 6134842
+ 403720 words of memory out of 5000000
+ 19574 multiletter control sequences out of 15000+600000
  12506 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,39p,10377b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1151,7 +1134,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (25 pages, 1051033 bytes).
+Output written on thesis_cgo.pdf (25 pages, 1051699 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
