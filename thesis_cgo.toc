@@ -6,18 +6,19 @@
 \contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{2}
-\contentsline {section}{\numberline {1.2}$\gamma $-Tubulin}{3}
-\contentsline {chapter}{\numberline {2}Theory}{4}
-\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{4}
-\contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{4}
-\contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{4}
-\contentsline {section}{\numberline {2.2}Evolutionary Algorithms}{4}
-\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{5}
-\contentsline {section}{\numberline {3.1}NMR}{5}
-\contentsline {section}{\numberline {3.2}Setting up the MD runs}{5}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{6}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{15}
-\contentsline {chapter}{\numberline {5}Conclusions}{16}
-\contentsline {extrachapter}{Appendix A}{17}
-\contentsline {extrachapter}{Appendix B}{18}
-\contentsline {extrachapter}{References}{19}
+\contentsline {section}{\numberline {1.2}$\gamma $-Tubulin}{4}
+\contentsline {chapter}{\numberline {2}Theory}{5}
+\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{5}
+\contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{5}
+\contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{5}
+\contentsline {section}{\numberline {2.2}Evolutionary Algorithms}{5}
+\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{6}
+\contentsline {section}{\numberline {3.1}NMR}{6}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{6}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{7}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{16}
+\contentsline {chapter}{\numberline {5}Conclusions}{17}
+\contentsline {extrachapter}{Appendix A}{18}
+\contentsline {extrachapter}{Appendix B}{19}
+\contentsline {extrachapter}{References}{20}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{21}
