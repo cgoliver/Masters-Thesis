@@ -5,19 +5,19 @@
 \contentsline {extrachapter}{\MakeUppercase {List of Tables}}{viii}
 \contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Theory}{3}
-\contentsline {section}{\numberline {2.1}Intrinsically Disordered Proteins}{3}
-\contentsline {section}{\numberline {2.2}Gamma tubulin}{3}
-\contentsline {section}{\numberline {2.3}Molecular Dynamics Simulations}{3}
-\contentsline {subsection}{\numberline {2.3.1}Fixed-temperature Molecular Dynamics }{3}
-\contentsline {subsection}{\numberline {2.3.2}Replica Exchange Molecular Dynamics}{3}
-\contentsline {section}{\numberline {2.4}Evolutionary Algorithms}{3}
-\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{4}
-\contentsline {section}{\numberline {3.1}NMR}{4}
-\contentsline {section}{\numberline {3.2}Setting up the MD runs}{4}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{5}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{14}
-\contentsline {chapter}{\numberline {5}Conclusions}{15}
-\contentsline {extrachapter}{Appendix A}{16}
-\contentsline {extrachapter}{Appendix B}{17}
-\contentsline {extrachapter}{References}{18}
+\contentsline {section}{\numberline {1.1}Disorder in proteins}{2}
+\contentsline {section}{\numberline {1.2}$\gamma $-Tubulin}{3}
+\contentsline {chapter}{\numberline {2}Theory}{4}
+\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{4}
+\contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{4}
+\contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{4}
+\contentsline {section}{\numberline {2.2}Evolutionary Algorithms}{4}
+\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{5}
+\contentsline {section}{\numberline {3.1}NMR}{5}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{5}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{6}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{15}
+\contentsline {chapter}{\numberline {5}Conclusions}{16}
+\contentsline {extrachapter}{Appendix A}{17}
+\contentsline {extrachapter}{Appendix B}{18}
+\contentsline {extrachapter}{References}{19}
