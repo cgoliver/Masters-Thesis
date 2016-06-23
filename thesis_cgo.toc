@@ -6,19 +6,23 @@
 \contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
-\contentsline {section}{\numberline {1.2}IDR function in $\gamma $-Tubulin}{4}
-\contentsline {chapter}{\numberline {2}Theory}{5}
-\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{5}
-\contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{5}
-\contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{5}
-\contentsline {section}{\numberline {2.2}Evolutionary Algorithms}{5}
-\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{6}
-\contentsline {section}{\numberline {3.1}NMR}{6}
-\contentsline {section}{\numberline {3.2}Setting up the MD runs}{6}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{7}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{16}
-\contentsline {chapter}{\numberline {5}Conclusions}{17}
-\contentsline {extrachapter}{Appendix A}{18}
-\contentsline {extrachapter}{Appendix B}{19}
-\contentsline {extrachapter}{References}{20}
-\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{21}
+\contentsline {subsection}{\numberline {1.1.1}IDP Function in cellular machines}{4}
+\contentsline {subsection}{\numberline {1.1.2}Physical mechanisms of IDP function}{5}
+\contentsline {section}{\numberline {1.2}IDP function in $\gamma $-Tubulin}{5}
+\contentsline {section}{\numberline {1.3}Experimental question}{5}
+\contentsline {section}{\numberline {1.4}Approach}{5}
+\contentsline {chapter}{\numberline {2}Theory}{6}
+\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{6}
+\contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{6}
+\contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{6}
+\contentsline {section}{\numberline {2.2}Evolutionary Algorithms}{6}
+\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{7}
+\contentsline {section}{\numberline {3.1}NMR}{7}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{7}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{8}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{17}
+\contentsline {chapter}{\numberline {5}Conclusions}{18}
+\contentsline {extrachapter}{Appendix A}{19}
+\contentsline {extrachapter}{Appendix B}{20}
+\contentsline {extrachapter}{References}{21}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{22}
