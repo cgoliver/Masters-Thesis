@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUN 2016 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1202,8 +1202,6 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
 Non-PDF special ignored!])
 \tf@toc=\write8
 \openout8 = `thesis_cgo.toc'.
@@ -1250,6 +1248,8 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!] (./introduction.tex
 ***************************
 CHAPTER 1.
@@ -1287,9 +1287,16 @@ Non-PDF special ignored!]
 File: figures/tub4_tyr.png Graphic file (type png)
 
 <use figures/tub4_tyr.png>
-Package pdftex.def Info: figures/tub4_tyr.png used on input line 17.
-(pdftex.def)             Requested size: 172.84708pt x 119.24641pt.
- [4
+Package pdftex.def Info: figures/tub4_tyr.png used on input line 18.
+(pdftex.def)             Requested size: 57.61862pt x 39.75082pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[4
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1298,12 +1305,24 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored! <./figures/tub4_tyr.png>]
-Overfull \hbox (6.69917pt too wide) in paragraph at lines 32--33
-\OT1/cmr/m/n/12 tion, trans-la-tion, as-sem-bly of ri-bo-some, chro-matin or-ga
--ni-za-tion, as-sem-bly/disassembly
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
  []
 
-) [5
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[5
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [6
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]) [7
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1311,7 +1330,7 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 2.
 ***************************
-(./gctmd_chapter.tex [6
+(./gctmd_chapter.tex [8
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1321,18 +1340,18 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 3.
 ***************************
-[7
+[9
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored!] [8
+Non-PDF special ignored!] [10
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
-<figures/Figure_7.png, id=70, 236.3229pt x 338.9463pt>
+<figures/Figure_7.png, id=77, 236.3229pt x 338.9463pt>
 File: figures/Figure_7.png Graphic file (type png)
 
 <use figures/Figure_7.png>
@@ -1344,29 +1363,7 @@ Overfull \hbox (9.193pt too wide) in paragraph at lines 24--25
 $\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 =[][]
  []
 
-[9
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!] [10
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored! <./figures/Figure_7.png>]
-<figures/Figure_8_Dc_version.png, id=82, 228.6141pt x 263.0628pt>
-File: figures/Figure_8_Dc_version.png Graphic file (type png)
-
-<use figures/Figure_8_Dc_version.png>
-Package pdftex.def Info: figures/Figure_8_Dc_version.png used on input line 27.
-
-(pdftex.def)             Requested size: 228.61354pt x 263.06215pt.
- [11
+[11
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1380,7 +1377,15 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored! <./figures/Figure_8_Dc_version.png>] [13
+Non-PDF special ignored! <./figures/Figure_7.png>]
+<figures/Figure_8_Dc_version.png, id=88, 228.6141pt x 263.0628pt>
+File: figures/Figure_8_Dc_version.png Graphic file (type png)
+
+<use figures/Figure_8_Dc_version.png>
+Package pdftex.def Info: figures/Figure_8_Dc_version.png used on input line 27.
+
+(pdftex.def)             Requested size: 228.61354pt x 263.06215pt.
+ [13
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1388,14 +1393,28 @@ Non-PDF special ignored!] [14
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored! <./figures/Figure_8_Dc_version.png>] [15
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [16
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!]
-<figures/Figure_9.png, id=96, 226.6869pt x 253.4268pt>
+<figures/Figure_9.png, id=103, 226.6869pt x 253.4268pt>
 File: figures/Figure_9.png Graphic file (type png)
 
 <use figures/Figure_9.png>
 Package pdftex.def Info: figures/Figure_9.png used on input line 39.
 (pdftex.def)             Requested size: 226.68634pt x 253.42618pt.
-) [15
+) [17
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1403,7 +1422,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored! <./figures/Figure_9.png>] [16
+Non-PDF special ignored! <./figures/Figure_9.png>] [18
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1411,7 +1430,7 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 4.
 ***************************
-[17
+[19
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1421,19 +1440,19 @@ Non-PDF special ignored!]
 ***************************
 CHAPTER 5.
 ***************************
-[18
+[20
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored!] [19
+Non-PDF special ignored!] [21
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored!] [20
+Non-PDF special ignored!] [22
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1441,18 +1460,20 @@ Non-PDF special ignored!
 
 Non-PDF special ignored!
 Non-PDF special ignored!] (./thesis_cgo.bbl
-Underfull \hbox (badness 6173) in paragraph at lines 32--39
+Underfull \hbox (badness 6173) in paragraph at lines 37--44
 []\OT1/cmr/m/n/12 Val^^Sery Ozenne, Fr^^Sed^^Seric Bauer, Lo^^?^^Pc Salmon, Jie
 -rong Huang, Ma-
  []
 
-[21
+[23
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
 
 
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1468,7 +1489,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!])
 No file keylist.ind found.
-(./abbr.ind) [22
+(./abbr.ind) [24
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -1579,10 +1600,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26700 strings out of 493089
- 519271 string characters out of 6134842
- 607186 words of memory out of 5000000
- 29797 multiletter control sequences out of 15000+600000
+ 26701 strings out of 493089
+ 519294 string characters out of 6134842
+ 606868 words of memory out of 5000000
+ 29798 multiletter control sequences out of 15000+600000
  14227 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,76p,10398b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1598,10 +1619,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (31 pages, 1209027 bytes).
+Output written on thesis_cgo.pdf (33 pages, 1213799 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 168 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
