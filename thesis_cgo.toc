@@ -2,8 +2,8 @@
 \contentsline {extrachapter}{\MakeUppercase {Acknowledgements}}{iii}
 \contentsline {extrachapter}{\MakeUppercase {Abstract}}{iv}
 \contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{v}
-\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{viii}
-\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
+\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{vii}
+\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{viii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
 \contentsline {section}{\numberline {1.2}Physical mechanisms of IDP function in cellular machines}{4}
@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {1.3.2}$\gamma $-Tubulin \& the $\gamma $-CT}{10}
 \contentsline {section}{\numberline {1.4}Experimental question}{11}
 \contentsline {section}{\numberline {1.5}Approach}{11}
-\contentsline {chapter}{\numberline {2}Theory}{12}
+\contentsline {chapter}{\numberline {2}Methods \& Theory}{12}
 \contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{12}
 \contentsline {subsection}{\numberline {2.1.1}Fixed-temperature Molecular Dynamics }{12}
 \contentsline {subsection}{\numberline {2.1.2}Replica Exchange Molecular Dynamics}{12}
