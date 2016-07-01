@@ -6,6 +6,7 @@
 \usepackage{siunitx}
 \usepackage{epigraph}
 \usepackage{todonotes}
+\usepackage{physics}
 
 
 %%%% VARIABLES %%%%%
@@ -13,6 +14,7 @@
 \newcommand{\gct}{$\gamma$-CT}
 \newcommand{\dcunits}{\cm\squared\per\second}
 \newcommand{\figref}[1]{{\bf Fig. \ref{#1}}}
+\newcommand{\vek}[1]{\mathbf{#1}}
 
 %%% SETTINGS %%%
 \interfootnotelinepenalty=10000
@@ -92,17 +94,15 @@
 %introduction chapter
 \input{introduction.tex} 
 
-\chapter{Methods \& Theory}
-\section{Molecular Dynamics Simulations}
-\subsection{Fixed-temperature Molecular Dynamics }
-\subsection{Replica Exchange Molecular Dynamics}
+%methods chapter
+\input{methods.tex}
+
 \section{Evolutionary Algorithms}
 \input{gctmd_chapter.tex}
 
 \chapter{MEDIEVAL}
 ?A totally blind process can by definition lead to anything; it can even lead to vision itself.?  Jacques Monod
 \chapter{Conclusions}
-
 
 \SetAppendixName{Appendix}%
 \SetAppendixText{Here is the text of an Appendix.  If only one appendix is required, place it here.}%
