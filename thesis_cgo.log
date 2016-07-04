@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JUL 2016 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JUL 2016 17:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2632,10 +2632,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27660 strings out of 493089
- 529769 string characters out of 6134842
- 642464 words of memory out of 5000000
- 30737 multiletter control sequences out of 15000+600000
+ 27665 strings out of 493089
+ 529909 string characters out of 6134842
+ 644744 words of memory out of 5000000
+ 30742 multiletter control sequences out of 15000+600000
  15509 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,76p,10398b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2655,7 +2655,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (45 pages, 1430366 bytes).
+Output written on thesis_cgo.pdf (45 pages, 1430446 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
