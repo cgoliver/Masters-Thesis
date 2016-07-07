@@ -1,0 +1,116 @@
+\chapter{Theory \& Methods}
+\epigraph{Life can only be understood backwards; but it must be lived forwards.}{S{\o}ren Kierkegaard}
+
+The main technique we will use to study the behaviour of IDPs is the computational technique of Molecular Dynamics (MD) simulations. IDP dynamics are shaped by various types of physical interactions acting on a high number of conformational degrees of freedom all on a very fast timescale. For this reason it is difficult to predict the dynamics of IDPs {\it ab initio} MD is a brute-force approach which iteratively solves the equations of motion for every interaction in a system of atoms in 3D space.  What results is a trajectory in space and a velocity for every atom in the system in time which we can use to visualize the conformational sampling of our IDP of interest and compute thermodynamic quantities. While this can be a computationally demanding task, it is currently the most reliable way of computationally studying the dynamics of molecular systems. 
+
+\section{Molecular Dynamics Simulations}
+
+We represent our system as a set of $N$ atoms represented as  vectors $R = \{\vek{r_1}, \vek{r_2}, ... , \vek{r_N}\}$ in three dimensional space. We then use classical Newtonian mechanics to obtain the changes in position of the particles as a function of time. For a peptide in solution, this would consist of the atoms in the peptide, and water atoms and the forces arising from interactions between all the particles in the system. 
+
+\subsection{Computing trajectories of atoms}
+
+The central principle of MD is that the potential energy arising from interacting particles is a function of their positions in space. Since force is related to potential energy, it follows that the acceleration of the particles is a function of the potential energy, and so the motion of the particles can be obtained. Given a description of the potentials arising from interactions between the different atoms, which we call a force field, we can iterate through every atom in the system and calculate the force that would arise as a function of the potential energy function. The potential energy given by the force field can be written as $V(\vek{r_1}, \vek{r_2}, ..., \vek{r_N})$ is a function of the positions of each atom. Using the classical definition of force as $\vek{F} = m\vek{a}$, we can combine the positions of each atom with the force field to compute the force acting on each atom as follows.  
+
+\begin{equation}
+\vek{F_i}  = -\frac{\partial V(\vek{r_1}, \vek{r_2}, ..., \vek{r_i}, ... \vek{r_N)}}{\partial \vek{r_i}}
+ \end{equation}
+ 
+ Given that the force on an atom is the result of interactions with all other atoms in the system, we obtain the force on a particular atom as the sum of the force of the interactions with all other atoms $j$ in the system. So we get $\vek{F_i} = \sum_{j} \vek{F_{ij}}$ Given the total force on an atom, we can compute its trajectory in space by numerically integrating Newton's equations of motion. This process is repeated and trajectories are stored and updated for the desired number of steps in the simulation.
+ 
+ \begin{equation}
+ \frac{\partial^2 \vek{r_{i}}}{\partial t^2} = \frac{m_i}{\vek{F_i}}
+\end{equation}
+
+\subsection{Force Field}
+
+The functions for potential energy of every type of interaction in the system are defined in what we call a force field. The energy between two interacting atoms can be broken down into two broad types of interactions: bonded and non-bonded interactions.
+
+\begin{equation}
+E_{total} = E_{bonded} + E_{non bonded}
+\end{equation}
+
+The bonded energy term can be written as the sum of energies arising from the bond itself  ($E_{bond}$)which is a function of the bond length, the potential arising from the angle formed by the bond ($E_{angle}$), as well as the torsional/dihedral angle ($E_{dihedral}$) arising from the rotation of three bonds about two intersecting planes.
+
+Non-bonded interactions can have two contributing factors; electrostatic force, and van der Waals force. The electrostatic potential ($E_{electrostatic}$) arises from the interaction of the charges of particles, while the van der Waals potential  ($E_{van der Waals}$ arises from the attraction or repulsion between uncharged groups. In most systems, non-bonded interactions by far outnumber bonded interactions and thus carry most of the computational weight in an MD simulation. in m Combining all of these terms, we can write the full description of forces in the system as:
+
+\todo{should i include this?}
+\begin{equation}
+E_{total} = E_{bond} + E_{angle} + E_{dihedral} + E_{van der Waals} + E_{electrostatic} 
+\end{equation}
+\begin{equation}
+E(r_{N}) = \sum_{bonds} K_{r} (r - r_{0})^2	 + \sum_{angles} k_{\theta} (\theta - \theta_0) + \sum_{dihedrals} K_{\phi} (1 + cos(n\phi - \delta)) + \sum_{i,j} \{ 4\epsilon_{i,j} \frac{\sigma_{ij}}{r_{ij}} \}
+\end{equation}
+
+The MD algorithm evaluates $E(r_{N})$ at every time step to obtain the force on each atom and therefore the trajectory at each time step. Given such a fine-grain level of modelling, this process is the most time costly step in an MD simulation. However, an important advantage to such a low level description of the system is that more complex phenomena such as the hydrophobic effect and hydrogen bonding which are known to be essential to protein dynamics do not need to be coded explicitly in the models. Instead, they arise naturally from this definition of the system.
+
+Another key component to the force field, is the definition of parameters for the different types of interactions and particles in the system. Parameters can include values for charge, mass, bond length, etc. These are often obtained from experimental measurements. The force field must naturally also contain a set of definitions for the various types of atoms and functional groups it can model. Therefore, the choice of force field can have important consequences on the outcome of the simulations and must be chosen with care.
+
+\subsection{Preparing the system}
+
+The starting point of an MD simulation is a force field and a set of initial coordinates for the system of interest. Before a simulation can be successfully run, there are several pre-processing steps that must be executed. 
+
+As mentioned earlier, hydrogen bonding and the hydrophobic effect play very important roles in shaping the dynamics of polypeptides therefore our model must include water molecules. We therefore place the peptide atoms are placed in a simulated box where water molecules are introduced to fill the remaining space. All subsequent force calculations in MD will consider interactions between solvent-solvent and solvent-peptide atoms. Given that many more water molecules will be present than peptide molecules, computations on solvent atoms are computational costly. Some variations on MD avoid these computations by modelling the solvent implicitly as a mean field instead of explicitly considering every atom in the system. 
+
+Once the peptide is solvated any initial steric clashes between atoms must be allowed to relax. Typically this involves executing an energy minimization algorithm which searches for atomic coordinates that minimizes the forces between atoms to move the system towards an energy minimum. No minimization algorithm guarantees convergence to a global minimum in finite time on a realistic system. However, convergence to a local minimum is often sufficient to eliminate significant clashes. 
+
+At this point, we could begin an MD simulation and obtain trajectories in the NVE ensemble (constant number of particles, volume, and energy). However, we are often interested in comparing results from MD to experimental measurements such as those from NMR where the system is under constant temperature and pressure. It is therefore necessary to ensure that the forces in the system don't produce large fluctuations in the pressure and temperature of the ensemble. In order to keep the temperature constant and achieve an NVT (constant number of particles, volume, and temperature) we use a thermostat. Since the temperature of a system is a function of the kinetic energy, a thermostat re-scales the velocities of the atoms in the system to achieve a given temperature. Likewise, for maintaining constant pressure, a barostat adjusts the size of the box to counteract fluctuations in pressure and thus achieving an NPT ensemble (constant number of particles, pressure, and temperature). During the equilibration step, we first let the system equilibrate to the desired temperature by executing a short simulation in NVT. Then under NPT we allow the system to adjust to the desired pressure. Once both equilibration simulations are complete, the system is ready for a full simulation in NPT. 
+
+\section{Trajectory Analysis}
+
+The MD simulation generates a set of coordinates for every atom in the system as a function of time, $r(t)$. From these trajectories we can compute several quantities to study conformational changes in the peptide over time. 
+
+\subsection{Root Mean Square Deviation}
+
+We measure the square displacement between the coordinates of atom $i$ at time $t$ weighted by the mass of the atom $m_i$. We iterate this process for every atom in the peptide to obtain a measure of the degree of change between two conformations in time.
+
+\begin{equation}
+\text{RMSD}(t_1, t_2) = \bigg[ M^{-1} \sum_{i=1}^{N} m_{i} \lvert \lvert \vek{r_{i}}(t_{1}) - \vek{r_{i}}(t_{2}) \rvert \rvert^2 \bigg]^\frac{1}{2}
+\end{equation}
+
+
+\subsection{Radius of gyration}
+
+The radius of gyration is a measure of a structure's compactness. To obtain the radius of gyration, we compute the mean squared distance from every atom $r_i$ to the molecule's centre of mass $r_{mean}$.
+
+\begin{equation}
+R_g(\vek{r}) = \sqrt{N^{-1} \sum_{k=1}^{N} (\vek{r_k} - \vek{r_{mean}})^2}
+\end{equation}
+
+\subsection{Covariance Analysis}
+
+When analyzing MD trajectories, we are often interested in observing collective motions. This is because global motions are likely to be involved in some functional mechanism. However, molecular trajectories typically feature complex motions along many axes and time scales which can often make it difficult to detect coordinated motions. For example, local rearrangements, vibrations, rotations, and random diffusion are examples of non-coordinated motions that likely do not contribute to a functional mechanism. The goal in MD trajectory covariance analysis is to obtain the axes of motion where atoms in the peptide of interest show a high degree of correlation which could be indicative of a global coordinated motion. 
+
+Covariance analysis, or principal component analysis is a mathematical tool which isolates principal axes, or components of motion by computing the covariance between atoms at every time point in the simulation. We compute the covariance for all $N$ atoms in $3$ dimensions, resulting in a covariance matrix of size $3N$.
+
+\begin{equation}
+C_{ij} = \bigg\langle M_{ii}^{\frac{1}{2}} (\vek{x_i}(t) - \langle \vek{x_i}(t) \rangle) M_{jj}^{\frac{1}{2}} (\vek{x_j}(t) - \langle \vek{x_j}(t) \rangle) \bigg\rangle
+\end{equation}
+
+The eigenvectors of the covariance matrix, $C$ define the set of orthogonal axes along which maximize variance. Note that $\langle \quad \rangle$ denotes a time average. Due to the constraints imposed by the backbone, only a couple of eigenvectors are expected to contribute most to global movements.
+
+\begin{equation}
+R^{T}CR = diag(\lambda_1, \lambda_2, ... \lambda_{3N}) \text{\qquad where \quad} \lambda_1 \geq \lambda_2 \geq \lambda_{3N}
+\end{equation}
+
+Where R is the transformation matrix whose columns contain an eigenvector. Using this matrix to diagonalize C, we get a diagonalized C containing the set of eigenvalues $\lambda_i$ for every eigenvector in R along its main diagonal. The magnitude of the eigenvalue tells us the amount of variance captured by its corresponding eigenvector and can thus be used to guide our projection toward the major axes of motion.
+
+If we wish to visualize the system's motions along a particular axis and filter out motions along other axes, we can project the coordinates of each atom along an eigenvector. We can the following transformation to obtain the new set of coordinates $\vek{p}(t)$.
+
+\begin{equation}
+\vek{p}(t) = R^{T}M^{\frac{1}{2}}\vek{x}(t)
+\end{equation}
+
+The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. 
+
+
+
+
+
+
+
+
+\todo{define Rg, Dc, RMSD, contact maps}
+
+\subsection{MD Alternatives}
+
+
