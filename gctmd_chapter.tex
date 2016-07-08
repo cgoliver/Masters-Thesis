@@ -13,7 +13,43 @@ MD conformations were grouped into percentile classes based on radius of gyratio
 
 \section{Conformational sampling of \gct{} isoforms}
 
-Our NMR experiments provide evidence for a major alteration in the global dynamics of the \gct{} in the presence of the Y11D mutation characterized by collective motions involving the entire polypeptide chain occurring on the microsecond timescale. We then asked whether this phenomenon can be reproduced \textit{in silico} using MDS.  If we are able to reproduce the transition \textit{in silico}, the resulting MD data can be used to obtain additional insight into the structural characteristics of the conformational sampling of the \gct{} at an atomic resolution. We computed trajectories for the WT and Y11D \gct{} polypeptides by running independent 2$\mu$s GROMACS simulations, and computed the translational diffusion coefficient from the resulting MDS structural trajectories at 1 ns time steps \figref{dc}. We found that the diffusion coefficient (\diffusion) of the WT \gct{} remains relatively constant over the total simulation time (\diffusion = \num{1.237e-6} $\pm$ \SI{1.5816e-8}{\dcunits} and agrees well with the NMR-derived value (\diffusion=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits}.  Similarly to what was seen by NMR, we find that the mean \diffusion of the Y11D \gct{} polypeptide is slightly lower than that of the WT \gct{} (\diffusion= \num{1.224e-6} $\pm$ \SI{3.503e-8}{\dcunits}). These results confirm that the \gct{}, while disordered, is more compact than a fully denatured polypeptide chain. Interestingly, between \num{762} to \SI{1255}{\ns} in the MDS, the Y11D \gct{} underwent transient excursions to less compact con-formations with significantly lower diffusion coefficients (mean \diffusion= \num{1.152e-6} $\pm$ \SI{2.0325e-8}{\dcunits}). This sub-population is more ex-tended (i.e. diffuses more slowly) than any conformation sampled by the WT \gct{} throughout the entire MDS. While the Y11D \gct{} extended states do not overlap with the conformational ensemble of the WT \gct{} polypeptides, they do, however, lie within the conformational space expected for a typical random-coil poly-peptide, as modeled by an ensemble of 10,000 disordered extended conformers (Fig. S8) derived from the \gct{} primary sequence using the \texttt{Flexible Meccano} tool.  
+Our NMR experiments provide evidence for a major alteration in the global dynamics of the \gct{} in the presence of the Y11D mutation characterized by collective motions involving the entire polypeptide chain occurring on the microsecond timescale. We then asked whether this phenomenon can be reproduced \textit{in silico} using MDS.  If we are able to reproduce the transition \textit{in silico}, the resulting MD data can be used to obtain additional insight into the structural characteristics of the conformational sampling of the \gct{} at an atomic resolution. We computed trajectories for the WT and Y11D \gct{} polypeptides by running independent 2$\mu$s GROMACS simulations.
+
+\subsection{Covariance analysis of trajectories reveals large conformational changes in YD}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf}
+\label{eigenvalues}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf}
+\label{eigenvalues}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf}
+\label{eigenvalues}
+\end{figure}
+
+\subsection{Collective motions correspond to transitions between extended and collapsed conformations}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textheight]{figures/2d_scatter_wt.png}
+\caption{WT PCA}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textheight]{figures/2d_scatter_yd.png}
+\end{figure}
+
+ and computed the translational diffusion coefficient from the resulting MDS structural trajectories at 1 ns time steps \figref{dc}. We found that the diffusion coefficient (\diffusion) of the WT \gct{} remains relatively constant over the total simulation time (\diffusion = \num{1.237e-6} $\pm$ \SI{1.5816e-8}{\dcunits} and agrees well with the NMR-derived value (\diffusion=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits}.  Similarly to what was seen by NMR, we find that the mean \diffusion of the Y11D \gct{} polypeptide is slightly lower than that of the WT \gct{} (\diffusion= \num{1.224e-6} $\pm$ \SI{3.503e-8}{\dcunits}). These results confirm that the \gct{}, while disordered, is more compact than a fully denatured polypeptide chain. Interestingly, between \num{762} to \SI{1255}{\ns} in the MDS, the Y11D \gct{} underwent transient excursions to less compact con-formations with significantly lower diffusion coefficients (mean \diffusion= \num{1.152e-6} $\pm$ \SI{2.0325e-8}{\dcunits}). This sub-population is more ex-tended (i.e. diffuses more slowly) than any conformation sampled by the WT \gct{} throughout the entire MDS. While the Y11D \gct{} extended states do not overlap with the conformational ensemble of the WT \gct{} polypeptides, they do, however, lie within the conformational space expected for a typical random-coil poly-peptide, as modeled by an ensemble of 10,000 disordered extended conformers (Fig. S8) derived from the \gct{} primary sequence using the \texttt{Flexible Meccano} tool.  
 
 \begin{figure}
 \includegraphics{figures/Figure_7.png}
