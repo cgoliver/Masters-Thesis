@@ -1,3 +1,4 @@
+%!TEX root = thesis_cgo.tex
 \chapter{Theory \& Methods}
 \epigraph{Life can only be understood backwards; but it must be lived forwards.}{S{\o}ren Kierkegaard}
 
@@ -100,7 +101,21 @@ If we wish to visualize the system's motions along a particular axis and filter 
 \vek{p}(t) = R^{T}M^{\frac{1}{2}}\vek{x}(t)
 \end{equation}
 
-The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. 
+The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. Another useful application of the covariance matrix is for comparing the structural sampling of major modes in two different trajectories. Such comparisons can be used to assess the convergence of sampling, as well as for detecting major changes in conformational sampling. We define a quantity known as the subspace overlap which corresponds to the degree of similarity between two trajectories along their major components. This problem is equivalent to comparing two matrices of eigenvectors and the space that they span and so the subspace overlap is defined as follows:
+
+\begin{equation}
+\text{overlap}(\vek{v}, \vek{w}) \equiv \frac{1}{n} \sum_{i=1, j=1}^{n,n} (\vek{v} \times \vek{w}) ^ 2
+\end{equation}
+
+\begin{equation}
+d = \sqrt{tr((\sqrt{C_1} - \sqrt{C_2}))^2}
+\end{equation}
+
+\begin{equation}
+\text{normalized overlap} (C_1, C_2) = 1 - \frac{d}{\sqrt{tr(C_1) + tr(C_2)}}
+\end{equation}
+
+
 
 
 

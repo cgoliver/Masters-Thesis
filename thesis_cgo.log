@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 JUL 2016 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 JUL 2016 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2093,9 +2093,6 @@ CHAPTER 1.
 
 ]
 
-LaTeX Warning: Reference `tub4' on page 2 undefined on input line 8.
-
-
 LaTeX Warning: Marginpar on page 2 moved.
 
 [2] [3] <figures/tub4_tyr.png, id=50, 576.1525pt x 397.485pt>
@@ -2103,25 +2100,25 @@ File: figures/tub4_tyr.png Graphic file (type png)
 
 <use figures/tub4_tyr.png>
 Package pdftex.def Info: figures/tub4_tyr.png used on input line 21.
-(pdftex.def)             Requested size: 241.99118pt x 166.94466pt.
+(pdftex.def)             Requested size: 282.32597pt x 194.77019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-[4 <./figures/tub4_tyr.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[5 <./figures/tub4_tyr.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 [6] [7] [8]
 
-LaTeX Warning: Citation `tompa2008fuzzy' on page 9 undefined on input line 44.
+LaTeX Warning: Citation `tompa2008fuzzy' on page 9 undefined on input line 45.
 
 [9] [10] [11]
 
@@ -2133,13 +2130,13 @@ CHAPTER 2.
 ***************************
 [13
 
-] [14] [15] [16] [17] [18] [19]) (./gctmd_chapter.tex [20]
+] [14] [15] [16] [17] [18] [19] [20]) (./gctmd_chapter.tex [21]
 ***************************
 CHAPTER 3.
 ***************************
-[21
+[22
 
-] [22] <figures/Figure_7.png, id=122, 236.3229pt x 338.9463pt>
+] [23] <figures/Figure_7.png, id=125, 236.3229pt x 338.9463pt>
 File: figures/Figure_7.png Graphic file (type png)
 
 <use figures/Figure_7.png>
@@ -2151,43 +2148,43 @@ Overfull \hbox (9.19409pt too wide) in paragraph at lines 24--25
 $\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 =[][]
  []
 
-[23] [24 <./figures/Figure_7.png>]
-<figures/Figure_8_Dc_version.png, id=130, 228.6141pt x 263.0628pt>
+[24] [25 <./figures/Figure_7.png>]
+<figures/Figure_8_Dc_version.png, id=133, 228.6141pt x 263.0628pt>
 File: figures/Figure_8_Dc_version.png Graphic file (type png)
 
 <use figures/Figure_8_Dc_version.png>
 Package pdftex.def Info: figures/Figure_8_Dc_version.png used on input line 27.
 
 (pdftex.def)             Requested size: 228.61354pt x 263.06215pt.
- [25] [26 <./figures/Figure_8_Dc_version.png>] [27] [28] <figures/Figure_9.png,
- id=145, 226.6869pt x 253.4268pt>
+ [26] [27 <./figures/Figure_8_Dc_version.png>] [28] [29] <figures/Figure_9.png,
+ id=148, 226.6869pt x 253.4268pt>
 File: figures/Figure_9.png Graphic file (type png)
 
 <use figures/Figure_9.png>
 Package pdftex.def Info: figures/Figure_9.png used on input line 39.
 (pdftex.def)             Requested size: 226.68634pt x 253.42618pt.
 
-<figures/yd_porcupine.png, id=146, 814.0011pt x 518.8986pt>
+<figures/yd_porcupine.png, id=149, 814.0011pt x 518.8986pt>
 File: figures/yd_porcupine.png Graphic file (type png)
 
 <use figures/yd_porcupine.png>
 Package pdftex.def Info: figures/yd_porcupine.png used on input line 43.
 (pdftex.def)             Requested size: 406.99956pt x 259.44865pt.
-) [29 <./figures/Figure_9.png>] [30 <./figures/yd_porcupine.png (PNG copy)>]
+) [30 <./figures/Figure_9.png>] [31 <./figures/yd_porcupine.png (PNG copy)>]
 ***************************
 CHAPTER 4.
 ***************************
-[31
+[32
 
 ]
 ***************************
 CHAPTER 5.
 ***************************
-[32
-
-] [33
+[33
 
 ] [34
+
+] [35
 
 
 ] (./thesis_cgo.bbl
@@ -2196,13 +2193,13 @@ Underfull \hbox (badness 4739) in paragraph at lines 56--63
 -rong Huang, Ma-
  []
 
-[35
+[36
 
 
 
-] [36])
+] [37])
 No file keylist.ind found.
-(./abbr.ind) [37
+(./abbr.ind) [38
 
 
 
@@ -2315,10 +2312,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27671 strings out of 493089
- 530036 string characters out of 6134842
- 651708 words of memory out of 5000000
- 30747 multiletter control sequences out of 15000+600000
+ 27666 strings out of 493089
+ 529896 string characters out of 6134842
+ 650513 words of memory out of 5000000
+ 30742 multiletter control sequences out of 15000+600000
  15509 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,76p,10398b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2338,10 +2335,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (46 pages, 1562454 bytes).
+Output written on thesis_cgo.pdf (47 pages, 1564681 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 231 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
