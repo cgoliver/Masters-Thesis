@@ -2,7 +2,7 @@
 \chapter{Theory \& Methods}
 \epigraph{Life can only be understood backwards; but it must be lived forwards.}{S{\o}ren Kierkegaard}
 
-The main technique we will use to study the behaviour of IDPs is the computational technique of Molecular Dynamics (MD) simulations. IDP dynamics are shaped by various types of physical interactions acting on a high number of conformational degrees of freedom all on a very fast timescale. For this reason it is difficult to predict the dynamics of IDPs {\it ab initio} MD is a brute-force approach which iteratively solves the equations of motion for every interaction in a system of atoms in 3D space.  What results is a trajectory in space and a velocity for every atom in the system in time which we can use to visualize the conformational sampling of our IDP of interest and compute thermodynamic quantities. While this can be a computationally demanding task, it is currently the most reliable way of computationally studying the dynamics of molecular systems. 
+The main technique we will use to study the behaviour of IDPs is the computational technique of Molecular Dynamics (MD) simulations. IDP dynamics are shaped by various types of physical interactions acting on a high number of conformational degrees of freedom all on a very fast timescale. For this reason it is difficult to predict the dynamics of IDPs {\it ab initio}. MD is a brute-force approach which iteratively solves the equations of motion for every interaction in a system of atoms in 3D space.  What results is a trajectory in space and a velocity for every atom in the system in time which we can use to visualize the conformational sampling of our IDP of interest and compute thermodynamic quantities. While this can be a computationally demanding task, it is currently the most reliable way of computationally studying the dynamics of molecular systems. We will use this approach to study the conformational dynamics of two isoforms of the \gct{}: WT, and Y445D.
 
 \section{Molecular Dynamics Simulations}
 
@@ -76,6 +76,9 @@ The radius of gyration is a measure of a structure's compactness. To obtain the 
 \begin{equation}
 R_g(\vek{r}) = \sqrt{N^{-1} \sum_{k=1}^{N} (\vek{r_k} - \vek{r_{mean}})^2}
 \end{equation}
+
+\subsection{Diffusion coefficient}
+Talk about diffusion coefficient.
 
 \subsection{Covariance Analysis}
 
