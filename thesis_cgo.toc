@@ -26,13 +26,13 @@
 \contentsline {section}{\numberline {2.3}Evolutionary Algorithms}{21}
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{22}
 \contentsline {section}{\numberline {3.1}NMR}{22}
-\contentsline {section}{\numberline {3.2}Setting up the MD runs}{23}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{24}
-\contentsline {subsection}{\numberline {3.3.1}Covariance analysis of trajectories reveals large conformational changes in YD}{24}
-\contentsline {subsection}{\numberline {3.3.2}Collective motions correspond to transitions between extended and collapsed conformations}{24}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{37}
-\contentsline {chapter}{\numberline {5}Conclusions}{38}
-\contentsline {extrachapter}{Appendix A}{39}
-\contentsline {extrachapter}{Appendix B}{40}
-\contentsline {extrachapter}{References}{41}
-\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{43}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
+\contentsline {subsection}{\numberline {3.3.1}Covariance analysis of trajectories reveals large conformational changes in YD}{25}
+\contentsline {subsection}{\numberline {3.3.2}Collective motions correspond to transitions between extended and collapsed conformations}{25}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{38}
+\contentsline {chapter}{\numberline {5}Conclusions}{39}
+\contentsline {extrachapter}{Appendix A}{40}
+\contentsline {extrachapter}{Appendix B}{41}
+\contentsline {extrachapter}{References}{42}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{44}
