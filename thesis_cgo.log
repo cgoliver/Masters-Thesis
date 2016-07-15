@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUL 2016 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUL 2016 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1893,6 +1893,26 @@ LaTeX Info: Redefining \] on input line 2666.
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip120
+\subfigcapskip=\skip121
+\subfigcaptopadj=\dimen218
+\subfigbottomskip=\skip122
+\subfigcapmargin=\dimen219
+\subfiglabelskip=\skip123
+\c@subfigure=\count193
+\c@lofdepth=\count194
+\c@subtable=\count195
+\c@lotdepth=\count196
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip124
+\subfig@bottom=\skip125
+)
 \keylist@idxfile=\write6
 \openout6 = `keylist.idx'.
 
@@ -1908,6 +1928,18 @@ LaTeX Warning: Unused global option(s):
 
 (./thesis_cgo.aux
 
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
 LaTeX Warning: Label `eigenvalues' multiply defined.
 
 
@@ -1916,27 +1948,27 @@ LaTeX Warning: Label `eigenvalues' multiply defined.
 )
 \openout1 = `thesis_cgo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 54.
+LaTeX Info: Redefining \selectfont on input line 55.
 
 **************************************
 * Executing Begin Document Statement *
@@ -1977,16 +2009,16 @@ LaTeX Info: Redefining \selectfont on input line 54.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen218
+\scratchcounter=\count197
+\scratchdimen=\dimen220
 \scratchbox=\box64
-\nofMPsegments=\count194
-\nofMParguments=\count195
+\nofMPsegments=\count198
+\nofMParguments=\count199
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen219
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
+\MPscratchCnt=\count200
+\MPscratchDim=\dimen221
+\MPnumerator=\count201
+\makeMPintoPDFobject=\count202
 \everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -2041,18 +2073,18 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 ) ABD: EveryShipout initializing macros
-\c__siunitx_mathsf_int=\count199
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+\c__siunitx_mathsf_int=\count203
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count200
+\c__siunitx_mathtt_int=\count204
  [1
 
 
@@ -2148,106 +2180,156 @@ CHAPTER 3.
 
 LaTeX Warning: Marginpar on page 23 moved.
 
+[23]
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 24 moved.
 
-[23] [24]
-</Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf, id=128,
- 794.97pt x 794.97pt>
-File: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf Gra
-phic file (type pdf)
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
-<use /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf>
-Package pdftex.def Info: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figure
-s/eigenvals.pdf used on input line 26.
-(pdftex.def)             Requested size: 333.89725pt x 333.88933pt.
+ []
 
-</Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf, id=129, 794.
+[25] <figures/wt_ss.pdf, id=131, 614.295pt x 794.97pt>
+File: figures/wt_ss.pdf Graphic file (type pdf)
+ <use figures/wt_ss.pdf>
+Package pdftex.def Info: figures/wt_ss.pdf used on input line 34.
+(pdftex.def)             Requested size: 210.70462pt x 272.67589pt.
+
+<figures/yd_ss.pdf, id=132, 614.295pt x 794.97pt>
+File: figures/yd_ss.pdf Graphic file (type pdf)
+ <use figures/yd_ss.pdf>
+Package pdftex.def Info: figures/yd_ss.pdf used on input line 35.
+(pdftex.def)             Requested size: 210.70462pt x 272.67589pt.
+
+<figures/wt_rep_ss.pdf, id=133, 614.295pt x 794.97pt>
+File: figures/wt_rep_ss.pdf Graphic file (type pdf)
+
+<use figures/wt_rep_ss.pdf>
+Package pdftex.def Info: figures/wt_rep_ss.pdf used on input line 36.
+(pdftex.def)             Requested size: 210.70462pt x 272.67589pt.
+
+<figures/yd_rep_ss.pdf, id=134, 614.295pt x 794.97pt>
+File: figures/yd_rep_ss.pdf Graphic file (type pdf)
+
+<use figures/yd_rep_ss.pdf>
+Package pdftex.def Info: figures/yd_rep_ss.pdf used on input line 37.
+(pdftex.def)             Requested size: 210.70462pt x 272.67589pt.
+
+
+LaTeX Warning: Float too large for page by 55.54184pt on input line 39.
+
+
+</Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf, id=135, 794.
 97pt x 794.97pt>
 File: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf Graphic 
 file (type pdf)
 
 <use /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf>
 Package pdftex.def Info: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figure
-s/rmsd.pdf used on input line 33.
+s/rmsd.pdf used on input line 47.
 (pdftex.def)             Requested size: 333.89725pt x 333.88933pt.
 
 </Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf, id
-=130, 794.97pt x 794.97pt>
+=136, 794.97pt x 794.97pt>
 File: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pd
 f Graphic file (type pdf)
 
 <use /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf
 >
 Package pdftex.def Info: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figure
-s/rmsd_window_10.pdf used on input line 39.
+s/rmsd_window_10.pdf used on input line 53.
 (pdftex.def)             Requested size: 333.89725pt x 333.88933pt.
- <figures/2d_scatter_wt.png, id=131, 794.97pt x 794.97pt>
+ <figures/gyr_run12.pdf, id=137, 794.97pt x 794.97pt>
+File: figures/gyr_run12.pdf Graphic file (type pdf)
+
+<use figures/gyr_run12.pdf>
+Package pdftex.def Info: figures/gyr_run12.pdf used on input line 63.
+(pdftex.def)             Requested size: 445.19229pt x 445.18294pt.
+
+Overfull \hbox (15.18767pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
+
+</Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf, id=138,
+ 794.97pt x 794.97pt>
+File: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf Gra
+phic file (type pdf)
+
+<use /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf>
+Package pdftex.def Info: /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figure
+s/eigenvals.pdf used on input line 73.
+(pdftex.def)             Requested size: 333.89725pt x 333.88933pt.
+
+<figures/2d_scatter_wt.png, id=139, 794.97pt x 794.97pt>
 File: figures/2d_scatter_wt.png Graphic file (type png)
 
 <use figures/2d_scatter_wt.png>
-Package pdftex.def Info: figures/2d_scatter_wt.png used on input line 47.
+Package pdftex.def Info: figures/2d_scatter_wt.png used on input line 81.
 (pdftex.def)             Requested size: 278.24367pt x 278.23828pt.
 
-<figures/2d_scatter_yd.png, id=132, 794.97pt x 794.97pt>
+<figures/2d_scatter_yd.png, id=140, 794.97pt x 794.97pt>
 File: figures/2d_scatter_yd.png Graphic file (type png)
 
 <use figures/2d_scatter_yd.png>
-Package pdftex.def Info: figures/2d_scatter_yd.png used on input line 53.
+Package pdftex.def Info: figures/2d_scatter_yd.png used on input line 87.
 (pdftex.def)             Requested size: 278.24367pt x 278.23828pt.
- [25] [26 </Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pd
-f>] [27 </Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf>] [28
- </Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf>] 
-[29 <./figures/2d_scatter_wt.png>]
-<figures/Figure_7.png, id=262, 236.3229pt x 338.9463pt>
+ [26] [27 <./figures/wt_ss.pdf> <./figures/yd_ss.pdf> <./figures/wt_rep_ss.pdf>
+ <./figures/yd_rep_ss.pdf>] [28 </Users/carlosgonzalez/Masters/Vogel-MD-Analysi
+s/Figures/rmsd.pdf>] [29 </Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figur
+es/rmsd_window_10.pdf>] [30 <./figures/gyr_run12.pdf>] [31 </Users/carlosgonzal
+ez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf>] [32 <./figures/2d_scatter_
+wt.png>]
+<figures/Figure_7.png, id=411, 236.3229pt x 338.9463pt>
 File: figures/Figure_7.png Graphic file (type png)
 
 <use figures/Figure_7.png>
-Package pdftex.def Info: figures/Figure_7.png used on input line 59.
+Package pdftex.def Info: figures/Figure_7.png used on input line 93.
 (pdftex.def)             Requested size: 236.32231pt x 338.94548pt.
 
-Overfull \hbox (9.19409pt too wide) in paragraph at lines 64--65
+Overfull \hbox (9.19409pt too wide) in paragraph at lines 98--99
 \OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 = [][]) as well as the time steps at [][] (
 $\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 =[][]
  []
 
-[30 <./figures/2d_scatter_yd.png>] [31 <./figures/Figure_7.png>]
-<figures/Figure_8_Dc_version.png, id=271, 228.6141pt x 263.0628pt>
+[33 <./figures/2d_scatter_yd.png>] [34 <./figures/Figure_7.png>]
+<figures/Figure_8_Dc_version.png, id=421, 228.6141pt x 263.0628pt>
 File: figures/Figure_8_Dc_version.png Graphic file (type png)
 
 <use figures/Figure_8_Dc_version.png>
-Package pdftex.def Info: figures/Figure_8_Dc_version.png used on input line 67.
-
+Package pdftex.def Info: figures/Figure_8_Dc_version.png used on input line 101
+.
 (pdftex.def)             Requested size: 228.61354pt x 263.06215pt.
- [32] [33 <./figures/Figure_8_Dc_version.png>] [34] [35] <figures/Figure_9.png,
- id=286, 226.6869pt x 253.4268pt>
+ [35] [36 <./figures/Figure_8_Dc_version.png>] [37] <figures/Figure_9.png, id=4
+33, 226.6869pt x 253.4268pt>
 File: figures/Figure_9.png Graphic file (type png)
 
 <use figures/Figure_9.png>
-Package pdftex.def Info: figures/Figure_9.png used on input line 79.
+Package pdftex.def Info: figures/Figure_9.png used on input line 113.
 (pdftex.def)             Requested size: 226.68634pt x 253.42618pt.
 
-<figures/yd_porcupine.png, id=287, 814.0011pt x 518.8986pt>
+<figures/yd_porcupine.png, id=434, 814.0011pt x 518.8986pt>
 File: figures/yd_porcupine.png Graphic file (type png)
 
 <use figures/yd_porcupine.png>
-Package pdftex.def Info: figures/yd_porcupine.png used on input line 83.
+Package pdftex.def Info: figures/yd_porcupine.png used on input line 117.
 (pdftex.def)             Requested size: 406.99956pt x 259.44865pt.
-) [36 <./figures/Figure_9.png>] [37 <./figures/yd_porcupine.png (PNG copy)>]
+ [38] [39 <./figures/Figure_9.png> <./figures/yd_porcupine.png (PNG copy)>]) [4
+0]
 ***************************
 CHAPTER 4.
 ***************************
-[38
+[41
 
 ]
 ***************************
 CHAPTER 5.
 ***************************
-[39
+[42
 
-] [40
+] [43
 
-] [41
+] [44
 
 
 ] (./thesis_cgo.bbl
@@ -2256,13 +2338,13 @@ Underfull \hbox (badness 4739) in paragraph at lines 56--63
 -rong Huang, Ma-
  []
 
-[42
+[45
 
 
 
-] [43])
+] [46])
 No file keylist.ind found.
-(./abbr.ind) [44
+(./abbr.ind) [47
 
 
 
@@ -2343,6 +2425,8 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.0 (rcs-revision 1.1)
  amsmath.sty    2013/01/14 v2.14 AMS math features
   amsbsy.sty    1999/11/29 v1.2d
   amsopn.sty    1999/12/14 v2.01 operator names
+subfigure.sty    2002/03/15 v2.1.5 subfigure package
+subfigure.cfg
   ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
 supp-pdf.mkii
 pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
@@ -2362,9 +2446,14 @@ introduction.tex
 figures/tub4_tyr.png
  methods.tex
 gctmd_chapter.tex
-/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf
+figures/wt_ss.pdf
+figures/yd_ss.pdf
+figures/wt_rep_ss.pdf
+figures/yd_rep_ss.pdf
 /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf
 /Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf
+figures/gyr_run12.pdf
+/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf
 figures/2d_scatter_wt.png
 figures/2d_scatter_yd.png
 figures/Figure_7.png
@@ -2383,11 +2472,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27728 strings out of 493089
- 532094 string characters out of 6134842
- 660654 words of memory out of 5000000
- 30798 multiletter control sequences out of 15000+600000
- 15509 words of font info for 60 fonts, out of 8000000 for 9000
+ 27950 strings out of 493089
+ 535719 string characters out of 6134842
+ 656558 words of memory out of 5000000
+ 31007 multiletter control sequences out of 15000+600000
+ 16186 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,76p,10398b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -2406,10 +2495,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (53 pages, 1847631 bytes).
+Output written on thesis_cgo.pdf (56 pages, 4235783 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
+ 519 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

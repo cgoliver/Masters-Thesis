@@ -13,13 +13,13 @@ We represent our system as a set of $N$ atoms represented as  vectors $R = \{\ve
 The central principle of MD is that the potential energy arising from interacting particles is a function of their positions in space. Since force is related to potential energy, it follows that the acceleration of the particles is a function of the potential energy, and so the motion of the particles can be obtained. Given a description of the potentials arising from interactions between the different atoms, which we call a force field, we can iterate through every atom in the system and calculate the force that would arise as a function of the potential energy function. The potential energy given by the force field can be written as $V(\vek{r_1}, \vek{r_2}, ..., \vek{r_N})$ is a function of the positions of each atom. Using the classical definition of force as $\vek{F} = m\vek{a}$, we can combine the positions of each atom with the force field to compute the force acting on each atom as follows.  
 
 \begin{equation}
-\vek{F_i}  = -\frac{\partial V(\vek{r_1}, \vek{r_2}, ..., \vek{r_i}, ... \vek{r_N)}}{\partial \vek{r_i}}
+\vek{F_i}  = -\frac{\partial V(\vek{r_1}, \vek{r_2}, ..., \vek{r_i}, ... \vek{r_N)}}{\partial \vek{r_i}} 
  \end{equation}
- 
+ \todo{fix this}
  Given that the force on an atom is the result of interactions with all other atoms in the system, we obtain the force on a particular atom as the sum of the force of the interactions with all other atoms $j$ in the system. So we get $\vek{F_i} = \sum_{j} \vek{F_{ij}}$ Given the total force on an atom, we can compute its trajectory in space by numerically integrating Newton's equations of motion. This process is repeated and trajectories are stored and updated for the desired number of steps in the simulation.
  
  \begin{equation}
- \frac{\partial^2 \vek{r_{i}}}{\partial t^2} = \frac{m_i}{\vek{F_i}}
+ \frac{\partial^2 \vek{r_{i}}}{\partial t^2} = \frac{\vek{F_i}}{m_i}
 \end{equation}
 
 \subsection{Force Field}

@@ -7,25 +7,39 @@ In order to measure how the addition of local negative charge in an acidic polyp
 
 \section{NMR}
 
-Our starting point comes from NMR experiments done by collaborators in the Department of Chemistry at McGill on the WT and YD forms of the \gct{}. Through protein NMR spectroscopy we are able to obtain accurate measurements on the structural and dynamic properties of polypeptides. Among these are secondary structure state, dynamic conformational changes, and structural properties such as hydrodynamic radius, diffusion rates, and .. \todo{add more }etc. Given that the \gct{} is intrinsically disordered and therefore highly dynamic, this makes NMR a particularly suitable technique for this problem. Diffusion measurements show that both forms largely adopt collapsed conformations. \todo{get values} This is a surprising finding given the high percentage of negatively charged residues \todo{number} in both forms would be expected to promote open conformations. However, because that the \gct{} also has a high percentage of hydrophobic residues, \todo{how many} it is likely that there are other forces acting on the packing of the peptide such as the hydrophobic effect. Chemical shift secondary structure predictions show that both forms occupy a disordered random coil state and do not show evidence of adopting any secondary structure domains. Therefore, we do not observe any disorder-order transitions which are common in phosphorylated IDPS. However, relaxation-dispersion experiments which detect changes in the chemical environment of residues on the micro-millisecond timescale in the polypeptide show that the Y445D mutant undergoes large coordinated transitions between two structural states, while the WT dispersion profile is flat. From the NMR experiments we can conclude that the Aspartic Acid substitution induces collective motions on the micro-millisecond timescale which combined with the results from diffusion calculations is likely to correspond to a transient switching from a collapsed to an extended state. \todo{motivate MD}
+Our starting point comes from NMR experiments done by collaborators in the Department of Chemistry at McGill on the WT and YD forms of the \gct{}. Through protein NMR spectroscopy we are able to obtain accurate measurements on the structural and dynamic properties of polypeptides. Among these are secondary structure state, dynamic conformational changes, and structural properties such as hydrodynamic radius, diffusion rates, and .. \todo{add more }etc. Given that the \gct{} is intrinsically disordered and therefore highly dynamic, this makes NMR a particularly suitable technique for this problem. Diffusion measurements show that both forms largely adopt collapsed conformations. \todo{get values} This is a surprising finding given the high percentage of negatively charged residues \todo{number} in both forms would be expected to promote open conformations. However, because that the \gct{} also has a high percentage of hydrophobic residues, \todo{how many} it is likely that there are other forces acting on the packing of the peptide such as the hydrophobic effect. Chemical shift secondary structure predictions show that both forms occupy a disordered random coil state and do not show evidence of adopting any secondary structure domains. Therefore, we do not observe any disorder-order transitions which are common in phosphorylated IDPS. However, relaxation-dispersion experiments which detect changes in the chemical environment of residues on the micro-millisecond timescale in the polypeptide show that the Y445D mutant undergoes large coordinated transitions between two structural states, while the WT dispersion profile is flat. From the NMR experiments we can conclude that the Aspartic Acid substitution induces collective motions on the micro-millisecond timescale which, together with the results from diffusion calculations, is evidence for a transient switching between a collapsed to an extended state. 
+
+We would then like to visualize this transition in order to learn more about the physical mechanisms at play. In order to do so with sufficient spatial and temporal resolution we use computational MD simulations. \todo{say more here?}
 
 \todo{include flexible meccano plots}
 \section{Setting up the MD runs}
 
-Molecular Dynamics simulations (MDS) on WT and Y11D \gct{}s were carried out using MPI-enabled GROMACS 4.6.6 software\cite{hess2008gromacs} and a CentOS 5 high performance computational cluster. Calculations were distributed over 64 Dual Sandy Bridge 8-core, 2.6 GHz computing nodes and run under periodic boundary conditions with the OPLS-AA (Optimized Potential for Liquid Simulations ? All Atom) force field ~\cite{kaminski2001evaluation}.  The starting \gct{} polypeptide configurations were obtained from secondary and tertiary structure predictions by RaptorX \cite{kallberg2012template} and solvated using the SPCE (extended single point charge) water model in a dodecahedral box while enforcing a minimum distance between the edge of the box and solute of 1 nanometer. The total charge of the system was neutralized by adding sodium ions to the solution. Energy minimization was carried out using a steepest descent algorithm for a maximum of 50,000 steps until a maximum force of 100 kJ/mol between atoms was achieved. A 1 nm cut-off was used for non-bonded interactions, and long-range electrostatics were calculated using a Particle Mesh Edwald Sum algorithm. The systems equilibrated under the constant NVT and NPT ensembles (288K and 1 atm) for 5 ns before the production 2 $\mu$s simulations. Post-processing of all trajectories was done using the \texttt{trjconv} module of GROMACS. Theoretical random-coil structural ensembles (10,000 conformers) were calculated based on the \gct{} primary amino acid sequence using Flexible Meccano software \cite{ozenne2012flexible}. Translational diffusion coefficients were calculated for each structure using hydroNMR software \cite{de2000hydronmr}. 
+Molecular Dynamics simulations (MDS) on WT and Y11D \gct{}s were carried out using MPI-enabled GROMACS 4.6.6 software\cite{hess2008gromacs} and a CentOS 5 high performance computational cluster. Calculations were distributed over 64 Dual Sandy Bridge 8-core, 2.6 GHz computing nodes and run under periodic boundary conditions with the OPLS-AA (Optimized Potential for Liquid Simulations All Atom) force field ~\cite{kaminski2001evaluation}.  The starting \gct{} polypeptide configurations were obtained from secondary and tertiary structure predictions by RaptorX \cite{kallberg2012template} and solvated using the SPCE (extended single point charge) water model in a dodecahedral box while enforcing a minimum distance between the edge of the box and solute of 1 nanometer. The total charge of the system was neutralized by adding sodium ions to the solution. Energy minimization was carried out using a steepest descent algorithm for a maximum of 50,000 steps until a maximum force of 100 kJ/mol between atoms was achieved. A 1 nm cut-off was used for non-bonded interactions, and long-range electrostatics were calculated using a Particle Mesh Edwald Sum algorithm. The systems equilibrated under the constant NVT and NPT ensembles (288K and 1 atm) for 5 ns before the production 2 $\mu$s simulations. Post-processing of all trajectories was done using the \texttt{trjconv} module of GROMACS. Theoretical random-coil structural ensembles (10,000 conformers) were calculated based on the \gct{} primary amino acid sequence using Flexible Meccano software \cite{ozenne2012flexible}. Translational diffusion coefficients were calculated for each structure using hydroNMR software \cite{de2000hydronmr}. 
 MD conformations were grouped into percentile classes based on radius of gyration (Rg) computed using the GROMACS \texttt{g\_gyrate} module. Each Rg percentile group was represented by the three structures with lowest root-mean-squared-difference RMSD values to all other structures, calculated using the GROMACS \texttt{g\_rms} module. Atomic distance matrices were calculated using the GROMACS \texttt{g\_mdmat} module.
+
 
 \section{Conformational sampling of \gct{} isoforms}
 
-Our NMR experiments provide evidence for a major alteration in the global dynamics of the \gct{} in the presence of the Y11D mutation characterized by collective motions involving the entire polypeptide chain occurring on the microsecond timescale. We then asked whether this phenomenon can be reproduced \textit{in silico} using MDS.  If we are able to reproduce the transition \textit{in silico}, the resulting MD data can be used to obtain additional insight into the structural characteristics of the conformational sampling of the \gct{} at an atomic resolution. We computed trajectories for the WT and Y11D \gct{} polypeptides by running independent 2$\mu$s GROMACS simulations.
+We obtained atomic trajectories for the WT and YD forms of the \gct{} in full atom MD simulations with durations of \SI{2}{\us}. From the resulting trajectories we are able to capture dynamics and conformational sampling that are remarkably consistent with those measured in NMR.\\
 
-\subsection{Covariance analysis of trajectories reveals large conformational changes in YD}
+
+{\it \gct{} does not adopt any stable secondary structure}
+
+The first question we addressed was whether the structures in our MD trajectories feature the same lack of global structure that was observed in NMR. We used the \texttt{dssp} algorithm \todo{cite} in VMD to compute secondary structure assignments on each residue in the chain. Assignments by \texttt{dssp} are based on computations of hydrogen bonding energies between all atoms. Since hydrogen bonds are the primary stabilizing interaction that gives rise to secondary structure, it then classifies the resulting conformations to a category of secondary structure motif. We apply this algorithm to every frame in the trajectories to assess secondary structure motifs as a function of simulation time \todo{fig ref}. Apart from some local helicity in the middle residues, secondary structure assignment plots for all four trajectories point to a consistent absence of global secondary structure motifs, as well as a predominance of coil and turn geometries which correspond to a largely unstructured ensemble. 
+
+
 
 \begin{figure}
-\centering
-\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf}
-\label{eigenvalues}
+	\centering     %%% not \center
+	\subfigure[WT Run 1]{\label{fig:a}\includegraphics[width=0.49\textwidth]{figures/wt_ss.pdf}}
+	\subfigure[YD Run 1]{\label{fig:b}\includegraphics[width=0.49\textwidth]{figures/yd_ss.pdf}}
+	\subfigure[WT Run 2]{\label{fig:a}\includegraphics[width=0.49\textwidth]{figures/wt_rep_ss.pdf}}
+	\subfigure[YD Run 2]{\label{fig:b}\includegraphics[width=0.49\textwidth]{figures/yd_rep_ss.pdf}}
+	\caption{Secondary structure assignments}
 \end{figure}
+	
+	
+\todo{RMSD}
 
 
 \begin{figure}
@@ -37,6 +51,26 @@ Our NMR experiments provide evidence for a major alteration in the global dynami
 \begin{figure}
 \centering
 \includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf}
+\label{eigenvalues}
+\end{figure}
+	
+	
+{\it \gct{} is largely collapsed}
+
+Insert Rg/Dc figures and distributions.
+
+\begin{figure}
+	\includegraphics[height=0.8\textheight]{figures/gyr_run12.pdf}
+
+\end{figure}
+
+{\it Collective/correlated motions between collapsed and extended states}
+
+Insert PCA figures.
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/eigenvals.pdf}
 \label{eigenvalues}
 \end{figure}
 

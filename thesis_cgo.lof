@@ -1,4 +1,9 @@
 \contentsline {figure}{\numberline {{1--1}}{\ignorespaces Homology model of $\gamma $-Tubulin from human crystal structure. Features a large organized globular domain with stable $\beta $-sheet and $\alpha $-helix domains. IDPs can be seen linking structured domains as well as protruding from the globular domain on the C-terminus (red). }}{5}
-\contentsline {figure}{\numberline {{3--1}}{\ignorespaces WT PCA}}{29}
-\contentsline {figure}{\numberline {{3--2}}{\ignorespaces Diffusion Coefficient}}{31}
-\contentsline {figure}{\numberline {{3--3}}{\ignorespaces Contact Maps}}{33}
+\contentsline {figure}{\numberline {{3--1}}{\ignorespaces Secondary structure assignments}}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT Run 1}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD Run 1}}}{27}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WT Run 2}}}{27}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {YD Run 2}}}{27}
+\contentsline {figure}{\numberline {{3--2}}{\ignorespaces WT PCA}}{32}
+\contentsline {figure}{\numberline {{3--3}}{\ignorespaces Diffusion Coefficient}}{34}
+\contentsline {figure}{\numberline {{3--4}}{\ignorespaces Contact Maps}}{36}

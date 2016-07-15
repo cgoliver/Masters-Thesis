@@ -28,11 +28,10 @@
 \contentsline {section}{\numberline {3.1}NMR}{22}
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
-\contentsline {subsection}{\numberline {3.3.1}Covariance analysis of trajectories reveals large conformational changes in YD}{25}
-\contentsline {subsection}{\numberline {3.3.2}Collective motions correspond to transitions between extended and collapsed conformations}{25}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{38}
-\contentsline {chapter}{\numberline {5}Conclusions}{39}
-\contentsline {extrachapter}{Appendix A}{40}
-\contentsline {extrachapter}{Appendix B}{41}
-\contentsline {extrachapter}{References}{42}
-\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{44}
+\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{26}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{41}
+\contentsline {chapter}{\numberline {5}Conclusions}{42}
+\contentsline {extrachapter}{Appendix A}{43}
+\contentsline {extrachapter}{Appendix B}{44}
+\contentsline {extrachapter}{References}{45}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{47}
