@@ -44,7 +44,14 @@ Although we do not observe global secondary structure rearrangements by looking 
 	
 {\it \gct{} is largely collapsed}
 
-Given that NMR reports transitions between extended and collapsed conformations, we hypothesize that a similar motion is driving the displacement observed in the RMSD computations of the YD mutant. We use two metrics to measure the compactness of the polypeptides: radius of gyration and translational diffusion coefficient.
+Given that NMR reports transitions between extended and collapsed conformations in the YD mutant, we hypothesize that a similar motion is driving the displacement observed in the RMSD computations. We use two metrics to measure the compactness of the polypeptides: radius of gyration and translational diffusion coefficient. As a reference point for interpreting the gyration or diffusion values of the trajectories, we use the software \texttt{flexiblemeccano} to compute an esmeble of extended peptides of the YD polypeptide. \texttt{flexiblemeccano} takes a primary sequence as input and generates an ensemble of 3D conformations based on amino acid specific conformational potentials and volume exclusion. Because \texttt{flexiblemeccano} ignores electrostatic and hydrophobic interactions, the resulting ensemble falls into an extended random coil conformations which can then be used as a comparison tool for experimental or simulation derived values.
+
+\begin{figure}
+\centering
+\includegraphics{figures/flexiblemeccano.png}
+\caption{Random coil ensemble of YD \gct{}}
+\label{flexiblemeccano}
+\end{figure}
 
 
 Translational diffusion coefficient measurements in NMR report that both \gct{} forms primarily occupy collapsed conformations. The global experimental average for the WT polypeptide obtained through NMR is \diffusion{}=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits} which 
