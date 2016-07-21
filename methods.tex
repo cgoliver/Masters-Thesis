@@ -78,7 +78,21 @@ R_g(\vek{r}) = \sqrt{N^{-1} \sum_{k=1}^{N} (\vek{r_k} - \vek{r_{mean}})^2}
 \end{equation}
 
 \subsection{Diffusion coefficient}
-Talk about diffusion coefficient.
+
+Like radius of gyration, diffusion coefficient is a proxy for the compactness of a macromolecule. Unlike radius of gyration, diffusion coefficient can be measured through NMR spectroscopy and thus allows us to make direct comparisons between simulation trajectories and experimental values. The translational diffusion coefficeint of a macromolecule is defined as the rate at which its center of mass is able to diffuse through a solvent of given viscosity under a certain hydrodynamic model. Conformations with high diffusion rates experience rapid displacement of their center of mass, while conformations with greater friction force with the solvent experience reduced diffusion coefficients. 
+
+The process of computing the translational diffusion coefficient for a particular conformation is done by the software package \texttt{hydroNMR}. The method of calculating the diffusion coefficient will not be discussed here in detail as it is beyond the scope of this work.. The main concept is that the software models each atom in a list of atomic coordinates, in our case obtained by MD, as a spherical bead. This chain of beads is packed with a hexagonal lattice and internal beads are removed to extract a topology of residues exposed to the solvent. From this topology, the software calculates the frictional force that a given conformation would exert on the solvent, this is contained in the translational friction tensor $\Xi$. The following expression gives us the translational diffusion tensor $\vek{D_t}$.
+
+\begin{equation}
+\vek{D_{t}} = k_BT\Xi_{t}^{-1}
+\end{equation}
+
+The trace of the translational diffusoin tensor is invariant regardless of the molecule's orientation and is thus used to define the translational diffusion coefficient $D_t$.
+
+\begin{equation}
+D_t = \frac{1}{3}tr(\vek{D_t})
+\end{equation}
+
 
 \subsection{Covariance Analysis}
 

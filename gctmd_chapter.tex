@@ -11,7 +11,6 @@ Our starting point comes from NMR experiments done by collaborators in the Depar
 
 We would then like to visualize this transition in order to learn more about the physical mechanisms at play. In order to do so with sufficient spatial and temporal resolution we use computational MD simulations. \todo{say more here?}
 
-\todo{include flexible meccano plots}
 \section{Setting up the MD runs}
 
 Molecular Dynamics simulations (MDS) on WT and Y11D \gct{}s were carried out using MPI-enabled GROMACS 4.6.6 software\cite{hess2008gromacs} and a CentOS 5 high performance computational cluster. Calculations were distributed over 64 Dual Sandy Bridge 8-core, 2.6 GHz computing nodes and run under periodic boundary conditions with the OPLS-AA (Optimized Potential for Liquid Simulations All Atom) force field ~\cite{kaminski2001evaluation}.  The starting \gct{} polypeptide configurations were obtained from secondary and tertiary structure predictions by RaptorX \cite{kallberg2012template} and solvated using the SPCE (extended single point charge) water model in a dodecahedral box while enforcing a minimum distance between the edge of the box and solute of 1 nanometer. The total charge of the system was neutralized by adding sodium ions to the solution. Energy minimization was carried out using a steepest descent algorithm for a maximum of 50,000 steps until a maximum force of 100 kJ/mol between atoms was achieved. A 1 nm cut-off was used for non-bonded interactions, and long-range electrostatics were calculated using a Particle Mesh Edwald Sum algorithm. The systems equilibrated under the constant NVT and NPT ensembles (288K and 1 atm) for 5 ns before the production 2 $\mu$s simulations. Post-processing of all trajectories was done using the \texttt{trjconv} module of GROMACS. Theoretical random-coil structural ensembles (10,000 conformers) were calculated based on the \gct{} primary amino acid sequence using Flexible Meccano software \cite{ozenne2012flexible}. Translational diffusion coefficients were calculated for each structure using hydroNMR software \cite{de2000hydronmr}. 
@@ -36,13 +35,17 @@ The first question we addressed was whether the structures in our MD trajectorie
 %	\caption{Secondary structure assignments}
 %\end{figure}	
 
-Although we do not observe global secondary structure rearrangements by looking at \texttt{dssp}, RMSD plots point to the presence conformational rearrangements in the mutated \gct{}. RMDS quantifies the distance between structures and is therefore a useful tool for detecting the presence of conformational changes in a trajectory. 
+Although we do not observe global secondary structure rearrangements by looking at \texttt{dssp}, RMSD plots point to the presence conformational rearrangements in the mutated \gct{}. RMSD quantifies the distance between superimposed structures and is therefore a useful tool for detecting the presence of conformational changes in a trajectory. We therefore computed backbone RMSD values for every frame in the simulation with respect to the starting structure. Since the starting conformation is not derived from experimental data and is not expected to correspond to a native state, we also compute RMSD with a 10ns sliding window where every frame is compared with the one 10ns before. \todo{talk about figures} It is clear that the addition of a charged residue is able to modulate conformational exploration and the stability of the \gct{} so we now ask what kind of dynamic behaviour is taking place. 
+
+
+\todo{RMSD betwewen WT and YD?}
 
 \todo{RMSD figs}
 	
 {\it \gct{} is largely collapsed}
 
-We next use radius of gyration and diffusion coefficient as quantitative measures of the compactness of the polypeptides. Such measurements can also give us some insight into the kind conformational dynamics being experienced by the mutant. Given the lack of global secondary structure, ... NMR experiments report that...
+Given that NMR reports transitions between extended and collapsed conformations, we hypothesize that a similar motion is driving the displacement observed in the RMSD computations of the YD mutant. We use two metrics to measure the compactness of the polypeptides: radius of gyration and translational diffusion coefficient.
+
 
 Translational diffusion coefficient measurements in NMR report that both \gct{} forms primarily occupy collapsed conformations. The global experimental average for the WT polypeptide obtained through NMR is \diffusion{}=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits} which 
 
