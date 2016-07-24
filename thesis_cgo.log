@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JUL 2016 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 JUL 2016 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2209,43 +2209,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 LaTeX Warning: Marginpar on page 26 moved.
 
-[26] <figures/flexiblemeccano.png, id=131, 196.3335pt x 186.6975pt>
+
+LaTeX Warning: Citation `wilkins1999hydrodynamic' on page 26 undefined on input
+ line 47.
+
+[26]
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+<figures/flexiblemeccano.png, id=131, 196.3335pt x 186.6975pt>
 File: figures/flexiblemeccano.png Graphic file (type png)
 
 <use figures/flexiblemeccano.png>
-Package pdftex.def Info: figures/flexiblemeccano.png used on input line 51.
+Package pdftex.def Info: figures/flexiblemeccano.png used on input line 61.
 (pdftex.def)             Requested size: 196.33301pt x 186.69704pt.
- [27 <./figures/flexiblemeccano.png>]
-
-LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Reference `dc' on page 28 undefined on input line 104.
+LaTeX Warning: Marginpar on page 27 moved.
 
+[27]
 
-Overfull \hbox (9.19409pt too wide) in paragraph at lines 112--113
+LaTeX Warning: Reference `dc' on page 28 undefined on input line 115.
+
+[28 <./figures/flexiblemeccano.png>]
+Overfull \hbox (9.19409pt too wide) in paragraph at lines 123--124
 \OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 = [][]) as well as the time steps at [][] (
 $\OML/cmm/m/it/12 Dc$\OT1/cmr/m/n/12 =[][]
  []
 
-[28] [29] [30] [31]) [32]
+[29] [30] [31]) [32] [33]
 ***************************
 CHAPTER 4.
 ***************************
-[33
+[34
 
 ]
 ***************************
 CHAPTER 5.
 ***************************
-[34
-
-] [35
+[35
 
 ] [36
 
+] [37
 
-] (./thesis_cgo.bbl [37
+
+] (./thesis_cgo.bbl [38
 
 
 
@@ -2355,12 +2367,15 @@ thesis_cgo.bbl
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 28841 strings out of 493014
- 549271 string characters out of 6133351
- 705212 words of memory out of 5000000
- 31971 multiletter control sequences out of 15000+600000
+ 28882 strings out of 493014
+ 550261 string characters out of 6133351
+ 723898 words of memory out of 5000000
+ 32012 multiletter control sequences out of 15000+600000
  15834 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,76p,10382b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2380,10 +2395,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (46 pages, 266033 bytes).
+Output written on thesis_cgo.pdf (47 pages, 268156 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 224 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
