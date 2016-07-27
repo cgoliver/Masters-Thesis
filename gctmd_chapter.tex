@@ -87,6 +87,14 @@ Insert Rg/Dc figures and distributions.
 \end{figure}
 
 
+\begin{figure}
+\centering     %%% not \center
+\subfigure[Figure A]{\label{fig:a}\includegraphics[width=0.49\textwidth]{figures/wt_contacts.pdf}}
+\subfigure[Figure B]{\label{fig:b}\includegraphics[width=0.49\textwidth]{figures/yd_contacts.pdf}}
+\subfigure[Figure C]{\label{fig:b}\includegraphics[width=0.49\textwidth]{figures/representatives.pdf}}
+\caption{Distribution of diffusion coefficients}
+\end{figure}
+
 
 
 {\it Collective/correlated motions between collapsed and extended states}
@@ -94,31 +102,26 @@ Insert Rg/Dc figures and distributions.
 Despite there 
 \todo{talk about RMSD as motivation}
 
-%\begin{figure}
-%\centering
-%\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd.pdf}
-%\label{eigenvalues}
-%\end{figure}
-
-%\begin{figure}
-%\centering
-%\includegraphics[height=0.6\textheight]{/Users/carlosgonzalez/Masters/Vogel-MD-Analysis/Figures/rmsd_window_10.pdf}
-%\label{eigenvalues}
-%\end{figure}
 
 Insert PCA figures.
 
-\begin{figure}
-	\centering     %%% not \center
-	\subfigure[WT]{\label{fig:a}\includegraphics[width=0.7\textwidth]{figures/2d_scatter_wt.pdf}}
-	\subfigure[YD]{\label{fig:b}\includegraphics[width=0.7\textwidth]{figures/2d_scatter_yd.pdf}}
-	\caption{Secondary structure assignments}
-\end{figure}
 
 \begin{figure}
 \centering
 	\includegraphics[height=0.5\textheight]{figures/eigenvals.pdf}
 \end{figure}
+
+
+\begin{figure}
+	\thispagestyle{empty}
+	\centering     %%% not \center
+	\subfigure[WT]{\label{fig:a}\includegraphics[width=0.7\textwidth]{figures/2d_scatter_wt.pdf}}
+	\subfigure[YD]{\label{fig:b}\includegraphics[width=0.7\textwidth]{figures/2d_scatter_yd.pdf}}
+	\caption{Secondary structure assignments}
+	\clearpage
+\end{figure}
+
+
 
 
 %\begin{figure}
@@ -163,4 +166,17 @@ Representative structures obtained identifying structures with lowest all-to-all
 
 The CTs of $\alpha$- $\beta$- and $\gamma$-tubulins are enriched in acidic residues (Asp, Glu). \gct{} s across eukaryotes additionally contain clusters of hydrophobic or polar residues which are not found in $\alpha$- or $\beta$-CTs. Interestingly, the residues most broadened in Y11D NMR spectra, i.e. those most affected by the compact-to-extended transition (V15, D19, E20, A32, G34), are all found in positions conserved either on a sequence level or on a physical property level (polarity/charge) in a consensus \gct{} sequence(Fig. 9B). This suggests that clusters of hydrophobic residues, including those that contribute to transitions between compact and extended confor-mations in the S.c. D11 \gct{}, are a feature of an otherwise diverse set of \gct{} s across many eukaryotic organisms.  
 
+\begin{figure}
+\centering     %%% not \center
+\subfigure[Figure A]{\label{fig:a}\includegraphics[width=0.7\textwidth]{figures/glob_overlay.pdf}}
+\subfigure[Figure B]{\label{fig:b}\includegraphics[width=0.7\textwidth]{figures/consensus.pdf}}
+\end{figure}
 
+\section{Discussion}
+
+
+
+\begin{figure}
+\centering
+\includegraphics[height=0.6\textheight]{figures/model.pdf}
+\end{figure}

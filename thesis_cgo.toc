@@ -29,8 +29,9 @@
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
 \contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{30}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{40}
-\contentsline {chapter}{\numberline {5}Conclusions}{41}
-\contentsline {extrachapter}{Appendix A}{42}
-\contentsline {extrachapter}{Appendix B}{43}
-\contentsline {extrachapter}{References}{44}
+\contentsline {section}{\numberline {3.4}Discussion}{40}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{43}
+\contentsline {chapter}{\numberline {5}Conclusions}{44}
+\contentsline {extrachapter}{Appendix A}{45}
+\contentsline {extrachapter}{Appendix B}{46}
+\contentsline {extrachapter}{References}{47}
