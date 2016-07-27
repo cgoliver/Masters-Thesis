@@ -34,4 +34,3 @@
 \contentsline {chapter}{\numberline {5}Conclusions}{44}
 \contentsline {extrachapter}{Appendix A}{45}
 \contentsline {extrachapter}{Appendix B}{46}
-\contentsline {extrachapter}{References}{47}
