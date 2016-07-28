@@ -25,12 +25,13 @@
 \contentsline {subsection}{\numberline {2.2.5}MD Alternatives}{21}
 \contentsline {section}{\numberline {2.3}Evolutionary Algorithms}{21}
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{22}
-\contentsline {section}{\numberline {3.1}NMR}{22}
+\contentsline {section}{\numberline {3.1}NMR}{23}
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
-\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{30}
+\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{35}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT{}}{35}
 \contentsline {section}{\numberline {3.4}Discussion}{40}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{43}
-\contentsline {chapter}{\numberline {5}Conclusions}{44}
-\contentsline {extrachapter}{Appendix A}{45}
-\contentsline {extrachapter}{Appendix B}{46}
+\contentsline {chapter}{\numberline {4}MEDIEVAL}{42}
+\contentsline {chapter}{\numberline {5}Conclusions}{43}
+\contentsline {extrachapter}{Appendix A}{44}
+\contentsline {extrachapter}{Appendix B}{45}
