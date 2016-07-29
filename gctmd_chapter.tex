@@ -115,10 +115,17 @@ We next use the distribution of \diffusion{} to generate an initial characteriza
 
 \subsection{Collective motions correspond to transitions between extended and collapsed conformations}
 
+Until this point, we have identified the presence of an extended sub-population of the YD \gct{} that is absent in the WT. This lends support to the hypothesis that the shift in \diffusion{} measured by NMR is due to transient expansions of the YD backbone into an extended state. Complementary to this finding, is the fact that residues in the YD polypeptide show evidence of collective motions detected as shifts in chemical environment through NMR \todo{r2 figure appendix} which suggest that the transition between states occurs in a coodrinated manner. We therefore seek to test whether correlated motions are also present in the simulation, and if they are, whether they can explain the transitions between collapsed and extended states.
+
+We performed covariance analysis, also known as Principal Component Analysis on \gct{} trajectories to identify major axes of correlated motion. We use \texttt{covar} and \texttt{anaeig} from the \texttt{GROMACS} package to build a covariance matrix for backbone atoms to extract principal modes and perform eigenvector projections. As is typical with molecular simulations which operate on a limited number of degrees of freedom, the first few eigenvectors in both trajectories account for nearly all of the variation in the trajectories \figref{eigenvalues}. We therefore focus our attention on the two first major modes of motion. \todo{time plot of projections in major components}. \figref{pca} shows a 2 dimensional projection onto the first two eigenvalues of WT and YD trajectories. Each point represents a 3D conformation in the \SI{2}{\us} simulation projected along the first two eigenvectors. The WT projection shows a conformational space that is closely clustered, indicative of constrained motions which is consistent with the low dispersions found in NMR and the single state behaviour suggested by RMSD and \diffusion{} analysis. However, the YD appears to be exploring  multiple conformation clusters which is in agreement with the presence of high dispersion groups found in NMR. Furthermore, by coloring each conforation with a normalized \diffusion{} value we are able to show that correlated motions along the major modes correspond with transitions between collapsed and extended states. In order to visualize the transitons, we generate a porcupine plot depicting the direction of motion between conformations on two extremes of the second principal component projections \figref{porcupine}.  
+
+
 
 \begin{figure}
 \centering
 	\includegraphics[height=0.5\textheight]{figures/eigenvals.pdf}
+	\caption{eigenvalues}
+	\label{fig:eigenvalues}
 \end{figure}
 
 
@@ -129,6 +136,7 @@ We next use the distribution of \diffusion{} to generate an initial characteriza
 	\subfigure[YD]{\label{fig:b}\includegraphics[width=0.7\textwidth]{figures/2d_scatter_yd.pdf}}
 	\caption{Secondary structure assignments}
 	\clearpage
+	\label{fig:pca}
 \end{figure}
 
 
@@ -136,6 +144,8 @@ We next use the distribution of \diffusion{} to generate an initial characteriza
 
 \begin{figure}
 \includegraphics[scale=0.5]{figures/yd_porcupine.png}
+\caption{porcupine plot}
+\label{fig:porcupine}
 \end{figure}  
 
 
