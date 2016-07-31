@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JUL 2016 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 JUL 2016 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2153,19 +2153,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [5
 
+
 ]
-(./thesis_cgo.toc [6
+[6
+
+] (./thesis_cgo.toc [7
 
 
 ])
 \tf@toc=\write8
 \openout8 = `thesis_cgo.toc'.
 
- [7] (./thesis_cgo.lot)
+ [8] (./thesis_cgo.lot)
 \tf@lot=\write9
 \openout9 = `thesis_cgo.lot'.
 
- [8
+ [9
 
 
 
@@ -2173,12 +2176,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write10
 \openout10 = `thesis_cgo.lof'.
 
- [9
+
+[10
 
 
 
-]
-(./introduction.tex
+] (./introduction.tex
 ***************************
 CHAPTER 1.
 ***************************
@@ -2289,25 +2292,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[25] <figures/wt_ss.pdf, id=128, 492.84125pt x 365.365pt>
+[25] <figures/wt_ss.pdf, id=131, 492.84125pt x 365.365pt>
 File: figures/wt_ss.pdf Graphic file (type pdf)
 
 <use figures/wt_ss.pdf>
 Package pdftex.def Info: figures/wt_ss.pdf used on input line 33.
 (pdftex.def)             Requested size: 301.00192pt x 223.15665pt.
- <figures/yd_ss.pdf, id=129, 506.89375pt x 365.365pt>
+ <figures/yd_ss.pdf, id=132, 506.89375pt x 365.365pt>
 File: figures/yd_ss.pdf Graphic file (type pdf)
 
 <use figures/yd_ss.pdf>
 Package pdftex.def Info: figures/yd_ss.pdf used on input line 34.
 (pdftex.def)             Requested size: 301.00192pt x 216.9628pt.
- <figures/rmsd.pdf, id=130, 794.97pt x 794.97pt>
+ <figures/rmsd.pdf, id=133, 794.97pt x 794.97pt>
 File: figures/rmsd.pdf Graphic file (type pdf)
 
 <use figures/rmsd.pdf>
 Package pdftex.def Info: figures/rmsd.pdf used on input line 46.
 (pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
- <figures/rmsd_10.pdf, id=131, 794.97pt x 794.97pt>
+ <figures/rmsd_10.pdf, id=134, 794.97pt x 794.97pt>
 File: figures/rmsd_10.pdf Graphic file (type pdf)
 
 <use figures/rmsd_10.pdf>
@@ -2335,13 +2338,13 @@ LaTeX Warning: Reference `dchist' on page 29 undefined on input line 55.
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-<figures/FM_hist.pdf, id=347, 794.97pt x 794.97pt>
+<figures/FM_hist.pdf, id=350, 794.97pt x 794.97pt>
 File: figures/FM_hist.pdf Graphic file (type pdf)
  <use figures/FM_hist.pdf>
 Package pdftex.def Info: figures/FM_hist.pdf used on input line 64.
 (pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<figures/FM_rainbows.pdf, id=348, 583.2209pt x 642.94304pt>
+<figures/FM_rainbows.pdf, id=351, 583.2209pt x 642.94304pt>
 File: figures/FM_rainbows.pdf Graphic file (type pdf)
 
 <use figures/FM_rainbows.pdf>
@@ -2365,32 +2368,32 @@ LaTeX Warning: Reference `dchistwt' on page 30 undefined on input line 74.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/FM_rainbows.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->] <figures/wt_hist.pdf, id=589, 794.97pt x 794.97pt>
+>] <figures/wt_hist.pdf, id=592, 794.97pt x 794.97pt>
 File: figures/wt_hist.pdf Graphic file (type pdf)
 
 <use figures/wt_hist.pdf>
 Package pdftex.def Info: figures/wt_hist.pdf used on input line 78.
 (pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
- <figures/yd_2gauss.pdf, id=590, 794.97pt x 794.97pt>
+ <figures/yd_2gauss.pdf, id=593, 794.97pt x 794.97pt>
 File: figures/yd_2gauss.pdf Graphic file (type pdf)
 
 <use figures/yd_2gauss.pdf>
 Package pdftex.def Info: figures/yd_2gauss.pdf used on input line 79.
 (pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<figures/lines_dc.pdf, id=591, 794.97pt x 794.97pt>
+<figures/lines_dc.pdf, id=594, 794.97pt x 794.97pt>
 File: figures/lines_dc.pdf Graphic file (type pdf)
  <use figures/lines_dc.pdf>
 Package pdftex.def Info: figures/lines_dc.pdf used on input line 80.
 (pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<figures/dc_ts.pdf, id=592, 229.89287pt x 181.17888pt>
+<figures/dc_ts.pdf, id=595, 229.89287pt x 181.17888pt>
 File: figures/dc_ts.pdf Graphic file (type pdf)
  <use figures/dc_ts.pdf>
 Package pdftex.def Info: figures/dc_ts.pdf used on input line 89.
 (pdftex.def)             Requested size: 346.03113pt x 272.67656pt.
 
-<figures/dc_strucs.pdf, id=593, 236.71536pt x 151.56323pt>
+<figures/dc_strucs.pdf, id=596, 236.71536pt x 151.56323pt>
 File: figures/dc_strucs.pdf Graphic file (type pdf)
 
 <use figures/dc_strucs.pdf>
@@ -2409,35 +2412,35 @@ F inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/lines_dc.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >] [33 <./figures/dc_ts.pdf> <./figures/dc_strucs.pdf>] [34]
-<figures/wt_contacts.pdf, id=2297, 108.93297pt x 123.58972pt>
+<figures/wt_contacts.pdf, id=2301, 108.93297pt x 123.58972pt>
 File: figures/wt_contacts.pdf Graphic file (type pdf)
 
 <use figures/wt_contacts.pdf>
 Package pdftex.def Info: figures/wt_contacts.pdf used on input line 101.
 (pdftex.def)             Requested size: 210.70462pt x 239.07729pt.
 
-<figures/yd_contacts.pdf, id=2298, 108.54953pt x 124.01431pt>
+<figures/yd_contacts.pdf, id=2302, 108.54953pt x 124.01431pt>
 File: figures/yd_contacts.pdf Graphic file (type pdf)
 
 <use figures/yd_contacts.pdf>
 Package pdftex.def Info: figures/yd_contacts.pdf used on input line 102.
 (pdftex.def)             Requested size: 210.70462pt x 240.72748pt.
 
-<figures/representatives.pdf, id=2299, 109.57637pt x 121.6796pt>
+<figures/representatives.pdf, id=2303, 109.57637pt x 121.6796pt>
 File: figures/representatives.pdf Graphic file (type pdf)
 
 <use figures/representatives.pdf>
 Package pdftex.def Info: figures/representatives.pdf used on input line 103.
 (pdftex.def)             Requested size: 210.70462pt x 234.00648pt.
 
-<figures/glob_overlay.pdf, id=2300, 209.24976pt x 120.86656pt>
+<figures/glob_overlay.pdf, id=2304, 209.24976pt x 120.86656pt>
 File: figures/glob_overlay.pdf Graphic file (type pdf)
 
 <use figures/glob_overlay.pdf>
 Package pdftex.def Info: figures/glob_overlay.pdf used on input line 112.
 (pdftex.def)             Requested size: 301.00192pt x 173.88908pt.
 
-<figures/consensus.pdf, id=2301, 223.5793pt x 135.6849pt>
+<figures/consensus.pdf, id=2305, 223.5793pt x 135.6849pt>
 File: figures/consensus.pdf Graphic file (type pdf)
 
 <use figures/consensus.pdf>
@@ -2451,68 +2454,86 @@ LaTeX Warning: Reference `eigenvalues' on page 35 undefined on input line 120.
 LaTeX Warning: Reference `pca' on page 35 undefined on input line 120.
 
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 120.
+LaTeX Warning: Reference `porcupine' on page 35 undefined on input line 120.
 
 [35] [36 <./figures/wt_contacts.pdf> <./figures/yd_contacts.pdf> <./figures/rep
 resentatives.pdf>] [37 <./figures/glob_overlay.pdf> <./figures/consensus.pdf>]
-<figures/eigenvals.pdf, id=3251, 794.97pt x 794.97pt>
+[38] <figures/eigenvals.pdf, id=3257, 794.97pt x 794.97pt>
 File: figures/eigenvals.pdf Graphic file (type pdf)
 
 <use figures/eigenvals.pdf>
-Package pdftex.def Info: figures/eigenvals.pdf used on input line 126.
+Package pdftex.def Info: figures/eigenvals.pdf used on input line 129.
 (pdftex.def)             Requested size: 278.24367pt x 278.23828pt.
 
-<figures/2d_scatter_wt.pdf, id=3252, 794.97pt x 794.97pt>
+<figures/2d_scatter_wt.pdf, id=3258, 794.97pt x 794.97pt>
 File: figures/2d_scatter_wt.pdf Graphic file (type pdf)
 
 <use figures/2d_scatter_wt.pdf>
-Package pdftex.def Info: figures/2d_scatter_wt.pdf used on input line 135.
+Package pdftex.def Info: figures/2d_scatter_wt.pdf used on input line 138.
 (pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
 
-<figures/2d_scatter_yd.pdf, id=3253, 794.97pt x 794.97pt>
+<figures/2d_scatter_yd.pdf, id=3259, 794.97pt x 794.97pt>
 File: figures/2d_scatter_yd.pdf Graphic file (type pdf)
 
 <use figures/2d_scatter_yd.pdf>
-Package pdftex.def Info: figures/2d_scatter_yd.pdf used on input line 136.
+Package pdftex.def Info: figures/2d_scatter_yd.pdf used on input line 139.
 (pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
 
 
-LaTeX Warning: Float too large for page by 124.38104pt on input line 140.
+LaTeX Warning: Float too large for page by 124.38104pt on input line 143.
 
-<figures/yd_porcupine.png, id=3254, 814.0011pt x 518.8986pt>
+<figures/yd_porcupine.png, id=3260, 814.0011pt x 518.8986pt>
 File: figures/yd_porcupine.png Graphic file (type png)
 
 <use figures/yd_porcupine.png>
-Package pdftex.def Info: figures/yd_porcupine.png used on input line 146.
-(pdftex.def)             Requested size: 406.99956pt x 259.44865pt.
- [38] [39 <./figures/eigenvals.pdf>] [40
+Package pdftex.def Info: figures/yd_porcupine.png used on input line 149.
+(pdftex.def)             Requested size: 392.8276pt x 250.41275pt.
+ [39 <./figures/eigenvals.pdf>] [40
 
  <./figures/2d_scatter_wt.pdf> <./figures/2d_scatter_yd.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/2d_scatter_yd.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
->] [41 <./figures/yd_porcupine.png (PNG copy)>]
-<figures/model.pdf, id=3386, 234.8775pt x 198.7425pt>
+>] [41 <./figures/yd_porcupine.png (PNG copy)>] [42]
+
+LaTeX Warning: Reference `wellsb' on page 43 undefined on input line 169.
+
+
+LaTeX Warning: Reference `wellsa' on page 43 undefined on input line 169.
+
+<figures/wells_a.pdf, id=3392, 427.73901pt x 423.30748pt>
+File: figures/wells_a.pdf Graphic file (type pdf)
+
+<use figures/wells_a.pdf>
+Package pdftex.def Info: figures/wells_a.pdf used on input line 173.
+(pdftex.def)             Requested size: 193.50076pt x 191.49423pt.
+
+<figures/wells_b.pdf, id=3393, 467.27873pt x 420.87337pt>
+File: figures/wells_b.pdf Graphic file (type pdf)
+
+<use figures/wells_b.pdf>
+Package pdftex.def Info: figures/wells_b.pdf used on input line 174.
+(pdftex.def)             Requested size: 210.70462pt x 189.783pt.
+
+
+LaTeX Warning: Reference `turc' on page 43 undefined on input line 178.
+
+[43] [44 <./figures/wells_a.pdf> <./figures/wells_b.pdf>]
+<figures/model.pdf, id=3446, 234.8775pt x 198.7425pt>
 File: figures/model.pdf Graphic file (type pdf)
  <use figures/model.pdf>
-Package pdftex.def Info: figures/model.pdf used on input line 166.
+Package pdftex.def Info: figures/model.pdf used on input line 185.
 (pdftex.def)             Requested size: 394.64168pt x 333.88933pt.
 )
-[42] [43 <./figures/model.pdf>]
+[45 <./figures/model.pdf>]
 ***************************
 CHAPTER 4.
 ***************************
-[44
-
-]
-***************************
-CHAPTER 5.
-***************************
-[45
-
-] [46
+[46
 
 ] [47
+
+] [48
 
 
 ]
@@ -2635,6 +2656,8 @@ figures/eigenvals.pdf
 figures/2d_scatter_wt.pdf
 figures/2d_scatter_yd.pdf
 figures/yd_porcupine.png
+figures/wells_a.pdf
+figures/wells_b.pdf
 figures/model.pdf
  ***********
 
@@ -2646,10 +2669,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29009 strings out of 493014
- 552817 string characters out of 6133351
- 715497 words of memory out of 5000000
- 32121 multiletter control sequences out of 15000+600000
+ 29059 strings out of 493014
+ 553834 string characters out of 6133351
+ 718592 words of memory out of 5000000
+ 32169 multiletter control sequences out of 15000+600000
  16142 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,76p,10382b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2669,10 +2692,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (56 pages, 72480733 bytes).
+Output written on thesis_cgo.pdf (58 pages, 72901016 bytes).
 PDF statistics:
- 3933 PDF objects out of 4296 (max. 8388607)
- 408 compressed objects within 5 object streams
+ 3987 PDF objects out of 4296 (max. 8388607)
+ 430 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

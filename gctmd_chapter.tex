@@ -1,7 +1,7 @@
 %!TEX root = thesis_cgo.tex
 \chapter{Conformational analysis of the $\gamma$-Tubulin carboxyl terminus}
 
-\epigraph{Only in chaos are we conceivable.}{Roberto Bola\~no}
+\epigraph{Only in disorder are we conceivable.}{Roberto Bola\~no}
 
 In this chapter we discuss the impact of local charge on the global dynamics of the $\gamma$-Tubulin C-terminus (\gct{}). We begin from the facts that the \gct{} has been shown to be phosphorylated {\it in vivo}, and that mutating the phosphorylation site to mimic the electrostatic conditions of a constitutive phosphorylation show significant phenotypes on the mitotic spindle. We therefore hypothesize that phosphorylation at the \gct{} IDP is acting to regulate spindle dynamics via a structural mechanism.
 
@@ -117,7 +117,10 @@ We next use the distribution of \diffusion{} to generate an initial characteriza
 
 Until this point, we have identified the presence of an extended sub-population of the YD \gct{} that is absent in the WT. This lends support to the hypothesis that the shift in \diffusion{} measured by NMR is due to transient expansions of the YD backbone into an extended state. Complementary to this finding, is the fact that residues in the YD polypeptide show evidence of collective motions detected as shifts in chemical environment through NMR \todo{r2 figure appendix} which suggest that the transition between states occurs in a coodrinated manner. We therefore seek to test whether correlated motions are also present in the simulation, and if they are, whether they can explain the transitions between collapsed and extended states.
 
-We performed covariance analysis, also known as Principal Component Analysis on \gct{} trajectories to identify major axes of correlated motion. We use \texttt{covar} and \texttt{anaeig} from the \texttt{GROMACS} package to build a covariance matrix for backbone atoms to extract principal modes and perform eigenvector projections. As is typical with molecular simulations which operate on a limited number of degrees of freedom, the first few eigenvectors in both trajectories account for nearly all of the variation in the trajectories \figref{eigenvalues}. We therefore focus our attention on the two first major modes of motion. \todo{time plot of projections in major components}. \figref{pca} shows a 2 dimensional projection onto the first two eigenvalues of WT and YD trajectories. Each point represents a 3D conformation in the \SI{2}{\us} simulation projected along the first two eigenvectors. The WT projection shows a conformational space that is closely clustered, indicative of constrained motions which is consistent with the low dispersions found in NMR and the single state behaviour suggested by RMSD and \diffusion{} analysis. However, the YD appears to be exploring  multiple conformation clusters which is in agreement with the presence of high dispersion groups found in NMR. Furthermore, by coloring each conforation with a normalized \diffusion{} value we are able to show that correlated motions along the major modes correspond with transitions between collapsed and extended states. In order to visualize the transitons, we generate a porcupine plot depicting the direction of motion between conformations on two extremes of the second principal component projections \figref{porcupine}.  
+We performed covariance analysis, also known as Principal Component Analysis on \gct{} trajectories to identify major axes of correlated motion. We use \texttt{covar} and \texttt{anaeig} from the \texttt{GROMACS} package to build a covariance matrix for backbone atoms to extract principal modes and perform eigenvector projections. In order to eliminate rotational and diffusive \todo{look this up} translations we align all frames in the trajectory to the average structure as computed by \texttt{covar} using RMSD based clustering. As is typical with molecular simulations which operate on a limited number of degrees of freedom, the first few eigenvectors in both trajectories account for nearly all of the variation in the trajectories \figref{eigenvalues}. We therefore focus our attention on the two first major modes of motion. \todo{time plot of projections in major components}. \figref{pca} shows a 2 dimensional projection onto the first two eigenvalues of WT and YD trajectories. Each point represents a 3D conformation in the \SI{2}{\us} simulation projected along the first two eigenvectors. The WT projection shows a conformational space that is closely clustered, indicative of constrained motions which is consistent with the low dispersions found in NMR and the single state behaviour suggested by RMSD and \diffusion{} analysis. However, the YD appears to be exploring  multiple conformation clusters which is in agreement with the presence of high dispersion groups found in NMR. Furthermore, by coloring each conformation with a normalized \diffusion{} value we are able to show that correlated motions along the major modes correspond with transitions between collapsed and extended states. In order to visualize the transitons, we generate a porcupine plot depicting the direction of motion between conformations on two extremes of the second principal component projections \figref{porcupine}.  We show that the transition between collapsed and extended is indeed driven by a separation of the N and C termius in a correlated fashion. \todo{cosine content} With this analysis we are able to propose a physical mechanism to explain the concerted global dynamics and diffusion coefficient shift observed in NMR as the action of correlated motions brought about by a local change in electrostatic environment. This phsyical mechanism would be the first example of an organized regulatory switch that does not count on disorder-order transitoins but rather remains in the disordered ensemble. 
+
+%When choosing which component to use for the visualization we computed cosine content values of each projection. This has been shown to be an effective method for detecting the presence of diffusion in signals from trajectories which often dominate the first few eigenvectors. The only component with significantly high cosine content was the first principal component of the YD simulation and so we focus our attention on projections along the second component.
+
 
 
 
@@ -143,7 +146,7 @@ We performed covariance analysis, also known as Principal Component Analysis on 
 
 
 \begin{figure}
-\includegraphics[scale=0.5]{figures/yd_porcupine.png}
+\includegraphics[height=0.45\textheight]{figures/yd_porcupine.png}
 \caption{porcupine plot}
 \label{fig:porcupine}
 \end{figure}  
@@ -159,9 +162,27 @@ The CTs of $\alpha$- $\beta$- and $\gamma$-tubulins are enriched in acidic resid
 
 \section{Discussion}
 
+Through NMR measurements and MD computer simluations, we demonstrate the first example of an IDP acting as a disorder-to-disorder regulatory switch and propose a physical mechanism to explain the regulation of an essential biological machine. 
+
+Both NMR and MD are in strong agreement that the conformational sampling of the \gct{} lies entirely within the diordered ensemble as no signal of secondary structure was detected by either method. Diffusion measurements show that the major conformational state of the \gct{} in the WT and in the YD is collapsed, with the YD having a slightly larger hydrodynamic radius global average. However, NMR and MD simulations both provide evidence that a single point mutation to a negatively charged residue Y>D produces concerted motions along the entire polypeptide that are not present in the WT \gct{}. Analysis of the collective motions detected in MDS by PCA correspond closely to transitions between collapsed and extended states which leads us to hypothesize that the changes in chemical environment detected in MDS and difference in hydrodynamic radius is a product of an correlated opening and closing motion brought about by the Y>D mutation. This coordinated opening is likely brought about by the effects of electrostatic repulsion as the Asp substituion introduces further negative charge in an alread acidic region. Once the \gct{} enters the open state, several hydrophobic residues in the middle of the polypeptide(L464, A466, G468) become accessibile for protein-protein interactions.
+
+ Because both WT and YD appear to have the same collapsed native state and differ only when the YD undergoes transient excursion to an extended state, we can model this behaviour as a two well potential system \figref{wellsb}. The equilibrium between extended and collapsed conformations is shifted by phosphorylation to render extensions more accessible in the YD.  Previously, such dynamics were only observed in the well characterized order-to disorder transitions, or the foldling on binding pardigm. Furthermore, this model stands in contrast to the existing assumption that disordered ensembles are largely uniform \figref{wellsa} and constitute a uniform space of random chains. And instead, we observe that the disordered ensemble has some structure that IDPs can explore to modulate functionality by giving rise to switch-likeb behaviour while remaining disordered. Such behvaviour likely presents advantages to the cell through its ability to provide high specificity and low affinity binding at a low entropic cost. This suggests for the first time that the disordered conformational landscape can be organized and can therefore be host to coordinated and functional transitions.
+
+\begin{figure}
+\centering     %%% not \center
+\subfigure[Figure A]{\label{fig:wellsa}\includegraphics[width=0.45\textwidth]{figures/wells_a.pdf}}
+\subfigure[Figure B]{\label{fig:wellsb}\includegraphics[width=0.49\textwidth]{figures/wells_b.pdf}}
+\label{fig:wells}
+\end{figure}
+
+From these findings we propose that phosphorylation at Y445 of the \gct{} acts as a regulatory switch to modulate protein-protein interactions. In order to better visualize this mechanism, we dock 3D structures obtained from full $\gamma$-Tubulin simulations into cryo electron microscopy models of the $\gamma$-TuRC \figref{turc} which previously lacked any information on the \gct{} due to its disordered nature. Based on this visualization we can propose a mechanism to explain the phenotype of hyper-stable microtubules in the Y445D mutants in vivo; the extensions that project outward from the complex brought about by the Y>D substitution, or phosphorylation, allow the $\gamma$-TuRC to selectively recruit effector proteins to the minus end of microtubules, making them available to the entire complex and which subsequently act to regulate microtubule dynamics. The constitutive addition of negative charge in the Y445D mutant therefore shifts the equilibrium between the collapsed and extended states, leading to a misregulation of the recruitment of microtubule associated proteins and thus a defect in microtubule dynamics. Which protein is being recruited by the \gct{} remains an open question but there are several candidates known to affect microtubule stability and localize to the spindle poles \todo{which candidates} are currently being verified through various experimental screens. However, the characterization of \gct{} conformational sampling  is an essential fist step in identifying potential interactors. 
+
+This work is a first step towards
 
 
 \begin{figure}
 \centering
 \includegraphics[height=0.6\textheight]{figures/model.pdf}
+\caption{$\gamma$-TuRC}
+\label{fig:turc}
 \end{figure}

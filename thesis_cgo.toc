@@ -1,9 +1,10 @@
 \contentsline {extrachapter}{\MakeUppercase {Dedication}}{ii}
 \contentsline {extrachapter}{\MakeUppercase {Acknowledgements}}{iii}
-\contentsline {extrachapter}{\MakeUppercase {Abstract}}{iv}
-\contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{v}
-\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{viii}
-\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{ix}
+\contentsline {extrachapter}{\MakeUppercase {Contribution of Authors}}{iv}
+\contentsline {extrachapter}{\MakeUppercase {Abstract}}{v}
+\contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{vi}
+\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{ix}
+\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{x}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
 \contentsline {section}{\numberline {1.2}Physical mechanisms of IDP function in cellular machines}{4}
@@ -23,15 +24,13 @@
 \contentsline {subsection}{\numberline {2.2.3}Diffusion coefficient}{18}
 \contentsline {subsection}{\numberline {2.2.4}Covariance Analysis}{19}
 \contentsline {subsection}{\numberline {2.2.5}MD Alternatives}{21}
-\contentsline {section}{\numberline {2.3}Evolutionary Algorithms}{21}
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{22}
 \contentsline {section}{\numberline {3.1}NMR}{23}
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
 \contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{35}
-\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT{}}{38}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT{}}{39}
 \contentsline {section}{\numberline {3.4}Discussion}{42}
-\contentsline {chapter}{\numberline {4}MEDIEVAL}{44}
-\contentsline {chapter}{\numberline {5}Conclusions}{45}
-\contentsline {extrachapter}{Appendix A}{46}
-\contentsline {extrachapter}{Appendix B}{47}
+\contentsline {chapter}{\numberline {4}Conclusions}{46}
+\contentsline {extrachapter}{Appendix A}{47}
+\contentsline {extrachapter}{Appendix B}{48}
