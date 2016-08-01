@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 JUL 2016 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 AUG 2016 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -98,6 +98,10 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \abovetabcaptskip=\skip77
 \belowtabcaptskip=\skip78
 
+***************************************
+* Local config file mcgilletdclass.cfg used *
+***************************************
+(./mcgilletdclass.cfg.tex)
  
 *****************************************
 *  Finished with Thesis Template
@@ -312,6 +316,9 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -2002,27 +2009,27 @@ LaTeX Warning: Label `sub@fig:b' multiply defined.
 )
 \openout1 = `thesis_cgo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    ... okay on input line 66.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 57.
+LaTeX Info: Redefining \selectfont on input line 66.
 
 **************************************
 * Executing Begin Document Statement *
@@ -2112,8 +2119,7 @@ Package etexcmds Info: Could not find \expanded.
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -2128,12 +2134,12 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ) ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count269
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2164,24 +2170,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write8
 \openout8 = `thesis_cgo.toc'.
 
- [8] (./thesis_cgo.lot)
-\tf@lot=\write9
-\openout9 = `thesis_cgo.lot'.
+ [8] (./thesis_cgo.lof)
+\tf@lof=\write9
+\openout9 = `thesis_cgo.lof'.
 
  [9
 
 
 
-] (./thesis_cgo.lof)
-\tf@lof=\write10
-\openout10 = `thesis_cgo.lof'.
-
-
-[10
+] (./abbr.ind [10
 
 
 
-] (./introduction.tex
+])
+[11] (./introduction.tex
 ***************************
 CHAPTER 1.
 ***************************
@@ -2288,261 +2290,236 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[25] <figures/wt_ss.pdf, id=131, 492.84125pt x 365.365pt>
-File: figures/wt_ss.pdf Graphic file (type pdf)
+[25] <figures/wt_ss.png, id=134, 246.4407pt x 182.8431pt>
+File: figures/wt_ss.png Graphic file (type png)
 
-<use figures/wt_ss.pdf>
-Package pdftex.def Info: figures/wt_ss.pdf used on input line 33.
-(pdftex.def)             Requested size: 301.00192pt x 223.15665pt.
- <figures/yd_ss.pdf, id=132, 506.89375pt x 365.365pt>
-File: figures/yd_ss.pdf Graphic file (type pdf)
+<use figures/wt_ss.png>
+Package pdftex.def Info: figures/wt_ss.png used on input line 33.
+(pdftex.def)             Requested size: 210.70462pt x 156.32967pt.
+ <figures/yd_ss.png, id=136, 253.6677pt x 182.8431pt>
+File: figures/yd_ss.png Graphic file (type png)
 
-<use figures/yd_ss.pdf>
-Package pdftex.def Info: figures/yd_ss.pdf used on input line 34.
-(pdftex.def)             Requested size: 301.00192pt x 216.9628pt.
- <figures/rmsd.pdf, id=133, 794.97pt x 794.97pt>
-File: figures/rmsd.pdf Graphic file (type pdf)
+<use figures/yd_ss.png>
+Package pdftex.def Info: figures/yd_ss.png used on input line 34.
+(pdftex.def)             Requested size: 210.70462pt x 151.87968pt.
+ [26 <./figures/wt_ss.png> <./figures/yd_ss.png>]
 
-<use figures/rmsd.pdf>
-Package pdftex.def Info: figures/rmsd.pdf used on input line 46.
-(pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
- <figures/rmsd_10.pdf, id=134, 794.97pt x 794.97pt>
-File: figures/rmsd_10.pdf Graphic file (type pdf)
+LaTeX Warning: Marginpar on page 27 moved.
 
-<use figures/rmsd_10.pdf>
-Package pdftex.def Info: figures/rmsd_10.pdf used on input line 47.
-(pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
+<figures/rmsd.png, id=143, 397.485pt x 397.485pt>
+File: figures/rmsd.png Graphic file (type png)
+ <use figures/rmsd.png>
+Package pdftex.def Info: figures/rmsd.png used on input line 47.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
-
-LaTeX Warning: Float too large for page by 112.21436pt on input line 49.
-
-
-LaTeX Warning: Marginpar on page 26 moved.
+<figures/rmsd_10.png, id=144, 397.485pt x 397.485pt>
+File: figures/rmsd_10.png Graphic file (type png)
+ <use figures/rmsd_10.png>
+Package pdftex.def Info: figures/rmsd_10.png used on input line 48.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
 
-LaTeX Warning: Reference `fm' on page 26 undefined on input line 53.
-
-[26] [27 <./figures/wt_ss.pdf> <./figures/yd_ss.pdf>] [28 <./figures/rmsd.pdf> 
-<./figures/rmsd_10.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/rmsd_10.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `dchist' on page 29 undefined on input line 55.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Reference `fm' on page 27 undefined on input line 54.
 
-<figures/FM_hist.pdf, id=350, 794.97pt x 794.97pt>
-File: figures/FM_hist.pdf Graphic file (type pdf)
- <use figures/FM_hist.pdf>
-Package pdftex.def Info: figures/FM_hist.pdf used on input line 64.
-(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
+[27 <./figures/rmsd.png> <./figures/rmsd_10.png>]
 
-<figures/FM_rainbows.pdf, id=351, 583.2209pt x 642.94304pt>
-File: figures/FM_rainbows.pdf Graphic file (type pdf)
-
-<use figures/FM_rainbows.pdf>
-Package pdftex.def Info: figures/FM_rainbows.pdf used on input line 65.
-(pdftex.def)             Requested size: 176.67627pt x 194.77019pt.
+LaTeX Warning: Reference `dchist' on page 28 undefined on input line 56.
 
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 28 moved.
+
+<figures/FM_hist.png, id=150, 397.485pt x 397.485pt>
+File: figures/FM_hist.png Graphic file (type png)
+ <use figures/FM_hist.png>
+Package pdftex.def Info: figures/FM_hist.png used on input line 65.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
+
+<figures/FM_rainbows.png, id=151, 291.7299pt x 321.3606pt>
+File: figures/FM_rainbows.png Graphic file (type png)
+
+<use figures/FM_rainbows.png>
+Package pdftex.def Info: figures/FM_rainbows.png used on input line 66.
+(pdftex.def)             Requested size: 176.81096pt x 194.77019pt.
 
 
-LaTeX Warning: Reference `dclines' on page 29 undefined on input line 72.
-
-[29]
-
-LaTeX Warning: Reference `dchistyd' on page 30 undefined on input line 74.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Reference `dchistwt' on page 30 undefined on input line 74.
+LaTeX Warning: Reference `dclines' on page 28 undefined on input line 73.
 
-[30 <./figures/FM_hist.pdf> <./figures/FM_rainbows.pdf
+[28]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/FM_rainbows.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
->] <figures/wt_hist.pdf, id=592, 794.97pt x 794.97pt>
-File: figures/wt_hist.pdf Graphic file (type pdf)
-
-<use figures/wt_hist.pdf>
-Package pdftex.def Info: figures/wt_hist.pdf used on input line 78.
-(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
- <figures/yd_2gauss.pdf, id=593, 794.97pt x 794.97pt>
-File: figures/yd_2gauss.pdf Graphic file (type pdf)
-
-<use figures/yd_2gauss.pdf>
-Package pdftex.def Info: figures/yd_2gauss.pdf used on input line 79.
-(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
-
-<figures/lines_dc.pdf, id=594, 794.97pt x 794.97pt>
-File: figures/lines_dc.pdf Graphic file (type pdf)
- <use figures/lines_dc.pdf>
-Package pdftex.def Info: figures/lines_dc.pdf used on input line 80.
-(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
-
-<figures/dc_ts.pdf, id=595, 229.89287pt x 181.17888pt>
-File: figures/dc_ts.pdf Graphic file (type pdf)
- <use figures/dc_ts.pdf>
-Package pdftex.def Info: figures/dc_ts.pdf used on input line 89.
-(pdftex.def)             Requested size: 346.03113pt x 272.67656pt.
-
-<figures/dc_strucs.pdf, id=596, 236.71536pt x 151.56323pt>
-File: figures/dc_strucs.pdf Graphic file (type pdf)
-
-<use figures/dc_strucs.pdf>
-Package pdftex.def Info: figures/dc_strucs.pdf used on input line 90.
-(pdftex.def)             Requested size: 347.6423pt x 222.58722pt.
+LaTeX Warning: Reference `dchistyd' on page 29 undefined on input line 75.
 
 
-LaTeX Warning: Float too large for page by 5.45384pt on input line 92.
+LaTeX Warning: Reference `dchistwt' on page 29 undefined on input line 75.
 
-[31] [32 <./figures/wt_hist.pdf> <./figures/yd_2gauss.pdf
+[29 <./figures/FM_hist.png> <./figures/FM_rainbows.png>]
+<figures/wt_hist.png, id=162, 397.485pt x 397.485pt>
+File: figures/wt_hist.png Graphic file (type png)
+ <use figures/wt_hist.png>
+Package pdftex.def Info: figures/wt_hist.png used on input line 79.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/yd_2gauss.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <./figures/lines_dc.pdf
+<figures/yd_2gauss.png, id=163, 397.485pt x 397.485pt>
+File: figures/yd_2gauss.png Graphic file (type png)
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/lines_dc.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->] [33 <./figures/dc_ts.pdf> <./figures/dc_strucs.pdf>] [34]
-<figures/wt_contacts.pdf, id=2301, 108.93297pt x 123.58972pt>
-File: figures/wt_contacts.pdf Graphic file (type pdf)
+<use figures/yd_2gauss.png>
+Package pdftex.def Info: figures/yd_2gauss.png used on input line 80.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
-<use figures/wt_contacts.pdf>
-Package pdftex.def Info: figures/wt_contacts.pdf used on input line 101.
-(pdftex.def)             Requested size: 210.70462pt x 239.07729pt.
+<figures/lines_dc.png, id=164, 397.485pt x 397.485pt>
+File: figures/lines_dc.png Graphic file (type png)
 
-<figures/yd_contacts.pdf, id=2302, 108.54953pt x 124.01431pt>
-File: figures/yd_contacts.pdf Graphic file (type pdf)
+<use figures/lines_dc.png>
+Package pdftex.def Info: figures/lines_dc.png used on input line 81.
+(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
+ <figures/dc_ts.png, id=165, 115.1502pt x 90.3375pt>
+File: figures/dc_ts.png Graphic file (type png)
 
-<use figures/yd_contacts.pdf>
-Package pdftex.def Info: figures/yd_contacts.pdf used on input line 102.
-(pdftex.def)             Requested size: 210.70462pt x 240.72748pt.
+<use figures/dc_ts.png>
+Package pdftex.def Info: figures/dc_ts.png used on input line 90.
+(pdftex.def)             Requested size: 248.292pt x 194.77019pt.
+ <figures/dc_strucs.png, id=166, 118.041pt x 75.4017pt>
+File: figures/dc_strucs.png Graphic file (type png)
 
-<figures/representatives.pdf, id=2303, 109.57637pt x 121.6796pt>
-File: figures/representatives.pdf Graphic file (type pdf)
+<use figures/dc_strucs.png>
+Package pdftex.def Info: figures/dc_strucs.png used on input line 91.
+(pdftex.def)             Requested size: 261.38765pt x 166.94466pt.
+ [30] [31 <./figures/wt_hist.png> <./figures/yd_2gauss.png> <./figures/lines_dc
+.png>] [32 <./figures/dc_ts.png> <./figures/dc_strucs.png>] [33] <figures/wt_co
+ntacts.png, id=185, 54.2025pt x 61.9113pt>
+File: figures/wt_contacts.png Graphic file (type png)
 
-<use figures/representatives.pdf>
-Package pdftex.def Info: figures/representatives.pdf used on input line 103.
-(pdftex.def)             Requested size: 210.70462pt x 234.00648pt.
+<use figures/wt_contacts.png>
+Package pdftex.def Info: figures/wt_contacts.png used on input line 102.
+(pdftex.def)             Requested size: 210.70462pt x 240.73695pt.
 
-<figures/glob_overlay.pdf, id=2304, 209.24976pt x 120.86656pt>
-File: figures/glob_overlay.pdf Graphic file (type pdf)
+<figures/yd_contacts.png, id=186, 54.2025pt x 61.9113pt>
+File: figures/yd_contacts.png Graphic file (type png)
 
-<use figures/glob_overlay.pdf>
-Package pdftex.def Info: figures/glob_overlay.pdf used on input line 112.
-(pdftex.def)             Requested size: 301.00192pt x 173.88908pt.
+<use figures/yd_contacts.png>
+Package pdftex.def Info: figures/yd_contacts.png used on input line 103.
+(pdftex.def)             Requested size: 210.70462pt x 240.73695pt.
 
-<figures/consensus.pdf, id=2305, 223.5793pt x 135.6849pt>
-File: figures/consensus.pdf Graphic file (type pdf)
+<figures/representatives.png, id=187, 54.9252pt x 60.9477pt>
+File: figures/representatives.png Graphic file (type png)
 
-<use figures/consensus.pdf>
-Package pdftex.def Info: figures/consensus.pdf used on input line 113.
-(pdftex.def)             Requested size: 301.00192pt x 182.68224pt.
+<use figures/representatives.png>
+Package pdftex.def Info: figures/representatives.png used on input line 104.
+(pdftex.def)             Requested size: 210.70462pt x 233.82158pt.
 
+<figures/glob_overlay.png, id=188, 104.5506pt x 60.225pt>
+File: figures/glob_overlay.png Graphic file (type png)
 
-LaTeX Warning: Reference `eigenvalues' on page 35 undefined on input line 120.
+<use figures/glob_overlay.png>
+Package pdftex.def Info: figures/glob_overlay.png used on input line 113.
+(pdftex.def)             Requested size: 301.00192pt x 173.41933pt.
 
+<figures/consensus.png, id=189, 111.5367pt x 67.9338pt>
+File: figures/consensus.png Graphic file (type png)
 
-LaTeX Warning: Reference `pca' on page 35 undefined on input line 120.
-
-
-LaTeX Warning: Reference `porcupine' on page 35 undefined on input line 120.
-
-[35] [36 <./figures/wt_contacts.pdf> <./figures/yd_contacts.pdf> <./figures/rep
-resentatives.pdf>] [37 <./figures/glob_overlay.pdf> <./figures/consensus.pdf>]
-[38] <figures/eigenvals.pdf, id=3257, 794.97pt x 794.97pt>
-File: figures/eigenvals.pdf Graphic file (type pdf)
-
-<use figures/eigenvals.pdf>
-Package pdftex.def Info: figures/eigenvals.pdf used on input line 129.
-(pdftex.def)             Requested size: 278.24367pt x 278.23828pt.
-
-<figures/2d_scatter_wt.pdf, id=3258, 794.97pt x 794.97pt>
-File: figures/2d_scatter_wt.pdf Graphic file (type pdf)
-
-<use figures/2d_scatter_wt.pdf>
-Package pdftex.def Info: figures/2d_scatter_wt.pdf used on input line 138.
-(pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
-
-<figures/2d_scatter_yd.pdf, id=3259, 794.97pt x 794.97pt>
-File: figures/2d_scatter_yd.pdf Graphic file (type pdf)
-
-<use figures/2d_scatter_yd.pdf>
-Package pdftex.def Info: figures/2d_scatter_yd.pdf used on input line 139.
-(pdftex.def)             Requested size: 301.00192pt x 301.01215pt.
+<use figures/consensus.png>
+Package pdftex.def Info: figures/consensus.png used on input line 114.
+(pdftex.def)             Requested size: 301.00192pt x 183.33972pt.
 
 
-LaTeX Warning: Float too large for page by 124.38104pt on input line 143.
+LaTeX Warning: Reference `eigenvalues' on page 34 undefined on input line 121.
 
-<figures/yd_porcupine.png, id=3260, 814.0011pt x 518.8986pt>
+
+LaTeX Warning: Reference `pca' on page 34 undefined on input line 121.
+
+
+LaTeX Warning: Reference `porcupine' on page 34 undefined on input line 121.
+
+[34] [35 <./figures/wt_contacts.png> <./figures/yd_contacts.png> <./figures/rep
+resentatives.png>] [36 <./figures/glob_overlay.png> <./figures/consensus.png>]
+<figures/eigenvals.png, id=204, 397.485pt x 397.485pt>
+File: figures/eigenvals.png Graphic file (type png)
+
+<use figures/eigenvals.png>
+Package pdftex.def Info: figures/eigenvals.png used on input line 130.
+(pdftex.def)             Requested size: 194.7754pt x 194.77019pt.
+ [37]
+<2d_scatter_wt.png, id=208, 794.97pt x 794.97pt>
+File: 2d_scatter_wt.png Graphic file (type png)
+ <use 2d_scatter_wt.png>
+Package pdftex.def Info: 2d_scatter_wt.png used on input line 139.
+(pdftex.def)             Requested size: 279.50037pt x 279.50522pt.
+
+<figures/2d_scatter_yd.png, id=209, 397.485pt x 397.485pt>
+File: figures/2d_scatter_yd.png Graphic file (type png)
+
+<use figures/2d_scatter_yd.png>
+Package pdftex.def Info: figures/2d_scatter_yd.png used on input line 140.
+(pdftex.def)             Requested size: 279.50037pt x 279.5052pt.
+
+
+LaTeX Warning: Float too large for page by 81.36717pt on input line 144.
+
+<figures/yd_porcupine.png, id=210, 814.0011pt x 518.8986pt>
 File: figures/yd_porcupine.png Graphic file (type png)
 
 <use figures/yd_porcupine.png>
-Package pdftex.def Info: figures/yd_porcupine.png used on input line 149.
-(pdftex.def)             Requested size: 392.8276pt x 250.41275pt.
- [39 <./figures/eigenvals.pdf>] [40
+Package pdftex.def Info: figures/yd_porcupine.png used on input line 150.
+(pdftex.def)             Requested size: 349.16905pt x 222.58722pt.
+ [38 <./figures/eigenvals.png>] [39
 
- <./figures/2d_scatter_wt.pdf> <./figures/2d_scatter_yd.pdf
+ <./2d_scatter_wt.png> <./figures/2d_scatter_yd.png>] [40 <./figures/yd_porcupi
+ne.png (PNG copy)>]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/2d_scatter_yd.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
->] [41 <./figures/yd_porcupine.png (PNG copy)>]
+LaTeX Warning: Citation `mao2010net' on page 41 undefined on input line 168.
 
-LaTeX Warning: Citation `mao2010net' on page 42 undefined on input line 167.
+[41]
 
-[42]
-
-LaTeX Warning: Reference `wellsb' on page 43 undefined on input line 169.
+LaTeX Warning: Reference `wellsb' on page 42 undefined on input line 170.
 
 
-LaTeX Warning: Reference `wellsa' on page 43 undefined on input line 169.
+LaTeX Warning: Reference `wellsa' on page 42 undefined on input line 170.
 
-<figures/wells_a.pdf, id=3392, 427.73901pt x 423.30748pt>
-File: figures/wells_a.pdf Graphic file (type pdf)
+<figures/wells_a.png, id=228, 213.9192pt x 211.5102pt>
+File: figures/wells_a.png Graphic file (type png)
 
-<use figures/wells_a.pdf>
-Package pdftex.def Info: figures/wells_a.pdf used on input line 173.
-(pdftex.def)             Requested size: 193.50076pt x 191.49423pt.
+<use figures/wells_a.png>
+Package pdftex.def Info: figures/wells_a.png used on input line 174.
+(pdftex.def)             Requested size: 193.50076pt x 191.33208pt.
 
-<figures/wells_b.pdf, id=3393, 467.27873pt x 420.87337pt>
-File: figures/wells_b.pdf Graphic file (type pdf)
+<figures/wells_b.png, id=229, 233.4321pt x 210.3057pt>
+File: figures/wells_b.png Graphic file (type png)
 
-<use figures/wells_b.pdf>
-Package pdftex.def Info: figures/wells_b.pdf used on input line 174.
-(pdftex.def)             Requested size: 210.70462pt x 189.783pt.
- [43]
+<use figures/wells_b.png>
+Package pdftex.def Info: figures/wells_b.png used on input line 175.
+(pdftex.def)             Requested size: 210.70462pt x 189.83495pt.
 
-LaTeX Warning: Reference `turc' on page 44 undefined on input line 178.
 
-[44 <./figures/wells_a.pdf> <./figures/wells_b.pdf>]
-<figures/model.pdf, id=3446, 234.8775pt x 198.7425pt>
-File: figures/model.pdf Graphic file (type pdf)
- <use figures/model.pdf>
-Package pdftex.def Info: figures/model.pdf used on input line 182.
-(pdftex.def)             Requested size: 394.64168pt x 333.88933pt.
-)
-[45] [46 <./figures/model.pdf>]
+LaTeX Warning: Reference `turc' on page 42 undefined on input line 179.
+
+[42] <figures/model.png, id=233, 117.5592pt x 99.4917pt>
+File: figures/model.png Graphic file (type png)
+
+<use figures/model.png>
+Package pdftex.def Info: figures/model.png used on input line 183.
+(pdftex.def)             Requested size: 328.84059pt x 278.23828pt.
+ [43 <./figures/wells_a.png> <./figures/wells_b.png>])
+[44 <./figures/model.png>]
 ***************************
 CHAPTER 4.
 ***************************
-(./conclusion.tex) [47
+(./conclusion.tex) [45
 
-] [48] [49
+] [46] [47
 
-] [50
+] [48
 
 
-] (./thesis_cgo.bbl [51
+] (./thesis_cgo.bbl [49
 
 
 
 ])
-No file keylist.ind found.
-No file abbr.ind found.
 (./thesis_cgo.aux)
 
  *File List*
@@ -2556,6 +2533,7 @@ setspace.sty    2011/12/19 v6.7a set line spacing
 es
 ragged2e.sty    2009/05/21 v2.1 ragged2e Package (MS)
 everysel.sty    2011/10/28 v1.2 EverySelectfont Package (MS)
+mcgilletdclass.cfg
 geometry.sty    2010/09/12 v5.6 Page Geometry
   keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
    ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
@@ -2576,6 +2554,7 @@ infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
 amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
 textcomp.sty    2005/09/27 v1.99g Standard LaTeX package
   ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
  siunitx.sty    2016/03/01 v2.6q A comprehensive (SI) units package
    expl3.sty    2016/05/18 v6512 L3 programming layer (loader) 
 expl3-code.tex    2016/05/18 v6512 L3 programming layer 
@@ -2636,32 +2615,33 @@ translator-basic-dictionary-English.dict
 siunitx-abbreviations.cfg    2016/03/01 v2.6q siunitx: Abbreviated units
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
+    abbr.ind
 introduction.tex
  methods.tex
 gctmd_chapter.tex
-figures/wt_ss.pdf
-figures/yd_ss.pdf
-figures/rmsd.pdf
-figures/rmsd_10.pdf
-figures/FM_hist.pdf
-figures/FM_rainbows.pdf
-figures/wt_hist.pdf
-figures/yd_2gauss.pdf
-figures/lines_dc.pdf
-figures/dc_ts.pdf
-figures/dc_strucs.pdf
-figures/wt_contacts.pdf
-figures/yd_contacts.pdf
-figures/representatives.pdf
-figures/glob_overlay.pdf
-figures/consensus.pdf
-figures/eigenvals.pdf
-figures/2d_scatter_wt.pdf
-figures/2d_scatter_yd.pdf
+figures/wt_ss.png
+figures/yd_ss.png
+figures/rmsd.png
+figures/rmsd_10.png
+figures/FM_hist.png
+figures/FM_rainbows.png
+figures/wt_hist.png
+figures/yd_2gauss.png
+figures/lines_dc.png
+figures/dc_ts.png
+figures/dc_strucs.png
+figures/wt_contacts.png
+figures/yd_contacts.png
+figures/representatives.png
+figures/glob_overlay.png
+figures/consensus.png
+figures/eigenvals.png
+2d_scatter_wt.png    Graphic file (type png)
+figures/2d_scatter_yd.png
 figures/yd_porcupine.png
-figures/wells_a.pdf
-figures/wells_b.pdf
-figures/model.pdf
+figures/wells_a.png
+figures/wells_b.png
+figures/model.png
 conclusion.tex
 thesis_cgo.bbl
  ***********
@@ -2674,33 +2654,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29067 strings out of 493014
- 553952 string characters out of 6133351
- 718595 words of memory out of 5000000
- 32172 multiletter control sequences out of 15000+600000
- 16142 words of font info for 62 fonts, out of 8000000 for 9000
+ 29115 strings out of 493014
+ 554852 string characters out of 6133351
+ 717869 words of memory out of 5000000
+ 32214 multiletter control sequences out of 15000+600000
+ 18755 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,76p,10382b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (61 pages, 72907047 bytes).
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis_cgo.pdf (60 pages, 3171755 bytes).
 PDF statistics:
- 3997 PDF objects out of 4296 (max. 8388607)
- 437 compressed objects within 5 object streams
+ 316 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

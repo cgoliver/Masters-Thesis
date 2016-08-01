@@ -3,8 +3,8 @@
 \contentsline {extrachapter}{\MakeUppercase {Contribution of Authors}}{iv}
 \contentsline {extrachapter}{\MakeUppercase {Abstract}}{v}
 \contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{vi}
-\contentsline {extrachapter}{\MakeUppercase {List of Tables}}{ix}
-\contentsline {extrachapter}{\MakeUppercase {List of Abbreviations}}{x}
+\contentsline {extrachapter}{\MakeUppercase {List of Figures}}{ix}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{x}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
 \contentsline {section}{\numberline {1.2}Physical mechanisms of IDP function in cellular machines}{4}
@@ -27,13 +27,13 @@
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{22}
 \contentsline {section}{\numberline {3.1}NMR}{23}
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{24}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT{} isoforms}{25}
-\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{35}
-\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT{}}{39}
-\contentsline {section}{\numberline {3.4}Discussion}{42}
-\contentsline {chapter}{\numberline {4}Conclusions}{47}
-\contentsline {subsection}{\numberline {4.0.1}Summary of Contributions}{47}
-\contentsline {subsection}{\numberline {4.0.2}Future Goals}{47}
-\contentsline {extrachapter}{Appendix A}{49}
-\contentsline {extrachapter}{Appendix B}{50}
-\contentsline {extrachapter}{References}{51}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{25}
+\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{34}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{38}
+\contentsline {section}{\numberline {3.4}Discussion}{41}
+\contentsline {chapter}{\numberline {4}Conclusions}{45}
+\contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{45}
+\contentsline {subsection}{\numberline {4.0.2}Future Goals}{45}
+\contentsline {extrachapter}{Appendix A}{47}
+\contentsline {extrachapter}{Appendix B}{48}
+\contentsline {extrachapter}{References}{49}

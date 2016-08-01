@@ -4,6 +4,7 @@
 
 \usepackage{texshade}
 \usepackage{textcomp}
+\usepackage{xspace}
 \usepackage{siunitx}
 \usepackage{epigraph}
 \usepackage{todonotes}
@@ -12,10 +13,17 @@
 \usepackage{subfigure}
 
 
+\graphicspath{{figures/}}
+%\graphicspath{{figures_lowres/}} 
+
+%hires
+%\DeclareGraphicsExtensions{.pdf,.png}
+%lores
+\DeclareGraphicsExtensions{.png,.pdf}
 
 %%%% VARIABLES %%%%%
-\newcommand{\diffusion}{$D_{t}$}
-\newcommand{\gct}{$\gamma$-CT}
+\newcommand{\diffusion}{$D_{t}$\xspace}
+\newcommand{\gct}{$\gamma$-CT\xspace}
 \newcommand{\dcunits}{\cm\squared\per\second}
 \newcommand{\figref}[1]{{\bf Fig. \ref{#1}}}
 \newcommand{\vek}[1]{\mathbf{#1}}
@@ -50,6 +58,7 @@
 
 \makeindex[keylist]
 \makeindex[abbr]
+
 
 %% Input any special commands below
 %\newcommand{\Kron}[1]{\ensuremath{\delta_{K}\left(#1\right)}}
@@ -88,12 +97,39 @@
 \AbstractFr%
 
 \TOCHeading{\MakeUppercase{Table of Contents}}%
-\LOTHeading{\MakeUppercase{List of Tables}}%
 \LOFHeading{\MakeUppercase{List of Figures}}%
-\LOFHeading{\MakeUppercase{List of Abbreviations}}%
 \tableofcontents %
-\listoftables %
 \listoffigures %
+
+\index[abbr]{MD@MD: Molecular Dynamics}
+\index[abbr]{\gct@\gct: $\gamma$-Tubulin C-Terminus}
+\index[abbr]{NMR@NMR: Nuclear Magnetic Resonance}
+\index[abbr]{$\gamma$-TuRC@$\gamma$-TuRC: $\gamma$-Tubulin Ring Complex} 
+\index[abbr]{\diffusion@\diffusion: Translational Diffusion Coefficient}
+\index[abbr]{WT@WT: Wild-Type}
+\index[abbr]{YD@YD: Y445D mutant}
+\index[abbr]{RMSD@RMSD: Root Mean Square Displacement}
+\index[abbr]{$R_g$@$R_g$: Radius of Gyration}
+\index[abbr]{ns@ns: Nanosecond}
+\index[abbr]{$\mu$s@$\mu$s: Microsecond}
+\index[abbr]{IDP@IDP: Intrinsically Disordered Protein}
+\index[abbr]{IDR@IDR: Intrinsically Disordered Region}
+\index[abbr]{CREB@CREB: Cyclic AMP Response Element Binding Protein}
+\index[abbr]{CBP@CBP: CREB Binding Protein}
+\index[abbr]{KID@KID: Kinase Inducible Domain}
+\index[abbr]{DNA@DNA: Deoxyribonucleic Acid}
+\index[abbr]{GRIPS@GRIPS: $\gamma$-Tubulin Ring Proteins}
+\index[abbr]{PTM@PTM: Post-Translational Modification}
+\index[abbr]{NVE@NVE: Microcanonical Ensemble}
+\index[abbr]{NVT@NVT: Canonical Ensemble}
+\index[abbr]{NPT@NPT: Isothermal-isobaric Ensemble}
+\index[abbr]{OPLS-AA@OPLS-AA: Optimized Potential for Liquid Simulations - All Atom}
+\index[abbr]{SPCE@SPCE: Extended Single Point Charge}
+\index[abbr]{GROMACS@GROMACS: GROnigen Machine for Chemical Simulatoins}
+\index[abbr]{VMD@VMD: Visual Molecular Dynamics}
+
+
+\printindex[abbr]{KEY TO ABBREVIATIONS}{KEY TO ABBREVIATIONS}{}
 
 \end{romanPagenumber}
 
@@ -119,13 +155,7 @@
 \bibliographystyle{plain}
 
 
-\index[abbr]{IEEE@IEEE: Institute of Electrical and Electronics Engineers, Inc.}
-\index[abbr]{CDMA@CDMA: code-division multiple access}
-\index[abbr]{CTAN@CTAN: comprehensive \protect\TeX{} archive network}
 
-
-\printindex[keylist]{Index}{Index}{}
-\printindex[abbr]{KEY TO ABBREVIATIONS}{KEY TO ABBREVIATIONS}{}
 
 \end{document}
 

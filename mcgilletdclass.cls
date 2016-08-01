@@ -943,33 +943,6 @@
     \end{simpleenv}%
     \setboolean{SetDSpace}{true}}%
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%        Contribution of Authors                         %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand*{\SetContributionName}[1]{\renewcommand*{\ETDContributionName}{#1}}%
-\newcommand*{\ETDContributionName}{CONTRIBUTION OF AUTHORS}%
-
-\newcommand*{\SetContributionText}[1]{\renewcommand*{\ETDContributionText}{#1}}%
-\newcommand*{\ETDContributionText}{Acknowledgements text goes here!}%
-\newcommand{\Contribution}{%
-    \begin{simpleenv}{}{}{}{}%
-		\pagestyle{plain}%
-		\setboolean{SetDSpace}{false}%
-		\GoSingle%
-		\begin{QZ@Cent}%
-	        \bfseries{\ETDContributionName} 
-	    \end{QZ@Cent}%
-	  \vspace*{0.5in}
-      \par%
-      \GoDouble%
-      %\chapter*{\ETDAcknowledgeName}%
-      \addcontentsline{toc}{extrachapter}{\ETDContributionName}%
-      \ETDContributionText%
-    \end{simpleenv}%
-    \setboolean{SetDSpace}{true}}%
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%        Abstract                                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

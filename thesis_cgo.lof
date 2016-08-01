@@ -1,30 +1,30 @@
-\contentsline {figure}{\numberline {{3--1}}{\ignorespaces Secondary structure assignments}}{27}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT Run 1}}}{27}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD Run 1}}}{27}
-\contentsline {figure}{\numberline {{3--2}}{\ignorespaces Secondary structure assignments}}{28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{28}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{28}
-\contentsline {figure}{\numberline {{3--3}}{\ignorespaces Secondary structure assignments}}{30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{30}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{30}
-\contentsline {figure}{\numberline {{3--4}}{\ignorespaces Distribution of diffusion coefficients}}{32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{32}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{32}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{32}
-\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Secondary structure assignments}}{33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{33}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{33}
-\contentsline {figure}{\numberline {{3--6}}{\ignorespaces Distribution of diffusion coefficients}}{36}
+\contentsline {figure}{\numberline {{3--1}}{\ignorespaces Secondary Structure Assignments}}{26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT Run 1}}}{26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD Run 1}}}{26}
+\contentsline {figure}{\numberline {{3--2}}{\ignorespaces RMSD}}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{27}
+\contentsline {figure}{\numberline {{3--3}}{\ignorespaces $\gamma $-CT\xspace {} predicted conformational ensemble}}{29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribution of $D_{t}$\xspace in conformer ensemble}}}{29}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{29}
+\contentsline {figure}{\numberline {{3--4}}{\ignorespaces Distribution of diffusion coefficients}}{31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{31}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{31}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{31}
+\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Secondary structure assignments}}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{32}
+\contentsline {figure}{\numberline {{3--6}}{\ignorespaces Distribution of diffusion coefficients}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{35}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{36}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{36}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{37}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{37}
-\contentsline {figure}{\numberline {{3--7}}{\ignorespaces eigenvalues}}{39}
-\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Secondary structure assignments}}{40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{40}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{40}
-\contentsline {figure}{\numberline {{3--9}}{\ignorespaces porcupine plot}}{41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{44}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{44}
-\contentsline {figure}{\numberline {{3--10}}{\ignorespaces $\gamma $-TuRC}}{46}
+\contentsline {figure}{\numberline {{3--7}}{\ignorespaces eigenvalues}}{38}
+\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Secondary structure assignments}}{39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{39}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{39}
+\contentsline {figure}{\numberline {{3--9}}{\ignorespaces porcupine plot}}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{43}
+\contentsline {figure}{\numberline {{3--10}}{\ignorespaces $\gamma $-TuRC}}{44}
