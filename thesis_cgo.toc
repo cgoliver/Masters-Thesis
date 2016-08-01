@@ -31,6 +31,9 @@
 \contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{35}
 \contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT{}}{39}
 \contentsline {section}{\numberline {3.4}Discussion}{42}
-\contentsline {chapter}{\numberline {4}Conclusions}{46}
-\contentsline {extrachapter}{Appendix A}{47}
-\contentsline {extrachapter}{Appendix B}{48}
+\contentsline {chapter}{\numberline {4}Conclusions}{47}
+\contentsline {subsection}{\numberline {4.0.1}Summary of Contributions}{47}
+\contentsline {subsection}{\numberline {4.0.2}Future Goals}{47}
+\contentsline {extrachapter}{Appendix A}{49}
+\contentsline {extrachapter}{Appendix B}{50}
+\contentsline {extrachapter}{References}{51}

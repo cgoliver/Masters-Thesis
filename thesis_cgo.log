@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 JUL 2016 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 JUL 2016 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2283,10 +2283,6 @@ ne 18.
 LaTeX Warning: Citation `ozenne2012flexible' on page 24 undefined on input line
  18.
 
-
-LaTeX Warning: Citation `de2000hydronmr' on page 24 undefined on input line 18.
-
-
 [24]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
@@ -2494,7 +2490,11 @@ Package pdftex.def Info: figures/yd_porcupine.png used on input line 149.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/2d_scatter_yd.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
->] [41 <./figures/yd_porcupine.png (PNG copy)>] [42]
+>] [41 <./figures/yd_porcupine.png (PNG copy)>]
+
+LaTeX Warning: Citation `mao2010net' on page 42 undefined on input line 167.
+
+[42]
 
 LaTeX Warning: Reference `wellsb' on page 43 undefined on input line 169.
 
@@ -2514,30 +2514,33 @@ File: figures/wells_b.pdf Graphic file (type pdf)
 <use figures/wells_b.pdf>
 Package pdftex.def Info: figures/wells_b.pdf used on input line 174.
 (pdftex.def)             Requested size: 210.70462pt x 189.783pt.
+ [43]
 
+LaTeX Warning: Reference `turc' on page 44 undefined on input line 178.
 
-LaTeX Warning: Reference `turc' on page 43 undefined on input line 178.
-
-[43] [44 <./figures/wells_a.pdf> <./figures/wells_b.pdf>]
+[44 <./figures/wells_a.pdf> <./figures/wells_b.pdf>]
 <figures/model.pdf, id=3446, 234.8775pt x 198.7425pt>
 File: figures/model.pdf Graphic file (type pdf)
  <use figures/model.pdf>
-Package pdftex.def Info: figures/model.pdf used on input line 185.
+Package pdftex.def Info: figures/model.pdf used on input line 182.
 (pdftex.def)             Requested size: 394.64168pt x 333.88933pt.
 )
-[45 <./figures/model.pdf>]
+[45] [46 <./figures/model.pdf>]
 ***************************
 CHAPTER 4.
 ***************************
-[46
+(./conclusion.tex) [47
 
-] [47
+] [48] [49
 
-] [48
+] [50
 
 
-]
-No file thesis_cgo.bbl.
+] (./thesis_cgo.bbl [51
+
+
+
+])
 No file keylist.ind found.
 No file abbr.ind found.
 (./thesis_cgo.aux)
@@ -2659,6 +2662,8 @@ figures/yd_porcupine.png
 figures/wells_a.pdf
 figures/wells_b.pdf
 figures/model.pdf
+conclusion.tex
+thesis_cgo.bbl
  ***********
 
 
@@ -2669,10 +2674,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29059 strings out of 493014
- 553834 string characters out of 6133351
- 718592 words of memory out of 5000000
- 32169 multiletter control sequences out of 15000+600000
+ 29067 strings out of 493014
+ 553952 string characters out of 6133351
+ 718595 words of memory out of 5000000
+ 32172 multiletter control sequences out of 15000+600000
  16142 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,76p,10382b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2692,10 +2697,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (58 pages, 72901016 bytes).
+Output written on thesis_cgo.pdf (61 pages, 72907047 bytes).
 PDF statistics:
- 3987 PDF objects out of 4296 (max. 8388607)
- 430 compressed objects within 5 object streams
+ 3997 PDF objects out of 4296 (max. 8388607)
+ 437 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
