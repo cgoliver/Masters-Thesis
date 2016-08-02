@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 AUG 2016 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 AUG 2016 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1914,6 +1914,23 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip124
 \subfig@bottom=\skip125
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen276
+\captionmargin@=\dimen277
+\captionwidth=\dimen278
+\caption@tempdima=\dimen279
+\caption@indent=\dimen280
+\caption@parindent=\dimen281
+\caption@hangindent=\dimen282
+)
+\c@ContinuedFloat=\count197
+Package caption Info: subfigure package is loaded.
+)
 \keylist@idxfile=\write6
 \openout6 = `keylist.idx'.
 
@@ -2009,27 +2026,27 @@ LaTeX Warning: Label `sub@fig:b' multiply defined.
 )
 \openout1 = `thesis_cgo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    ... okay on input line 67.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 66.
+LaTeX Info: Redefining \selectfont on input line 67.
 
 **************************************
 * Executing Begin Document Statement *
@@ -2070,16 +2087,16 @@ LaTeX Info: Redefining \selectfont on input line 66.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen276
+\scratchcounter=\count198
+\scratchdimen=\dimen283
 \scratchbox=\box65
-\nofMPsegments=\count198
-\nofMParguments=\count199
+\nofMPsegments=\count199
+\nofMParguments=\count266
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen277
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen284
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
 \everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
@@ -2133,18 +2150,20 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ) ABD: EveryShipout initializing macros
-\c__siunitx_mathsf_int=\count269
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\c__siunitx_mathsf_int=\count270
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count270
+\c__siunitx_mathtt_int=\count271
  [1
 
 
@@ -2192,27 +2211,31 @@ CHAPTER 1.
 
 ]
 
-LaTeX Warning: Marginpar on page 2 moved.
+LaTeX Warning: Reference `tub4' on page 2 undefined on input line 8.
 
 [2] <figures/tub4.png, id=54, 3684.76625pt x 2424.05624pt>
 File: figures/tub4.png Graphic file (type png)
 
 <use figures/tub4.png>
 Package pdftex.def Info: figures/tub4.png used on input line 12.
-(pdftex.def)             Requested size: 422.92395pt x 278.23828pt.
- [3 <./figures/tub4.png>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
+(pdftex.def)             Requested size: 338.30542pt x 222.58722pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4 <./figures/tub4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
-LaTeX Warning: Citation `radhakrishnan1997solution' on page 6 undefined on inpu
+ []
+
+[6]
+
+LaTeX Warning: Citation `radhakrishnan1997solution' on page 7 undefined on inpu
 t line 37.
 
 
@@ -2220,7 +2243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[6] [7] [8]
+[7] [8]
 
 LaTeX Warning: Citation `tompa2008fuzzy' on page 9 undefined on input line 44.
 
@@ -2319,13 +2342,7 @@ Package pdftex.def Info: figures/rmsd_10.png used on input line 48.
 
 LaTeX Warning: Marginpar on page 28 moved.
 
-
-LaTeX Warning: Reference `fm' on page 28 undefined on input line 54.
-
 [28 <./figures/rmsd.png> <./figures/rmsd_10.png>]
-
-LaTeX Warning: Reference `dchist' on page 29 undefined on input line 56.
-
 
 LaTeX Warning: Marginpar on page 29 moved.
 
@@ -2345,17 +2362,7 @@ Package pdftex.def Info: figures/FM_rainbows.png used on input line 66.
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-
-LaTeX Warning: Reference `dclines' on page 29 undefined on input line 73.
-
-[29]
-
-LaTeX Warning: Reference `dchistyd' on page 30 undefined on input line 75.
-
-
-LaTeX Warning: Reference `dchistwt' on page 30 undefined on input line 75.
-
-[30 <./figures/FM_hist.png> <./figures/FM_rainbows.png>]
+[29] [30 <./figures/FM_hist.png> <./figures/FM_rainbows.png>]
 <figures/wt_hist.png, id=167, 397.485pt x 397.485pt>
 File: figures/wt_hist.png Graphic file (type png)
  <use figures/wt_hist.png>
@@ -2423,18 +2430,9 @@ File: figures/consensus.png Graphic file (type png)
 <use figures/consensus.png>
 Package pdftex.def Info: figures/consensus.png used on input line 114.
 (pdftex.def)             Requested size: 301.00192pt x 183.33972pt.
+ [35] [36 <./figures/wt_contacts.png> <./figures/yd_contacts.png> <./figures/re
+presentatives.png>] [37 <./figures/glob_overlay.png> <./figures/consensus.png>]
 
-
-LaTeX Warning: Reference `eigenvalues' on page 35 undefined on input line 121.
-
-
-LaTeX Warning: Reference `pca' on page 35 undefined on input line 121.
-
-
-LaTeX Warning: Reference `porcupine' on page 35 undefined on input line 121.
-
-[35] [36 <./figures/wt_contacts.png> <./figures/yd_contacts.png> <./figures/rep
-resentatives.png>] [37 <./figures/glob_overlay.png> <./figures/consensus.png>]
 <figures/eigenvals.png, id=209, 397.485pt x 397.485pt>
 File: figures/eigenvals.png Graphic file (type png)
 
@@ -2464,14 +2462,7 @@ Package pdftex.def Info: figures/yd_porcupine.png used on input line 150.
  [39 <./figures/eigenvals.png>] [40
 
  <./2d_scatter_wt.png> <./figures/2d_scatter_yd.png> <./figures/yd_porcupine.pn
-g (PNG copy)>] [41]
-
-LaTeX Warning: Reference `wellsb' on page 42 undefined on input line 170.
-
-
-LaTeX Warning: Reference `wellsa' on page 42 undefined on input line 170.
-
-[42] <figures/wells_a.png, id=233, 213.9192pt x 211.5102pt>
+g (PNG copy)>] [41] [42] <figures/wells_a.png, id=233, 213.9192pt x 211.5102pt>
 File: figures/wells_a.png Graphic file (type png)
 
 <use figures/wells_a.png>
@@ -2484,11 +2475,7 @@ File: figures/wells_b.png Graphic file (type png)
 <use figures/wells_b.png>
 Package pdftex.def Info: figures/wells_b.png used on input line 175.
 (pdftex.def)             Requested size: 210.70462pt x 189.83495pt.
-
-
-LaTeX Warning: Reference `turc' on page 43 undefined on input line 179.
-
-[43 <./figures/wells_a.png> <./figures/wells_b.png>]
+ [43 <./figures/wells_a.png> <./figures/wells_b.png>]
 <figures/model.png, id=240, 117.5592pt x 99.4917pt>
 File: figures/model.png Graphic file (type png)
  <use figures/model.png>
@@ -2591,6 +2578,8 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
   amsopn.sty    2016/03/08 v2.02 operator names
 subfigure.sty    2002/03/15 v2.1.5 subfigure package
 subfigure.cfg
+ caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
+caption3.sty    2016/02/04 v1.7-139 caption3 kernel (AR)
   ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
 supp-pdf.mkii
 pdftexcmds.sty    2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
@@ -2646,13 +2635,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29106 strings out of 493014
- 554581 string characters out of 6133351
- 717660 words of memory out of 5000000
- 32204 multiletter control sequences out of 15000+600000
+ 30138 strings out of 493014
+ 573356 string characters out of 6133351
+ 725417 words of memory out of 5000000
+ 33230 multiletter control sequences out of 15000+600000
  18755 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,76p,10382b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,92p,10382b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -2671,7 +2660,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (61 pages, 5176586 bytes).
+Output written on thesis_cgo.pdf (61 pages, 5183237 bytes).
 PDF statistics:
  322 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams

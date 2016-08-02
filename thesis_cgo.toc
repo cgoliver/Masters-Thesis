@@ -7,7 +7,7 @@
 \contentsline {extrachapter}{KEY TO ABBREVIATIONS}{x}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
-\contentsline {section}{\numberline {1.2}Physical mechanisms of IDP function in cellular machines}{5}
+\contentsline {section}{\numberline {1.2}Physical mechanisms of IDP function in cellular machines}{6}
 \contentsline {section}{\numberline {1.3}IDP function in the mitotic spindle}{10}
 \contentsline {subsection}{\numberline {1.3.1}Microtubules}{10}
 \contentsline {subsection}{\numberline {1.3.2}$\gamma $-Tubulin \& the $\gamma $-CT}{11}
