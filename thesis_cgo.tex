@@ -28,6 +28,10 @@
 \newcommand{\dcunits}{\cm\squared\per\second}
 \newcommand{\figref}[1]{{\bf Fig.~\ref{#1}}}
 \newcommand{\vek}[1]{\mathbf{#1}}
+\newcommand{\vivo}{{\it in vivo}}
+\newcommand{\silico}{{\it in silico}}
+\newcommand{\vitro}{{\it in vitro}}
+\newcommand{\tub}{$\gamma$-Tubulin}
 
 %%% SETTINGS %%%
 \interfootnotelinepenalty=10000
@@ -147,10 +151,7 @@
 \chapter{Conclusions}
 \input{conclusion.tex}
 
-\SetAppendixName{Appendix}%
-\SetAppendixText{Here is the text of an Appendix.  If only one appendix is required, place it here.}%
-\ETDAppendix{Appendix A}{Here is the text of an Appendix.}%
-\ETDAppendix{Appendix B}{Here is the text of a second, additional Appendix}%
+\input{appendix.tex}
 \bibHeading{References}
 \bibliography{thesis_cgo}
 \bibliographystyle{plain}

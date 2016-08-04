@@ -13,27 +13,24 @@
 \contentsline {subsection}{\numberline {1.3.2}$\gamma $-Tubulin \& the $\gamma $-CT}{11}
 \contentsline {section}{\numberline {1.4}Experimental question}{12}
 \contentsline {section}{\numberline {1.5}Approach}{12}
-\contentsline {chapter}{\numberline {2}Theory \& Methods}{13}
-\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{14}
-\contentsline {subsection}{\numberline {2.1.1}Computing trajectories of atoms}{14}
-\contentsline {subsection}{\numberline {2.1.2}Force Field}{15}
-\contentsline {subsection}{\numberline {2.1.3}Preparing the system}{17}
-\contentsline {section}{\numberline {2.2}Trajectory Analysis}{18}
-\contentsline {subsection}{\numberline {2.2.1}Root Mean Square Deviation}{18}
-\contentsline {subsection}{\numberline {2.2.2}Radius of gyration}{19}
-\contentsline {subsection}{\numberline {2.2.3}Diffusion coefficient}{19}
-\contentsline {subsection}{\numberline {2.2.4}Covariance Analysis}{20}
-\contentsline {subsection}{\numberline {2.2.5}MD Alternatives}{22}
-\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin carboxyl terminus}{23}
-\contentsline {section}{\numberline {3.1}NMR}{24}
-\contentsline {section}{\numberline {3.2}Setting up the MD runs}{25}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{26}
-\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{35}
-\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{39}
-\contentsline {section}{\numberline {3.4}Discussion}{41}
-\contentsline {chapter}{\numberline {4}Conclusions}{46}
-\contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{46}
-\contentsline {subsection}{\numberline {4.0.2}Future Goals}{46}
-\contentsline {extrachapter}{Appendix A}{48}
-\contentsline {extrachapter}{Appendix B}{49}
+\contentsline {chapter}{\numberline {2}Theory \& Methods}{14}
+\contentsline {section}{\numberline {2.1}Molecular Dynamics Simulations}{15}
+\contentsline {subsection}{\numberline {2.1.1}Computing trajectories of atoms}{15}
+\contentsline {subsection}{\numberline {2.1.2}Force Field}{16}
+\contentsline {subsection}{\numberline {2.1.3}Preparing the system}{18}
+\contentsline {section}{\numberline {2.2}Trajectory Analysis}{19}
+\contentsline {subsection}{\numberline {2.2.1}Root Mean Square Deviation}{19}
+\contentsline {subsection}{\numberline {2.2.2}Radius of gyration}{20}
+\contentsline {subsection}{\numberline {2.2.3}Diffusion coefficient and Hydrodynamic Radius}{20}
+\contentsline {subsection}{\numberline {2.2.4}Covariance Analysis}{21}
+\contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulincarboxyl terminus}{24}
+\contentsline {section}{\numberline {3.1}NMR}{25}
+\contentsline {section}{\numberline {3.2}Setting up the MD runs}{26}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{28}
+\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{37}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{43}
+\contentsline {section}{\numberline {3.4}Discussion}{44}
+\contentsline {chapter}{\numberline {4}Conclusions}{48}
+\contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{48}
+\contentsline {subsection}{\numberline {4.0.2}Future Goals}{48}
 \contentsline {extrachapter}{References}{50}
