@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {3.2}Setting up the MD runs}{26}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{28}
 \contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{37}
-\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{43}
-\contentsline {section}{\numberline {3.4}Discussion}{44}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{42}
+\contentsline {section}{\numberline {3.4}Discussion}{43}
 \contentsline {chapter}{\numberline {4}Conclusions}{48}
 \contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{48}
 \contentsline {subsection}{\numberline {4.0.2}Future Goals}{48}

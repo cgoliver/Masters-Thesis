@@ -12,20 +12,20 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{34}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{34}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{34}
-\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Secondary structure assignments\relax }}{35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{35}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{35}
+\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Time-series plot of $D_{t}$\xspace over \SI {2}{\us } simulation.\relax }}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$D_{t}$\xspace over simulation time}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{35}
 \contentsline {figure}{\numberline {{3--6}}{\ignorespaces Distribution of diffusion coefficients\relax }}{38}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{38}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{38}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{39}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{39}
-\contentsline {figure}{\numberline {{3--7}}{\ignorespaces eigenvalues\relax }}{41}
-\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{42}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{42}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{42}
-\contentsline {figure}{\numberline {{3--9}}{\ignorespaces porcupine plot\relax }}{42}
+\contentsline {figure}{\numberline {{3--7}}{\ignorespaces eigenvalues\relax }}{39}
+\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{41}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{41}
+\contentsline {figure}{\numberline {{3--9}}{\ignorespaces porcupine plot\relax }}{41}
+\contentsline {figure}{\numberline {{3--10}}{\ignorespaces Full protein simulation of $\gamma $-Tubulin\relax }}{43}
+\contentsline {figure}{\numberline {{3--11}}{\ignorespaces Multiple Sequence Alinment of $\gamma $-CT\xspace across eukaryotes\relax }}{44}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{46}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{46}
-\contentsline {figure}{\numberline {{3--10}}{\ignorespaces $\gamma $-TuRC\relax }}{47}
+\contentsline {figure}{\numberline {{3--12}}{\ignorespaces $\gamma $-TuRC\relax }}{47}
