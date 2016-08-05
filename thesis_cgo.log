@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 AUG 2016 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 AUG 2016 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1969,6 +1969,18 @@ LaTeX Warning: Label `fig:b' multiply defined.
 
 LaTeX Warning: Label `sub@fig:b' multiply defined.
 
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
 )
 \openout1 = `thesis_cgo.aux'.
 
@@ -2174,61 +2186,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[6]
-
-LaTeX Warning: Citation `radhakrishnan1997solution' on page 7 undefined on inpu
-t line 37.
-
-
+[5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 [7] [8]
 
-LaTeX Warning: Citation `tompa2008fuzzy' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `graham2001tcf4' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `fontes2000structural' on page 9 undefined on input lin
-e 44.
-
-
-LaTeX Warning: Citation `bhattacharyya2006ste5' on page 9 undefined on input li
-ne 44.
-
-
 LaTeX Warning: Citation `sigalov2004homooligomerization' on page 9 undefined on
  input line 44.
 
-
-LaTeX Warning: Citation `zor2002roles' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `yu1994structural' on page 9 undefined on input line 44
-.
-
-[9] [10]
-
-LaTeX Warning: Citation `vogel2000carboxy' on page 11 undefined on input line 6
-0.
-
-
-LaTeX Warning: Citation `vogel2001phosphorylation' on page 11 undefined on inpu
-t line 60.
-
-[11] [12]
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-) (./methods.tex [13]
+[9] [10] [11] [12]) (./methods.tex [13]
 ***************************
 CHAPTER 2.
 ***************************
@@ -2238,26 +2211,11 @@ CHAPTER 2.
 ***************************
 CHAPTER 3.
 ***************************
-
-LaTeX Warning: Citation `keck2011cell' on page 24 undefined on input line 6.
-
-
-LaTeX Warning: Citation `vogel2001phosphorylation' on page 24 undefined on inpu
-t line 6.
-
-
-LaTeX Warning: Citation `vogel2001phosphorylation' on page 24 undefined on inpu
-t line 6.
-
 [24
 
 ]
 
 LaTeX Warning: Reference `eq:stokes' on page 25 undefined on input line 12.
-
-
-LaTeX Warning: Citation `wilkins1999hydrodynamic' on page 25 undefined on input
- line 12.
 
 [25]
 
@@ -2281,28 +2239,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[27]
-
-LaTeX Warning: Citation `kabsch1983dictionary' on page 28 undefined on input li
-ne 31.
-
-
-LaTeX Warning: Citation `humphrey1996vmd' on page 28 undefined on input line 31
-.
-
-<figures/wt_ss.png, id=144, 246.4407pt x 182.8431pt>
+[27] <figures/wt_ss.png, id=144, 246.4407pt x 182.8431pt>
 File: figures/wt_ss.png Graphic file (type png)
- <use figures/wt_ss.png>
+
+<use figures/wt_ss.png>
 Package pdftex.def Info: figures/wt_ss.png used on input line 35.
 (pdftex.def)             Requested size: 210.70462pt x 156.32967pt.
-
-<figures/yd_ss.png, id=145, 253.6677pt x 182.8431pt>
+ <figures/yd_ss.png, id=145, 253.6677pt x 182.8431pt>
 File: figures/yd_ss.png Graphic file (type png)
- <use figures/yd_ss.png>
+
+<use figures/yd_ss.png>
 Package pdftex.def Info: figures/yd_ss.png used on input line 36.
 (pdftex.def)             Requested size: 210.70462pt x 151.87968pt.
-
-[28] [29 <./figures/wt_ss.png> <./figures/yd_ss.png>]
+ [28] [29 <./figures/wt_ss.png> <./figures/yd_ss.png>]
 <figures/rmsd.png, id=154, 397.485pt x 397.485pt>
 File: figures/rmsd.png Graphic file (type png)
  <use figures/rmsd.png>
@@ -2428,47 +2377,109 @@ g (PNG copy)>]
 File: figures/glob_overlay.png Graphic file (type png)
 
 <use figures/glob_overlay.png>
-Package pdftex.def Info: figures/glob_overlay.png used on input line 154.
-(pdftex.def)             Requested size: 301.00192pt x 173.41933pt.
- [42]
-<figures/consensus.png, id=230, 111.5367pt x 67.9338pt>
+Package pdftex.def Info: figures/glob_overlay.png used on input line 156.
+(pdftex.def)             Requested size: 210.70462pt x 121.37689pt.
+
+<figures/globrg.png, id=227, 231.9867pt x 183.5658pt>
+File: figures/globrg.png Graphic file (type png)
+ <use figures/globrg.png>
+Package pdftex.def Info: figures/globrg.png used on input line 157.
+(pdftex.def)             Requested size: 171.99922pt x 136.09984pt.
+
+[42] <figures/consensus.png, id=231, 111.5367pt x 67.9338pt>
 File: figures/consensus.png Graphic file (type png)
 
 <use figures/consensus.png>
-Package pdftex.def Info: figures/consensus.png used on input line 166.
+Package pdftex.def Info: figures/consensus.png used on input line 168.
 (pdftex.def)             Requested size: 301.00192pt x 183.33972pt.
- [43 <./figures/glob_overlay.png>] [44 <./figures/consensus.png>] <figures/well
-s_a.png, id=240, 213.9192pt x 211.5102pt>
+ [43
+
+ <./figures/glob_overlay.png> <./figures/globrg.png>] [44 <./figures/consensus.
+png>]
+<figures/wells_a.png, id=242, 213.9192pt x 211.5102pt>
 File: figures/wells_a.png Graphic file (type png)
 
 <use figures/wells_a.png>
-Package pdftex.def Info: figures/wells_a.png used on input line 181.
+Package pdftex.def Info: figures/wells_a.png used on input line 183.
 (pdftex.def)             Requested size: 193.50076pt x 191.33208pt.
 
-<figures/wells_b.png, id=241, 233.4321pt x 210.3057pt>
+<figures/wells_b.png, id=243, 233.4321pt x 210.3057pt>
 File: figures/wells_b.png Graphic file (type png)
 
 <use figures/wells_b.png>
-Package pdftex.def Info: figures/wells_b.png used on input line 182.
+Package pdftex.def Info: figures/wells_b.png used on input line 184.
 (pdftex.def)             Requested size: 210.70462pt x 189.83495pt.
- [45]
-<figures/model.png, id=245, 117.5592pt x 99.4917pt>
+ [45] [46 <./figures/wells_a.png> <./figures/wells_b.png>] <figures/model.png, 
+id=252, 117.5592pt x 99.4917pt>
 File: figures/model.png Graphic file (type png)
- <use figures/model.png>
-Package pdftex.def Info: figures/model.png used on input line 190.
+
+<use figures/model.png>
+Package pdftex.def Info: figures/model.png used on input line 193.
 (pdftex.def)             Requested size: 328.84059pt x 278.23828pt.
-)
-[46 <./figures/wells_a.png> <./figures/wells_b.png>] [47 <./figures/model.png>]
+) [47 <./figures/model.png>]
 ***************************
 CHAPTER 4.
 ***************************
 (./conclusion.tex) [48
 
-] (./appendix.tex) (./thesis_cgo.bbl [49] [50
+] (./appendix.tex [49]
+***************************
+CHAPTER 5.
+***************************
+<figures/nmr_ss.png, id=263, 234.8775pt x 289.08pt>
+File: figures/nmr_ss.png Graphic file (type png)
+ <use figures/nmr_ss.png>
+Package pdftex.def Info: figures/nmr_ss.png used on input line 6.
+(pdftex.def)             Requested size: 215.0023pt x 264.62029pt.
+
+<figures/nmr_shifts.png, id=264, 419.6478pt x 289.08pt>
+File: figures/nmr_shifts.png Graphic file (type png)
+
+<use figures/nmr_shifts.png>
+Package pdftex.def Info: figures/nmr_shifts.png used on input line 13.
+(pdftex.def)             Requested size: 215.0023pt x 148.10814pt.
+
+<figures/nmr_diffusion.png, id=265, 234.8775pt x 227.1687pt>
+File: figures/nmr_diffusion.png Graphic file (type png)
+
+<use figures/nmr_diffusion.png>
+Package pdftex.def Info: figures/nmr_diffusion.png used on input line 20.
+(pdftex.def)             Requested size: 215.0023pt x 207.94743pt.
+
+<figures/nmr_r2.png, id=266, 234.8775pt x 289.08pt>
+File: figures/nmr_r2.png Graphic file (type png)
+ <use figures/nmr_r2.png>
+Package pdftex.def Info: figures/nmr_r2.png used on input line 27.
+(pdftex.def)             Requested size: 215.0023pt x 264.62029pt.
+
+<figures/gamma_aln.png, id=267, 384.9582pt x 747.2718pt>
+File: figures/gamma_aln.png Graphic file (type png)
+
+<use figures/gamma_aln.png>
+Package pdftex.def Info: figures/gamma_aln.png used on input line 35.
+(pdftex.def)             Requested size: 301.00192pt x 584.31776pt.
 
 
-])
-(./thesis_cgo.aux)
+LaTeX Warning: Float too large for page by 49.8412pt on input line 36.
+
+<figures/beta_aln.png, id=268, 363.759pt x 734.745pt>
+File: figures/beta_aln.png Graphic file (type png)
+
+<use figures/beta_aln.png>
+Package pdftex.def Info: figures/beta_aln.png used on input line 40.
+(pdftex.def)             Requested size: 301.00192pt x 607.98833pt.
+
+
+LaTeX Warning: Float too large for page by 108.16171pt on input line 43.
+
+) (./thesis_cgo.bbl [50
+
+] [51 <./figures/nmr_ss.png> <./figures/nmr_shifts.png>] [52 <./figures/nmr_dif
+fusion.png> <./figures/nmr_r2.png>] [53 <./figures/gamma_aln.png>] [54 <./figur
+es/beta_aln.png>] [55
+
+
+] [56] [57] [58]) (./thesis_cgo.aux)
 
  *File List*
 mcgilletdclass.cls    2004/12/01 v0.1 McGill University Thesis Class
@@ -2589,12 +2600,19 @@ figures/eigenvals.png
 figures/2d_scatter_yd.png
 figures/yd_porcupine.png
 figures/glob_overlay.png
+figures/globrg.png
 figures/consensus.png
 figures/wells_a.png
 figures/wells_b.png
 figures/model.png
 conclusion.tex
 appendix.tex
+figures/nmr_ss.png
+figures/nmr_shifts.png
+figures/nmr_diffusion.png
+figures/nmr_r2.png
+figures/gamma_aln.png
+figures/beta_aln.png
 thesis_cgo.bbl
  ***********
 
@@ -2606,11 +2624,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30127 strings out of 493014
- 572730 string characters out of 6133351
- 718513 words of memory out of 5000000
- 33216 multiletter control sequences out of 15000+600000
- 19094 words of font info for 74 fonts, out of 8000000 for 9000
+ 30155 strings out of 493014
+ 573164 string characters out of 6133351
+ 701949 words of memory out of 5000000
+ 33236 multiletter control sequences out of 15000+600000
+ 19446 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,92p,10382b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -2631,10 +2649,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (61 pages, 5183355 bytes).
+Output written on thesis_cgo.pdf (69 pages, 6556974 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 362 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
