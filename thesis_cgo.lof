@@ -19,14 +19,14 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{38}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{38}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Figure C}}}{38}
-\contentsline {figure}{\numberline {{3--7}}{\ignorespaces eigenvalues\relax }}{39}
-\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{41}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{41}
-\contentsline {figure}{\numberline {{3--9}}{\ignorespaces porcupine plot\relax }}{41}
-\contentsline {figure}{\numberline {{3--10}}{\ignorespaces $\gamma $-Tubulinfull protein simulation\relax }}{43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Representative Structures}}}{43}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Radius of Gyration}}}{43}
+\contentsline {figure}{\numberline {{3--7}}{\ignorespaces Eigenvalues of $\gamma $-CT\xspace PCA\relax }}{39}
+\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{40}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{40}
+\contentsline {figure}{\numberline {{3--9}}{\ignorespaces Projection along opening-closing axis\relax }}{41}
+\contentsline {figure}{\numberline {{3--10}}{\ignorespaces $\gamma $-Tubulin\xspace full protein simulation\relax }}{42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Representative Structures}}}{42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Radius of Gyration}}}{42}
 \contentsline {figure}{\numberline {{3--11}}{\ignorespaces Multiple Sequence Alinment of $\gamma $-CT\xspace across eukaryotes\relax }}{44}
 \contentsline {figure}{\numberline {{3--12}}{\ignorespaces IDP Conformational Landscapes\relax }}{46}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{46}
@@ -37,5 +37,5 @@
 \contentsline {figure}{\numberline {{5--3}}{\ignorespaces NMR Diffusion Measurements\relax }}{52}
 \contentsline {figure}{\numberline {{5--4}}{\ignorespaces NMR Dispersion Measurements\relax }}{52}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Representative Structures}}}{53}
-\contentsline {figure}{\numberline {{5--4}}{\ignorespaces Tubulin CT Multiple Sequence Alignments\relax }}{54}
+\contentsline {figure}{\numberline {{5--4}}{\ignorespaces Full Tubulin CT Multiple Sequence Alignments\relax }}{54}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Radius of Gyration}}}{54}

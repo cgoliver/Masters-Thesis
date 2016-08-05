@@ -2,15 +2,15 @@
 \chapter{Theory \& Methods}
 \epigraph{Life can only be understood backwards; but it must be lived forwards.}{S{\o}ren Kierkegaard}
 
-The main technique we will use to study the behaviour of IDPs is the computational technique of Molecular Dynamics (MD) simulations. IDP dynamics are shaped by various types of physical interactions acting on a high number of conformational degrees of freedom all on a very fast timescale. For this reason it is difficult to predict the dynamics of IDPs {\it ab initio}. MD is a brute-force approach which iteratively solves the equations of motion for every interaction in a system of atoms in 3D space.  What results is a trajectory in space and a velocity for every atom in the system in time which we can use to visualize the conformational sampling of our IDP of interest and compute thermodynamic quantities. While this can be a computationally demanding task, it is currently the most reliable way of computationally studying the dynamics of molecular systems. We will use this approach to study the conformational dynamics of two isoforms of the \gct: WT, and Y445D.
+The main technique we will use to study the behaviour of IDPs is the computational technique of Molecular Dynamics (MD) simulations ~\cite{haile1992molecular}. IDP dynamics are shaped by various types of physical interactions acting on a high number of conformational degrees of freedom all on a very fast timescale. For this reason it is difficult to predict the dynamics of IDPs {\it ab initio}. MD is a brute-force approach which iteratively solves the equations of motion for every interaction in a system of atoms in 3D space .  What results is a trajectory in space and a velocity for every atom in the system in time which we can use to visualize the conformational sampling of our IDP of interest and compute thermodynamic quantities. While this can be a computationally demanding task, it is currently the most reliable way of studying protein conformational sampling \silico and has been succesfully applied to many biomolecular systems ~\cite{karplus2002molecular}. We will use this approach to study the conformational dynamics of two isoforms of the \gct: WT, and Y11D.
 
 \section{Molecular Dynamics Simulations}
 
 We represent our system as a set of $N$ atoms represented as  vectors $R = \{\vek{r_1}, \vek{r_2}, ... , \vek{r_N}\}$ in three dimensional space. We then use classical Newtonian mechanics to obtain the changes in position of the particles as a function of time. For a peptide in solution, this would consist of the atoms in the peptide, and water atoms and the forces arising from interactions between all the particles in the system. 
 
-\subsection{Computing trajectories of atoms}
+\subsection{Computing atomic trajectories}
 
-The central principle of MD is that the potential energy arising from interacting particles is a function of their positions in space. Since force is related to potential energy, it follows that the acceleration of the particles is a function of the potential energy, and so the motion of the particles can be obtained. Given a description of the potentials arising from interactions between the different atoms, which we call a force field, we can iterate through every atom in the system and calculate the force that would arise as a function of the potential energy function. The potential energy given by the force field can be written as $V(\vek{r_1}, \vek{r_2}, ..., \vek{r_N})$ is a function of the positions of each atom. Using the classical definition of force as $\vek{F} = m\vek{a}$, we can combine the positions of each atom with the force field to compute the force acting on each atom as follows.  
+The central principle of MD is that the potential energy arising from interacting particles is a function of their positions in space. Since force is related to potential energy, it follows that the acceleration of the particles is a function of the potential energy, and so the motion of the particles can be obtained. Given a description of the potentials arising from interactions between the different atoms, which we call a force field, we can iterate through every atom in the system and calculate the force that would arise as a function of potential energy. The potential energy given by the force field can be written as $V(\vek{r_1}, \vek{r_2}, ..., \vek{r_N})$ is a function of the positions of each atom. Using the classical definition of force as $\vek{F} = m\vek{a}$, we can combine the positions of each atom with the force field to compute the force acting on each atom as follows.  
 
 \begin{equation}
 \vek{F_i}  = -\frac{\partial V(\vek{r_1}, \vek{r_2}, ..., \vek{r_i}, ... \vek{r_N)}}{\partial \vek{r_i}} 
@@ -34,7 +34,6 @@ The bonded energy term can be written as the sum of energies arising from the bo
 
 Non-bonded interactions can have two contributing factors; electrostatic force, and van der Waals force. The electrostatic potential ($E_{electrostatic}$) arises from the interaction of the charges of particles, while the van der Waals potential  ($E_{van der Waals}$ arises from the attraction or repulsion between uncharged groups. In most systems, non-bonded interactions by far outnumber bonded interactions and thus carry most of the computational weight in an MD simulation. in m Combining all of these terms, we can write the full description of forces in the system as:
 
-\todo{should i include this?}
 \begin{equation}
 E_{total} = E_{bond} + E_{angle} + E_{dihedral} + E_{van der Waals} + E_{electrostatic} 
 \end{equation}
@@ -45,6 +44,15 @@ E(r_{N}) = \sum_{bonds} K_{r} (r - r_{0})^2	 + \sum_{angles} k_{\theta} (\theta 
 The MD algorithm evaluates $E(r_{N})$ at every time step to obtain the force on each atom and therefore the trajectory at each time step. Given such a fine-grain level of modelling, this process is the most time costly step in an MD simulation. However, an important advantage to such a low level description of the system is that more complex phenomena such as the hydrophobic effect and hydrogen bonding which are known to be essential to protein dynamics do not need to be coded explicitly in the models. Instead, they arise naturally from this definition of the system.
 
 Another key component to the force field, is the definition of parameters for the different types of interactions and particles in the system. Parameters can include values for charge, mass, bond length, etc. These are often obtained from experimental measurements. The force field must naturally also contain a set of definitions for the various types of atoms and functional groups it can model. Therefore, the choice of force field can have important consequences on the outcome of the simulations and must be chosen with care.
+
+In this work, we will be using the Optimized Potentials for Liquid Simulations - All Atom (OPLS-AA) force field ~\cite{jorgensen1988opls}.
+
+%Data from MD simulations on myoglobin were used in the
+%final stages of optimization of the CHARMM force field [2], whereas the parameters
+%for the grid-based CHARMM CMAP term for the backbone φ/ψ energy have been
+%developed using a large collection of protein x-ray crystallographic data [49]. Finally,
+%the OPLS-AA φ and ψ dihedral parameters have been updated based not only on
+%the alanine dipeptide but also on the alanine tetrapeptide [46].
 
 \subsection{Preparing the system}
 
@@ -125,18 +133,20 @@ If we wish to visualize the system's motions along a particular axis and filter 
 \vek{p}(t) = R^{T}M^{\frac{1}{2}}\vek{x}(t)
 \end{equation}
 
-The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. Another useful application of the covariance matrix is for comparing the structural sampling of major modes in two different trajectories. Such comparisons can be used to assess the convergence of sampling, as well as for detecting major changes in conformational sampling. We define a quantity known as the subspace overlap which corresponds to the degree of similarity between two trajectories along their major components. This problem is equivalent to comparing two matrices of eigenvectors and the space that they span and so the subspace overlap is defined as follows:
+The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. 
 
-\begin{equation}
-\text{overlap}(\vek{v}, \vek{w}) \equiv \frac{1}{n} \sum_{i=1, j=1}^{n,n} (\vek{v} \times \vek{w}) ^ 2
-\end{equation}
-
-\begin{equation}
-d = \sqrt{tr((\sqrt{C_1} - \sqrt{C_2}))^2}
-\end{equation}
-
-\begin{equation}
-\text{normalized overlap} (C_1, C_2) = 1 - \frac{d}{\sqrt{tr(C_1) + tr(C_2)}}
-\end{equation}
+%Another useful application of the covariance matrix is for comparing the structural sampling of major modes in two different trajectories. Such comparisons can be used to assess the convergence of sampling, as well as for detecting major changes in conformational sampling. We define a quantity known as the subspace overlap which corresponds to the degree of similarity between two trajectories along their major components. This problem is equivalent to comparing two matrices of eigenvectors and the space that they span and so the subspace overlap is defined as follows:
+%
+%\begin{equation}
+%\text{overlap}(\vek{v}, \vek{w}) \equiv \frac{1}{n} \sum_{i=1, j=1}^{n,n} (\vek{v} \times \vek{w}) ^ 2
+%\end{equation}
+%
+%\begin{equation}
+%d = \sqrt{tr((\sqrt{C_1} - \sqrt{C_2}))^2}
+%\end{equation}
+%
+%\begin{equation}
+%\text{normalized overlap} (C_1, C_2) = 1 - \frac{d}{\sqrt{tr(C_1) + tr(C_2)}}
+%\end{equation}
 
 
