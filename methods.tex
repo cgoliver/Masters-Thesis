@@ -37,32 +37,53 @@ Non-bonded interactions can have two contributing factors; electrostatic force, 
 \begin{equation}
 E(r_{N}) = E_{bond} + E_{angle} + E_{dihedral} + E_{van der Waals} + E_{electrostatic} 
 \end{equation}
-\begin{equation}
-E(r_{N}) = \sum_{bonds} K_{r} (r - r_{0})^2	 + \sum_{angles} k_{\theta} (\theta - \theta_0) + \sum_{dihedrals} K_{\phi} (1 + cos(n\phi - \delta)) + \sum_{i,j} \{ 4\epsilon_{i,j} \frac{\sigma_{ij}}{r_{ij}} \}
-\end{equation}
+
 
 The MD algorithm evaluates $E(r_{N})$ at every time step to obtain the force on each atom and therefore the trajectory at each time step. Given this low-level description of the system, more complex phenomena such as the hydrophobic effect and hydrogen bonding which are known to be essential to protein dynamics do not need to be coded explicitly in the models. Instead, they arise naturally from the definition of the system.
 
-Another key component to the force field, is the definition of parameters for the different types of interactions and particles in the system. Key parameters include values for charge, mass, bond length, etc, and are often obtained from experimental measurements. The force field must naturally also contain a set of definitions for the various types of atoms and functional groups it can model. Therefore, the choice of force field can have important consequences on the outcome of the simulations and must be chosen with care.
+Another key component to the force field, is the definition of parameters for the different types of interactions and particles in the system. Key parameters include values for charge, mass, bond length, etc, and are obtained from experimental measurements. The force field must naturally also contain a set of definitions for the various types of atoms and functional groups it can model. Therefore, the choice of force field can have important consequences on the outcome of the simulations and must be chosen with care.
 
-In this work, we will be using the Optimized Potentials for Liquid Simulations - All Atom (OPLS-AA) force field ~\cite{jorgensen1988opls}.
+In this work, we will be using the Optimized Potentials for Liquid Simulations - All Atom (OPLS-AA) force field ~\cite{jorgensen1988opls} that can be represented as:
 
-%Data from MD simulations on myoglobin were used in the
-%final stages of optimization of the CHARMM force field [2], whereas the parameters
-%for the grid-based CHARMM CMAP term for the backbone φ/ψ energy have been
-%developed using a large collection of protein x-ray crystallographic data [49]. Finally,
-%the OPLS-AA φ and ψ dihedral parameters have been updated based not only on
-%the alanine dipeptide but also on the alanine tetrapeptide [46].
+
+\begin{equation}
+E_{bond} = \sum_{bonds} K_{r} (r - r_{0})^2	
+\end{equation}
+
+\begin{equation}
+ E_{angle} = \sum_{angles} k_{\theta} (\theta - \theta_0) 
+\end{equation}
+
+\begin{multline}
+E_{dihedrals} = \sum_\mathrm{dihedrals} \Big( \frac {V_1} {2} \big[ 1 + \cos (\phi-\phi_1) \big] 
+                + \frac {V_2} {2} \big[ 1 - \cos (2\phi-\phi_2) \big] \\
+                + \frac {V_3} {2} \big[ 1 + \cos (3\phi-\phi_3) \big] 
+                + \frac {V_4} {2} \big[ 1 - \cos (4\phi-\phi_4) \big] \Big)
+\end{multline}
+
+Where $\phi$ is the dihedral angle and $V_{i}$ are the coeffiecients in the Fourier series. Non-bonded energies are computed as follows:
+
+\begin{equation}
+E_{nonbonded} = \sum_{i>j} f_{ij} \left(
+                    \frac {A_{ij}}{r_{ij}^{12}} - \frac {C_{ij}}{r_{ij}^6}
+                    + \frac {q_iq_j e^2}{4\pi\epsilon_0 r_{ij}} \right)
+\end{equation}
+
+Where $A$ and $C$ represent combining rules which allow us to obtain the interaction energy of dissimilar non-bonded atoms. OPLS uses standard combining rules where $A_ij = \sqrt{A_{ii}A_{jj}}$ and $C_{ij} = \sqrt{C_{ii}C_{jj}}$ ~\cite{good1970new}.
+
+We believe the OPLS-AA force field is be best fit for modeling charge-dependent motions of the \gct. Whereas other popular force fields such as CHARMM were parametrized on X-ray crystallographic experimental values of folded globular proteins, the OPLS force field was optimized with quantum chemical calculations of charged short peptides ~\cite{kukol2008molecular}. This approach is likely to more accurately model the dynamics of unfolded peptides where other force fields may tend to favour the formation of collapsed stable secondary structure motifs ~\cite{henriques2015molecular, tran2008role}. Furthermore, it has been reported that the small and localized treatment of charged groups in OPLS-AA is well suited for systems where local charge interactions drive global dynamics ~\cite{vitalis2009absinth}. We show that a simulation under OPLS-AA is able to accurately produce an extended conformation for the \lq molecular ruler \rq polyproline \figref{fig:pp}. We also control the appropriateness of the force field by comparing MD values to NMR measurements on the same system.
+
+
 
 \subsection{Preparing the system}
 
 The starting point of an MD simulation is a force field and a set of initial coordinates for the system of interest. Before a simulation can be successfully run, there are several pre-processing steps that must be executed. 
 
-As mentioned earlier, hydrogen bonding and the hydrophobic effect play very important roles in shaping the dynamics of polypeptides therefore our model must include water molecules. We therefore place the peptide atoms are placed in a simulated box where water molecules are introduced to fill the remaining space. All subsequent force calculations in MD will consider interactions between solvent-solvent and solvent-peptide atoms. Given that many more water molecules will be present than peptide molecules, computations on solvent atoms are computational costly. Some variations on MD avoid these computations by modelling the solvent implicitly as a mean field instead of explicitly considering every atom in the system. 
+Hydrogen bonding and the hydrophobic effect play very important roles in shaping the dynamics of polypeptides therefore, the model must include water molecules. We place the peptide atoms in a simulated box under periodic boundary conditions where water molecules are introduced to fill the remaining space. All subsequent force calculations in MD will consider solvent-solvent and solvent-peptide atomic interactions. We use an explicit water regime, meaning that all solvent atoms are modeled as discrete units in the system. While faster alternatives to this paradigm which represent the solvent with mean field behaviour, known as implicit solvent are available, it is well documented that an explicit treatment currently provides results with the highest accuracy ~\cite{onufriev2008implicit, arnold1994evaluation, zhou2003free}. 
 
 Once the peptide is solvated any initial steric clashes between atoms must be allowed to relax. Typically this involves executing an energy minimization algorithm which searches for atomic coordinates that minimizes the forces between atoms to move the system towards an energy minimum. No minimization algorithm guarantees convergence to a global minimum in finite time on a realistic system. However, convergence to a local minimum is often sufficient to eliminate significant clashes. 
 
-At this point, we could begin an MD simulation and obtain trajectories in the NVE ensemble (constant number of particles, volume, and energy). However, we are often interested in comparing results from MD to experimental measurements such as those from NMR where the system is under constant temperature and pressure. It is therefore necessary to ensure that the forces in the system don't produce large fluctuations in the pressure and temperature of the ensemble. In order to keep the temperature constant and achieve an NVT (constant number of particles, volume, and temperature) we use a thermostat. Since the temperature of a system is a function of the kinetic energy, a thermostat re-scales the velocities of the atoms in the system to achieve a given temperature. Likewise, for maintaining constant pressure, a barostat adjusts the size of the box to counteract fluctuations in pressure and thus achieving an NPT ensemble (constant number of particles, pressure, and temperature). During the equilibration step, we first let the system equilibrate to the desired temperature by executing a short simulation in NVT. Then under NPT we allow the system to adjust to the desired pressure. Once both equilibration simulations are complete, the system is ready for a full simulation in NPT. 
+At this point, we could begin an MD simulation and obtain trajectories in the NVE ensemble (constant number of particles, volume, and energy). However, we are often interested in comparing results from MD to experimental measurements such as those from NMR where the system is under constant temperature and pressure. It is therefore necessary to ensure that the forces in the system don't produce large fluctuations in the pressure and temperature of the ensemble. In order to keep the temperature constant and achieve an NVT (constant number of particles, volume, and temperature) we use a thermostat. Since the temperature of a system is a function of the kinetic energy, a thermostat re-scales the velocities of the atoms in the system to achieve a given temperature. Likewise, for maintaining constant pressure, a barostat adjusts the size of the box to counteract fluctuations in pressure and thus achieving an NPT ensemble (constant number of particles, pressure, and temperature). During the equilibration step, we first let the system adjust to the desired temperature by executing a short simulation in NVT. Then under NPT we allow the system to adjust to the desired pressure. Once both equilibration simulations are complete, the system is ready for a full simulation in NPT. 
 
 \section{Trajectory Analysis}
 
@@ -87,9 +108,11 @@ R_g(\vek{r}) = \sqrt{N^{-1} \sum_{k=1}^{N} (\vek{r_k} - \vek{r_{mean}})^2}
 
 \subsection{Diffusion coefficient and Hydrodynamic Radius}
 
-Like radius of gyration, diffusion coefficient is a proxy for the compactness of a macromolecule. Unlike radius of gyration, diffusion coefficient can be measured through NMR spectroscopy and thus allows us to make direct comparisons between simulation trajectories and experimental values. The translational diffusion coefficeint of a macromolecule is defined as the rate at which its center of mass is able to diffuse through a solvent of given viscosity under a certain hydrodynamic model. Conformations with high diffusion rates experience rapid displacement of their center of mass, while conformations with greater friction force with the solvent experience reduced diffusion coefficients. 
+Like radius of gyration, diffusion coefficient (\diffusion) and hydrodynamic radius ($R_h$) is a proxy for the compactness of a macromolecule. However, \diffusion and $R_h$ are quantities that describe the size of the molecule in the context of their solvent. Because biomolecules perform all of their function in solution, and are shaped by their interactions with the solvent, these quantities are often more informative than $R_g$.
 
-The process of computing the translational diffusion coefficient for a particular conformation is done by the software package \texttt{hydroNMR}. The method of calculating the diffusion coefficient will not be discussed here in detail as it is beyond the scope of this work.. The main concept is that the software models each atom in a list of atomic coordinates, in our case obtained by MD, as a spherical bead. This chain of beads is packed with a hexagonal lattice and internal beads are removed to extract a topology of residues exposed to the solvent. From this topology, the software calculates the frictional force that a given conformation would exert on the solvent, this is contained in the translational friction tensor $\Xi$. The following expression gives us the translational diffusion tensor $\vek{D_t}$.
+The translational diffusion coefficeint of a macromolecule is defined as the rate at which its center of mass is able to diffuse through a solvent of given viscosity under a certain hydrodynamic model. Conformations with high diffusion rates experience rapid displacement of their center of mass, while conformations with greater viscous force with the solvent experience reduced diffusion coefficients. 
+
+The process of computing the translational diffusion coefficient for a particular conformation is done by the software package \texttt{hydroNMR} ~\cite{de2000hydronmr}. The method of calculating the diffusion coefficient will not be discussed here in detail as it is beyond the scope of this work.. The main concept is that the software models each atom in a list of atomic coordinates, in our case obtained by MD, as a spherical bead. This chain of beads is packed into a hexagonal lattice and internal beads are removed to extract a topology of residues exposed to the solvent. From this topology, the software calculates the frictional force that a given conformation would exert on the solvent, this is contained in the translational friction tensor $\Xi$. The following expression gives us the translational diffusion tensor $\vek{D_t}$.
 
 \begin{equation}
 \vek{D_{t}} = k_BT\Xi_{t}^{-1}
@@ -104,10 +127,10 @@ D_t = \frac{1}{3}tr(\vek{D_t})
 Knowing \diffusion, we can use the Stokes-Einstein equation to obtain an expression for the effective hydrodynamic radius which measures the diffusion of spherical particles.
 
 \begin{equation}
-r = \frac{k_{B}T}{6\pi \eta D_{t}}
+R_h = \frac{k_{B}T}{6\pi \eta D_{t}}
 \end{equation}
 
-Where r is the hydrodynamic radius and $\eta$ is the viscosity of the solvent.
+Where $R_h$ is the hydrodynamic radius and $\eta$ is the viscosity of the solvent.
 
 \subsection{Covariance Analysis}
 
@@ -119,7 +142,7 @@ Covariance analysis, or principal component analysis is a mathematical tool whic
 C_{ij} = \bigg\langle M_{ii}^{\frac{1}{2}} (\vek{x_i}(t) - \langle \vek{x_i}(t) \rangle) M_{jj}^{\frac{1}{2}} (\vek{x_j}(t) - \langle \vek{x_j}(t) \rangle) \bigg\rangle
 \end{equation}
 
-The eigenvectors of the covariance matrix, $C$ define the set of orthogonal axes along which maximize variance. Note that $\langle \quad \rangle$ denotes a time average. Due to the constraints imposed by the backbone, only a couple of eigenvectors are expected to contribute most to global movements.
+The eigenvectors of the covariance matrix, $C$ define the set of orthogonal axes along which maximize variance. Note that $\langle \quad \rangle$ denotes a time average. Due to the constraints imposed by the backbone, only a limited number of eigenvectors are expected to contribute most to global movements.
 
 \begin{equation}
 R^{T}CR = diag(\lambda_1, \lambda_2, ... \lambda_{3N}) \text{\qquad where \quad} \lambda_1 \geq \lambda_2 \geq \lambda_{3N}
