@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 AUG 2016 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 AUG 2016 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,44 +1944,7 @@ Writing index file abbr.idx
 LaTeX Warning: Unused global option(s):
     [letterpaper].
 
-(./thesis_cgo.aux
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-)
+(./thesis_cgo.aux)
 \openout1 = `thesis_cgo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -2002,8 +1965,7 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 72.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 72.
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 72.
 
 **************************************
@@ -2147,15 +2109,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write8
 \openout8 = `thesis_cgo.toc'.
 
- [8] (./thesis_cgo.lof)
-\tf@lof=\write9
-\openout9 = `thesis_cgo.lof'.
-
+ [8] (./thesis_cgo.lof
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
  [9
 
 
 
-] [10] (./abbr.ind [11
+])
+\tf@lof=\write9
+\openout9 = `thesis_cgo.lof'.
+
+ [10] (./abbr.ind [11
 
 
 
@@ -2240,260 +2208,310 @@ CHAPTER 3.
 
 LaTeX Warning: Reference `eq:stokes' on page 26 undefined on input line 12.
 
-[26]
+[26] [27]
 
-LaTeX Warning: Citation `ozenne2012flexible' on page 27 undefined on input line
- 20.
+LaTeX Warning: Citation `ozenne2012flexible' on page 28 undefined on input line
+ 18.
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[28]
+Overfull \hbox (25.65463pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 pro-duced in shorter timescale MD sim-u-la-tions of faster ex-c
+hange rates  /citemassi2004nmr,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[28] <figures/wt_ss.png, id=150, 246.4407pt x 182.8431pt>
+[29] <figures/wt_ss.png, id=153, 246.4407pt x 182.8431pt>
 File: figures/wt_ss.png Graphic file (type png)
 
 <use figures/wt_ss.png>
-Package pdftex.def Info: figures/wt_ss.png used on input line 35.
+Package pdftex.def Info: figures/wt_ss.png used on input line 33.
 (pdftex.def)             Requested size: 210.70462pt x 156.32967pt.
- <figures/yd_ss.png, id=151, 253.6677pt x 182.8431pt>
+ <figures/yd_ss.png, id=154, 253.6677pt x 182.8431pt>
 File: figures/yd_ss.png Graphic file (type png)
 
 <use figures/yd_ss.png>
-Package pdftex.def Info: figures/yd_ss.png used on input line 36.
+Package pdftex.def Info: figures/yd_ss.png used on input line 34.
 (pdftex.def)             Requested size: 210.70462pt x 151.87968pt.
- [29] [30 <./figures/wt_ss.png> <./figures/yd_ss.png>]
-<figures/rmsd.png, id=160, 397.485pt x 397.485pt>
+ [30] [31 <./figures/wt_ss.png> <./figures/yd_ss.png>]
+<figures/rmsd.png, id=164, 397.485pt x 397.485pt>
 File: figures/rmsd.png Graphic file (type png)
  <use figures/rmsd.png>
-Package pdftex.def Info: figures/rmsd.png used on input line 48.
+Package pdftex.def Info: figures/rmsd.png used on input line 46.
 (pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
-<figures/rmsd_10.png, id=161, 397.485pt x 397.485pt>
+<figures/rmsd_10.png, id=165, 397.485pt x 397.485pt>
 File: figures/rmsd_10.png Graphic file (type png)
  <use figures/rmsd_10.png>
-Package pdftex.def Info: figures/rmsd_10.png used on input line 49.
+Package pdftex.def Info: figures/rmsd_10.png used on input line 47.
 (pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
-[31] [32 <./figures/rmsd.png> <./figures/rmsd_10.png>]
-
-LaTeX Warning: Marginpar on page 33 moved.
-
+[32 <./figures/rmsd.png> <./figures/rmsd_10.png>]
 <figures/FM_hist.png, id=171, 397.485pt x 397.485pt>
 File: figures/FM_hist.png Graphic file (type png)
  <use figures/FM_hist.png>
-Package pdftex.def Info: figures/FM_hist.png used on input line 66.
+Package pdftex.def Info: figures/FM_hist.png used on input line 63.
 (pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
 
 <figures/FM_rainbows.png, id=172, 291.7299pt x 321.3606pt>
 File: figures/FM_rainbows.png Graphic file (type png)
 
 <use figures/FM_rainbows.png>
-Package pdftex.def Info: figures/FM_rainbows.png used on input line 67.
+Package pdftex.def Info: figures/FM_rainbows.png used on input line 64.
 (pdftex.def)             Requested size: 176.81096pt x 194.77019pt.
- [33 <./figures/FM_hist.png> <./figures/FM_rainbows.png>] <figures/wt_hist.png,
- id=180, 397.485pt x 397.485pt>
+ [33] [34 <./figures/FM_hist.png> <./figures/FM_rainbows.png>] <figures/wt_hist
+.png, id=183, 397.485pt x 397.485pt>
 File: figures/wt_hist.png Graphic file (type png)
 
 <use figures/wt_hist.png>
-Package pdftex.def Info: figures/wt_hist.png used on input line 78.
+Package pdftex.def Info: figures/wt_hist.png used on input line 75.
 (pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
-
-<figures/yd_2gauss.png, id=181, 397.485pt x 397.485pt>
+ <figures/yd_2gauss.png, id=184, 794.97pt x 794.97pt>
 File: figures/yd_2gauss.png Graphic file (type png)
 
 <use figures/yd_2gauss.png>
-Package pdftex.def Info: figures/yd_2gauss.png used on input line 79.
-(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
+Package pdftex.def Info: figures/yd_2gauss.png used on input line 76.
+(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<figures/lines_dc.png, id=182, 397.485pt x 397.485pt>
+<figures/lines_dc.png, id=185, 794.97pt x 794.97pt>
 File: figures/lines_dc.png Graphic file (type png)
+ <use figures/lines_dc.png>
+Package pdftex.def Info: figures/lines_dc.png used on input line 77.
+(pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<use figures/lines_dc.png>
-Package pdftex.def Info: figures/lines_dc.png used on input line 80.
-(pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
- <figures/dc_ts.png, id=183, 115.1502pt x 90.3375pt>
+
+LaTeX Warning: Float too large for page by 62.91763pt on input line 80.
+
+<figures/dc_ts.png, id=186, 115.1502pt x 90.3375pt>
 File: figures/dc_ts.png Graphic file (type png)
-
-<use figures/dc_ts.png>
-Package pdftex.def Info: figures/dc_ts.png used on input line 89.
+ <use figures/dc_ts.png>
+Package pdftex.def Info: figures/dc_ts.png used on input line 86.
 (pdftex.def)             Requested size: 248.292pt x 194.77019pt.
- <figures/dc_strucs.png, id=184, 118.041pt x 75.4017pt>
+
+<figures/dc_strucs.png, id=187, 118.041pt x 75.4017pt>
 File: figures/dc_strucs.png Graphic file (type png)
 
 <use figures/dc_strucs.png>
-Package pdftex.def Info: figures/dc_strucs.png used on input line 90.
+Package pdftex.def Info: figures/dc_strucs.png used on input line 87.
 (pdftex.def)             Requested size: 261.38765pt x 166.94466pt.
- [34] [35 <./figures/wt_hist.png> <./figures/yd_2gauss.png> <./figures/lines_dc
-.png>] [36 <./figures/dc_ts.png> <./figures/dc_strucs.png>] [37] <figures/wt_co
-ntacts.png, id=203, 54.2025pt x 61.9113pt>
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+
+
+LaTeX Warning: Citation `boschitsch2002fast' on page 35 undefined on input line
+ 88.
+
+
+LaTeX Warning: Float too large for page by 47.38823pt on input line 90.
+
+[35] [36 <./figures/wt_hist.png> <./figures/yd_2gauss.png> <./figures/lines_dc.
+png>] [37 <./figures/dc_ts.png> <./figures/dc_strucs.png>] [38]
+<figures/wt_contacts.png, id=207, 54.2025pt x 61.9113pt>
 File: figures/wt_contacts.png Graphic file (type png)
 
 <use figures/wt_contacts.png>
-Package pdftex.def Info: figures/wt_contacts.png used on input line 102.
+Package pdftex.def Info: figures/wt_contacts.png used on input line 99.
 (pdftex.def)             Requested size: 170.532pt x 194.77019pt.
 
-<figures/yd_contacts.png, id=204, 54.2025pt x 61.9113pt>
+<figures/yd_contacts.png, id=208, 54.2025pt x 61.9113pt>
 File: figures/yd_contacts.png Graphic file (type png)
 
 <use figures/yd_contacts.png>
-Package pdftex.def Info: figures/yd_contacts.png used on input line 103.
+Package pdftex.def Info: figures/yd_contacts.png used on input line 100.
 (pdftex.def)             Requested size: 170.532pt x 194.77019pt.
 
-<figures/representatives.png, id=205, 54.9252pt x 60.9477pt>
+<figures/representatives.png, id=209, 54.9252pt x 60.9477pt>
 File: figures/representatives.png Graphic file (type png)
 
 <use figures/representatives.png>
-Package pdftex.def Info: figures/representatives.png used on input line 104.
+Package pdftex.def Info: figures/representatives.png used on input line 101.
 (pdftex.def)             Requested size: 175.55298pt x 194.77019pt.
- [38] [39 <./figures/wt_contacts.png> <./figures/yd_contacts.png> <./figures/re
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [39] [40 <./figures/wt_contacts.png> <./figures/yd_contacts.png> <./figures/re
 presentatives.png>]
-<figures/eigenvals.png, id=216, 397.485pt x 397.485pt>
+<figures/eigenvals.png, id=219, 397.485pt x 397.485pt>
 File: figures/eigenvals.png Graphic file (type png)
 
 <use figures/eigenvals.png>
-Package pdftex.def Info: figures/eigenvals.png used on input line 118.
+Package pdftex.def Info: figures/eigenvals.png used on input line 116.
 (pdftex.def)             Requested size: 194.7754pt x 194.77019pt.
- [40 <./figures/eigenvals.png>]
-
-LaTeX Warning: Marginpar on page 41 moved.
-
-<2d_scatter_wt.png, id=221, 794.97pt x 794.97pt>
+ [41]
+<2d_scatter_wt.png, id=223, 794.97pt x 794.97pt>
 File: 2d_scatter_wt.png Graphic file (type png)
  <use 2d_scatter_wt.png>
-Package pdftex.def Info: 2d_scatter_wt.png used on input line 129.
+Package pdftex.def Info: 2d_scatter_wt.png used on input line 127.
 (pdftex.def)             Requested size: 210.70462pt x 210.70244pt.
 
-<figures/2d_scatter_yd.png, id=222, 397.485pt x 397.485pt>
+<figures/2d_scatter_yd.png, id=224, 397.485pt x 397.485pt>
 File: figures/2d_scatter_yd.png Graphic file (type png)
 
 <use figures/2d_scatter_yd.png>
-Package pdftex.def Info: figures/2d_scatter_yd.png used on input line 130.
+Package pdftex.def Info: figures/2d_scatter_yd.png used on input line 128.
 (pdftex.def)             Requested size: 210.70462pt x 210.7085pt.
- [41
 
- <./2d_scatter_wt.png> <./figures/2d_scatter_yd.png>] <figures/yd_porcupine.png
-, id=228, 814.0011pt x 518.8986pt>
+<figures/yd_porcupine.png, id=225, 814.0011pt x 518.8986pt>
 File: figures/yd_porcupine.png Graphic file (type png)
 
 <use figures/yd_porcupine.png>
-Package pdftex.def Info: figures/yd_porcupine.png used on input line 141.
+Package pdftex.def Info: figures/yd_porcupine.png used on input line 139.
 (pdftex.def)             Requested size: 349.16905pt x 222.58722pt.
- [42 <./figures/yd_porcupine.png (PNG copy)>]
-<figures/glob_overlay.png, id=232, 104.5506pt x 60.225pt>
+ [42 <./figures/eigenvals.png>] [43
+
+ <./2d_scatter_wt.png> <./figures/2d_scatter_yd.png>] [44 <./figures/yd_porcupi
+ne.png (PNG copy)>] <figures/glob_overlay.png, id=239, 104.5506pt x 60.225pt>
 File: figures/glob_overlay.png Graphic file (type png)
 
 <use figures/glob_overlay.png>
-Package pdftex.def Info: figures/glob_overlay.png used on input line 156.
+Package pdftex.def Info: figures/glob_overlay.png used on input line 154.
 (pdftex.def)             Requested size: 210.70462pt x 121.37689pt.
 
-<figures/globrg.png, id=233, 231.9867pt x 183.5658pt>
+<figures/globrg.png, id=240, 231.9867pt x 183.5658pt>
 File: figures/globrg.png Graphic file (type png)
  <use figures/globrg.png>
-Package pdftex.def Info: figures/globrg.png used on input line 157.
-(pdftex.def)             Requested size: 171.99922pt x 136.09984pt.
+Package pdftex.def Info: figures/globrg.png used on input line 155.
+(pdftex.def)             Requested size: 150.50424pt x 119.08946pt.
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
 
-[43
-
- <./figures/glob_overlay.png> <./figures/globrg.png>]
-<figures/consensus.png, id=240, 111.5367pt x 67.9338pt>
+[45] <figures/consensus.png, id=244, 111.5367pt x 67.9338pt>
 File: figures/consensus.png Graphic file (type png)
 
 <use figures/consensus.png>
-Package pdftex.def Info: figures/consensus.png used on input line 168.
+Package pdftex.def Info: figures/consensus.png used on input line 166.
 (pdftex.def)             Requested size: 301.00192pt x 183.33972pt.
- [44] [45 <./figures/consensus.png>]
-<figures/wells_a.png, id=248, 213.9192pt x 211.5102pt>
+ [46
+
+ <./figures/glob_overlay.png> <./figures/globrg.png>] [47 <./figures/consensus.
+png>] [48]
+<figures/wells_a.png, id=257, 213.9192pt x 211.5102pt>
 File: figures/wells_a.png Graphic file (type png)
 
 <use figures/wells_a.png>
-Package pdftex.def Info: figures/wells_a.png used on input line 183.
+Package pdftex.def Info: figures/wells_a.png used on input line 181.
 (pdftex.def)             Requested size: 193.50076pt x 191.33208pt.
 
-<figures/wells_b.png, id=249, 233.4321pt x 210.3057pt>
+<figures/wells_b.png, id=258, 233.4321pt x 210.3057pt>
 File: figures/wells_b.png Graphic file (type png)
 
 <use figures/wells_b.png>
-Package pdftex.def Info: figures/wells_b.png used on input line 184.
+Package pdftex.def Info: figures/wells_b.png used on input line 182.
 (pdftex.def)             Requested size: 210.70462pt x 189.83495pt.
- [46] [47 <./figures/wells_a.png> <./figures/wells_b.png>]
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-<figures/model.png, id=258, 117.5592pt x 99.4917pt>
+ [49 <./figures/wells_a.png> <./figures/wells_b.png>]
+<figures/model.png, id=265, 117.5592pt x 99.4917pt>
 File: figures/model.png Graphic file (type png)
  <use figures/model.png>
-Package pdftex.def Info: figures/model.png used on input line 193.
+Package pdftex.def Info: figures/model.png used on input line 191.
 (pdftex.def)             Requested size: 328.84059pt x 278.23828pt.
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
 )
-[48 <./figures/model.png>]
+[50] [51 <./figures/model.png>]
 ***************************
 CHAPTER 4.
 ***************************
-(./conclusion.tex) [49
+(./conclusion.tex) [52
 
-] (./appendix.tex [50]
+] (./appendix.tex [53]
 ***************************
 CHAPTER 5.
 ***************************
-<figures/pp.png, id=270, 827.09pt x 713.66624pt>
+<figures/pp.png, id=279, 827.09pt x 713.66624pt>
 File: figures/pp.png Graphic file (type png)
  <use figures/pp.png>
 Package pdftex.def Info: figures/pp.png used on input line 6.
 (pdftex.def)             Requested size: 258.00539pt x 222.62811pt.
 
-<figures/nmr_ss.png, id=271, 234.8775pt x 289.08pt>
+<figures/nmr_ss.png, id=280, 234.8775pt x 289.08pt>
 File: figures/nmr_ss.png Graphic file (type png)
  <use figures/nmr_ss.png>
-Package pdftex.def Info: figures/nmr_ss.png used on input line 14.
+Package pdftex.def Info: figures/nmr_ss.png used on input line 13.
 (pdftex.def)             Requested size: 215.0023pt x 264.62029pt.
 
-<figures/nmr_shifts.png, id=272, 419.6478pt x 289.08pt>
+<figures/nmr_shifts.png, id=281, 419.6478pt x 289.08pt>
 File: figures/nmr_shifts.png Graphic file (type png)
 
 <use figures/nmr_shifts.png>
-Package pdftex.def Info: figures/nmr_shifts.png used on input line 21.
+Package pdftex.def Info: figures/nmr_shifts.png used on input line 20.
 (pdftex.def)             Requested size: 215.0023pt x 148.10814pt.
 
-<figures/nmr_diffusion.png, id=273, 234.8775pt x 227.1687pt>
+<figures/nmr_diffusion.png, id=282, 234.8775pt x 227.1687pt>
 File: figures/nmr_diffusion.png Graphic file (type png)
 
 <use figures/nmr_diffusion.png>
-Package pdftex.def Info: figures/nmr_diffusion.png used on input line 28.
+Package pdftex.def Info: figures/nmr_diffusion.png used on input line 27.
 (pdftex.def)             Requested size: 215.0023pt x 207.94743pt.
 
-<figures/nmr_r2.png, id=274, 234.8775pt x 289.08pt>
+<figures/nmr_r2.png, id=283, 234.8775pt x 289.08pt>
 File: figures/nmr_r2.png Graphic file (type png)
  <use figures/nmr_r2.png>
-Package pdftex.def Info: figures/nmr_r2.png used on input line 35.
+Package pdftex.def Info: figures/nmr_r2.png used on input line 34.
 (pdftex.def)             Requested size: 215.0023pt x 264.62029pt.
 
-<figures/gamma_aln.png, id=275, 384.9582pt x 747.2718pt>
+<figures/yd_hist.png, id=284, 397.485pt x 397.485pt>
+File: figures/yd_hist.png Graphic file (type png)
+ <use figures/yd_hist.png>
+Package pdftex.def Info: figures/yd_hist.png used on input line 41.
+(pdftex.def)             Requested size: 250.41687pt x 250.41275pt.
+
+<figures/gamma_aln.png, id=285, 384.9582pt x 747.2718pt>
 File: figures/gamma_aln.png Graphic file (type png)
 
 <use figures/gamma_aln.png>
-Package pdftex.def Info: figures/gamma_aln.png used on input line 43.
+Package pdftex.def Info: figures/gamma_aln.png used on input line 48.
 (pdftex.def)             Requested size: 301.00192pt x 584.31776pt.
 
 
-LaTeX Warning: Float too large for page by 49.8412pt on input line 44.
+LaTeX Warning: Float too large for page by 49.8412pt on input line 49.
 
-<figures/beta_aln.png, id=276, 363.759pt x 734.745pt>
+<figures/beta_aln.png, id=286, 363.759pt x 734.745pt>
 File: figures/beta_aln.png Graphic file (type png)
 
 <use figures/beta_aln.png>
-Package pdftex.def Info: figures/beta_aln.png used on input line 48.
+Package pdftex.def Info: figures/beta_aln.png used on input line 53.
 (pdftex.def)             Requested size: 301.00192pt x 607.98833pt.
 
 
-LaTeX Warning: Float too large for page by 108.16171pt on input line 51.
+LaTeX Warning: Float too large for page by 108.16171pt on input line 56.
 
-) (./thesis_cgo.bbl [51
+) (./thesis_cgo.bbl [54
 
-] [52 <./figures/pp.png> <./figures/nmr_ss.png>]
-[53 <./figures/nmr_shifts.png> <./figures/nmr_diffusion.png>] [54 <./figures/nm
-r_r2.png>] [55 <./figures/gamma_aln.png>] [56 <./figures/beta_aln.png>]
-[57
+] [55 <./figures/pp.png> <./figures/nmr_ss.png>]
+[56 <./figures/nmr_shifts.png> <./figures/nmr_diffusion.png>] [57 <./figures/nm
+r_r2.png>] [58 <./figures/yd_hist.png>] [59 <./figures/gamma_aln.png>] [60 <./f
+igures/beta_aln.png>] [61
 
 
 ]
@@ -2504,7 +2522,7 @@ Missing character: There is no à in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [58] [59] [60] [61] [62] [63]) (./thesis_cgo.aux)
+ [62] [63] [64] [65] [66] [67]) (./thesis_cgo.aux)
 
  *File List*
 mcgilletdclass.cls    2004/12/01 v0.1 McGill University Thesis Class
@@ -2637,6 +2655,7 @@ figures/nmr_ss.png
 figures/nmr_shifts.png
 figures/nmr_diffusion.png
 figures/nmr_r2.png
+figures/yd_hist.png
 figures/gamma_aln.png
 figures/beta_aln.png
 thesis_cgo.bbl
@@ -2645,18 +2664,15 @@ thesis_cgo.bbl
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 30191 strings out of 493014
- 573649 string characters out of 6133351
- 687002 words of memory out of 5000000
- 33270 multiletter control sequences out of 15000+600000
+ 30171 strings out of 493014
+ 573108 string characters out of 6133351
+ 676477 words of memory out of 5000000
+ 33249 multiletter control sequences out of 15000+600000
  25210 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,92p,10382b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,92p,10382b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -2675,10 +2691,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis_cgo.pdf (75 pages, 6598723 bytes).
+Output written on thesis_cgo.pdf (79 pages, 7026648 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+ 398 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
