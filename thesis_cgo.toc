@@ -2,9 +2,9 @@
 \contentsline {extrachapter}{\MakeUppercase {Acknowledgements}}{iii}
 \contentsline {extrachapter}{\MakeUppercase {Contribution of Authors}}{iv}
 \contentsline {extrachapter}{\MakeUppercase {Abstract}}{v}
-\contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{vi}
-\contentsline {extrachapter}{\MakeUppercase {List of Figures}}{ix}
-\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{xi}
+\contentsline {extrachapter}{\MakeUppercase {ABR\'{E}G\'{E}}}{vii}
+\contentsline {extrachapter}{\MakeUppercase {List of Figures}}{x}
+\contentsline {extrachapter}{KEY TO ABBREVIATIONS}{xii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Disorder in proteins}{3}
 \contentsline {section}{\numberline {1.2}Physical mechanisms of IDR function in cellular machines}{6}
