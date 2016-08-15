@@ -27,11 +27,11 @@
 \contentsline {section}{\numberline {3.1}NMR}{26}
 \contentsline {section}{\numberline {3.2}MD simulation set-up}{28}
 \contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{29}
-\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{40}
-\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{44}
+\contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{39}
+\contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{45}
 \contentsline {section}{\numberline {3.4}Discussion}{47}
-\contentsline {chapter}{\numberline {4}Conclusions}{53}
-\contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{53}
-\contentsline {subsection}{\numberline {4.0.2}Future Aims}{53}
-\contentsline {chapter}{\numberline {5}Appendix}{55}
-\contentsline {extrachapter}{References}{65}
+\contentsline {chapter}{\numberline {4}Conclusions}{52}
+\contentsline {subsection}{\numberline {4.0.1}Summary of Findings}{52}
+\contentsline {subsection}{\numberline {4.0.2}Future Aims}{52}
+\contentsline {chapter}{\numberline {5}Appendix}{54}
+\contentsline {extrachapter}{References}{64}

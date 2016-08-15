@@ -2,46 +2,46 @@
 \contentsline {figure}{\numberline {{3--1}}{\ignorespaces $\gamma $-CT\xspace Secondary Structure Assignments\relax }}{31}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{31}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{31}
-\contentsline {figure}{\numberline {{3--2}}{\ignorespaces RMSD\relax }}{33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{33}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{33}
-\contentsline {figure}{\numberline {{3--3}}{\ignorespaces $\gamma $-CT\xspace predicted conformational ensemble\relax }}{35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribution of $D_{t}$\xspace in conformer ensemble}}}{35}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{35}
-\contentsline {figure}{\numberline {{3--4}}{\ignorespaces Distribution of diffusion coefficients\relax }}{37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{37}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{37}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Distribution Overlay}}}{37}
-\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Time series of conformational sampling of γ−CT under Molecular Dynamics Simulations.\relax }}{38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$D_{t}$\xspace over simulation time}}}{38}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{38}
-\contentsline {figure}{\numberline {{3--6}}{\ignorespaces Contact Maps of Extended and Collapsed Ensembles\relax }}{41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{41}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{41}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Representative Structures}}}{41}
-\contentsline {figure}{\numberline {{3--7}}{\ignorespaces Eigenvalues of $\gamma $-CT\xspace PCA\relax }}{42}
-\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{43}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{43}
-\contentsline {figure}{\numberline {{3--9}}{\ignorespaces Extreme projection along opening-closing axis.\relax }}{44}
-\contentsline {figure}{\numberline {{3--10}}{\ignorespaces Extreme projection along opening-closing axis.\relax }}{45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Porcupine Plot}}}{45}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD Contact Maps}}}{45}
+\contentsline {figure}{\numberline {{3--2}}{\ignorespaces RMSD\relax }}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSD to initial frame}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RMSD 10ns window}}}{32}
+\contentsline {figure}{\numberline {{3--3}}{\ignorespaces $\gamma $-CT\xspace predicted conformational ensemble\relax }}{34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distribution of $D_{t}$\xspace in conformer ensemble}}}{34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{34}
+\contentsline {figure}{\numberline {{3--4}}{\ignorespaces Distribution of diffusion coefficients\relax }}{36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{36}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Distribution Overlay}}}{36}
+\contentsline {figure}{\numberline {{3--5}}{\ignorespaces Time series of conformational sampling of $\gamma $-CT\xspace under Molecular Dynamics Simulations.\relax }}{37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$D_{t}$\xspace over simulation time}}}{37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Representative structures}}}{37}
+\contentsline {figure}{\numberline {{3--6}}{\ignorespaces Contact Maps of Extended and Collapsed Ensembles\relax }}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{40}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Representative Structures}}}{40}
+\contentsline {figure}{\numberline {{3--7}}{\ignorespaces Eigenvalues of $\gamma $-CT\xspace PCA\relax }}{41}
+\contentsline {figure}{\numberline {{3--8}}{\ignorespaces Principal Component Analysis\relax }}{42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WT}}}{42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD}}}{42}
+\contentsline {figure}{\numberline {{3--9}}{\ignorespaces Extreme projection along opening-closing axis.\relax }}{43}
+\contentsline {figure}{\numberline {{3--10}}{\ignorespaces Extreme projection along opening-closing axis.\relax }}{44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Porcupine Plot}}}{44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YD Contact Maps}}}{44}
 \contentsline {figure}{\numberline {{3--11}}{\ignorespaces $\gamma $-Tubulin\xspace whole protein simulation\relax }}{46}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Whole protein simulation conformers}}}{46}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma $-CT\xspace Radius of Gyration}}}{46}
-\contentsline {figure}{\numberline {{3--12}}{\ignorespaces Multiple Sequence Alignment of $\gamma $-CT\xspace across eukaryotes\relax }}{48}
-\contentsline {figure}{\numberline {{3--13}}{\ignorespaces IDP Conformational Landscapes\relax }}{50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Unstructured Landscape}}}{50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Structured Landscape}}}{50}
-\contentsline {figure}{\numberline {{3--14}}{\ignorespaces $\gamma $-TuRC\relax }}{52}
-\contentsline {figure}{\numberline {{5--1}}{\ignorespaces Polyproline Simulation\relax }}{56}
-\contentsline {figure}{\numberline {{5--2}}{\ignorespaces NMR Secondary Structure Assignments\relax }}{57}
-\contentsline {figure}{\numberline {{5--3}}{\ignorespaces NMR Chemical Shifts\relax }}{58}
-\contentsline {figure}{\numberline {{5--4}}{\ignorespaces NMR Diffusion Measurements\relax }}{59}
-\contentsline {figure}{\numberline {{5--5}}{\ignorespaces NMR Dispersion Measurements\relax }}{60}
-\contentsline {figure}{\numberline {{5--6}}{\ignorespaces YD Diffusion Coefficient Histogram\relax }}{61}
-\contentsline {figure}{\numberline {{5--7}}{\ignorespaces YD Globular Contact Map\relax }}{62}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma $-CT\xspace }}}{63}
-\contentsline {figure}{\numberline {{5--7}}{\ignorespaces Full $\gamma $ and $\beta $ Tubulin CT Multiple Sequence Alignments\relax }}{64}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\beta $-CT}}}{64}
+\contentsline {figure}{\numberline {{3--12}}{\ignorespaces Multiple Sequence Alignment of $\gamma $-CT\xspace across eukaryotes\relax }}{47}
+\contentsline {figure}{\numberline {{3--13}}{\ignorespaces IDP Conformational Landscapes\relax }}{49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Unstructured Landscape}}}{49}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Structured Landscape}}}{49}
+\contentsline {figure}{\numberline {{3--14}}{\ignorespaces $\gamma $-TuRC\relax }}{51}
+\contentsline {figure}{\numberline {{5--1}}{\ignorespaces Polyproline Simulation\relax }}{55}
+\contentsline {figure}{\numberline {{5--2}}{\ignorespaces NMR Secondary Structure Assignments\relax }}{56}
+\contentsline {figure}{\numberline {{5--3}}{\ignorespaces NMR Chemical Shifts\relax }}{57}
+\contentsline {figure}{\numberline {{5--4}}{\ignorespaces NMR Diffusion Measurements\relax }}{58}
+\contentsline {figure}{\numberline {{5--5}}{\ignorespaces NMR Dispersion Measurements\relax }}{59}
+\contentsline {figure}{\numberline {{5--6}}{\ignorespaces YD Diffusion Coefficient Histogram\relax }}{60}
+\contentsline {figure}{\numberline {{5--7}}{\ignorespaces YD Globular Contact Map\relax }}{61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma $-CT\xspace }}}{62}
+\contentsline {figure}{\numberline {{5--7}}{\ignorespaces Full $\gamma $ and $\beta $ Tubulin CT Multiple Sequence Alignments\relax }}{63}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\beta $-CT}}}{63}
