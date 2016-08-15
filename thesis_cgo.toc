@@ -26,7 +26,7 @@
 \contentsline {chapter}{\numberline {3}Conformational analysis of the $\gamma $-Tubulin\xspace carboxyl terminus}{25}
 \contentsline {section}{\numberline {3.1}NMR}{26}
 \contentsline {section}{\numberline {3.2}MD simulation set-up}{28}
-\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace isoforms}{29}
+\contentsline {section}{\numberline {3.3}Conformational sampling of $\gamma $-CT\xspace }{29}
 \contentsline {subsection}{\numberline {3.3.1}Collective motions correspond to transitions between extended and collapsed conformations}{39}
 \contentsline {subsection}{\numberline {3.3.2}Whole protein simulations and conserved properties of $\gamma $-CT\xspace }{45}
 \contentsline {section}{\numberline {3.4}Discussion}{47}
