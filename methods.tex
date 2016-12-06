@@ -71,7 +71,7 @@ E_{nonbonded} = \sum_{i>j} f_{ij} \left(
 
 Where $A$ and $C$ represent combining rules which allow us to obtain the interaction energy of dissimilar non-bonded atoms. OPLS uses standard combining rules where $A_ij = \sqrt{A_{ii}A_{jj}}$ and $C_{ij} = \sqrt{C_{ii}C_{jj}}$ ~\cite{good1970new}.
 
-We believe the OPLS-AA force field is be best fit for modeling charge-dependent motions of the \gct. Whereas other popular force fields such as CHARMM were parametrized on X-ray crystallographic experimental values of folded globular proteins, the OPLS force field was optimized with quantum chemical calculations of charged short peptides ~\cite{kukol2008molecular}. This approach is likely to more accurately model the dynamics of unfolded peptides where other force fields may tend to favour the formation of collapsed stable secondary structure motifs ~\cite{henriques2015molecular, tran2008role}. Furthermore, it has been reported that the small and localized treatment of charged groups in OPLS-AA is well suited for systems where local charge interactions drive global dynamics ~\cite{vitalis2009absinth}. We show that a simulation under OPLS-AA is able to accurately produce an extended conformation for the \lq molecular ruler \rq polyproline ~\cite{schuler2005polyproline} \figref{fig:pp}. We also control the appropriateness of the force field by comparing MD values to NMR measurements on the same system.
+We believe the OPLS-AA force field to be the best fit for modeling charge-dependent motions of the \gct. Whereas other popular force fields such as CHARMM were parametrized on X-ray crystallographic experimental values of folded globular proteins, the OPLS force field was optimized with quantum chemical calculations of charged short peptides ~\cite{kukol2008molecular}. This approach is likely to more accurately model the dynamics of unfolded peptides where other force fields may tend to favour the formation of collapsed stable secondary structure motifs ~\cite{henriques2015molecular, tran2008role}. Furthermore, it has been reported that the small and localized treatment of charged groups in OPLS-AA is well suited for systems where local charge interactions drive global dynamics ~\cite{vitalis2009absinth}. We show that a simulation under OPLS-AA is able to accurately produce an extended conformation for the \lq molecular ruler \rq polyproline ~\cite{schuler2005polyproline} \figref{fig:pp}. We also control the appropriateness of the force field by comparing MD values to NMR measurements on the same system.
 
 \subsection{Preparing the system for a simulation}
 
@@ -91,6 +91,7 @@ The MD simulation generates a set of coordinates for every atom in the system as
 
 We measure the square displacement between the coordinates of atom $i$ at time $t$ weighted by the mass of the atom $m_i$. We iterate this process for every atom in the peptide to obtain a measure of the degree of change between two conformations in time.
 
+\todo{define M}
 \begin{equation}
 \text{RMSD}(t_1, t_2) = \bigg[ M^{-1} \sum_{i=1}^{N} m_{i} \lvert \lvert \vek{r_{i}}(t_{1}) - \vek{r_{i}}(t_{2}) \rvert \rvert^2 \bigg]^\frac{1}{2}
 \end{equation}
@@ -98,7 +99,7 @@ We measure the square displacement between the coordinates of atom $i$ at time $
 
 \subsection{Radius of gyration}
 
-The radius of gyration is a measure of a structure's compactness. To obtain the radius of gyration, we compute the mean squared distance from every atom $r_i$ to the molecule's centre of mass $r_{mean}$.
+The radius of gyration is a measure of a structure's compactness. To obtain the radius of gyration, we compute the mean squared distance from the position vector $\vek{r_i}$ to the molecule's centre of mass $r_{mean}$.
 
 \begin{equation}
 R_g(\vek{r}) = \sqrt{N^{-1} \sum_{k=1}^{N} (\vek{r_k} - \vek{r_{mean}})^2}
@@ -137,8 +138,10 @@ When analyzing MD trajectories, we are often interested in observing coordinated
 
 Covariance analysis, or principal component analysis is a mathematical tool which isolates principal axes, or components of correlated motion by computing the covariance between atoms at every time point in the simulation. We compute the covariance for all $N$ atoms in $3$ dimensions, resulting in a covariance matrix of size $3N$.
 
+\todo{define indices}
+\todo{use r instead of x}
 \begin{equation}
-C_{ij} = \bigg\langle M_{ii}^{\frac{1}{2}} (\vek{x_i}(t) - \langle \vek{x_i}(t) \rangle) M_{jj}^{\frac{1}{2}} (\vek{x_j}(t) - \langle \vek{x_j}(t) \rangle) \bigg\rangle
+C_{ij} = \bigg\langle M_{ii}^{\frac{1}{2}} (\vek{r_i}(t) - \langle \vek{r_i}(t) \rangle) M_{jj}^{\frac{1}{2}} (\vek{r_j}(t) - \langle \vek{r_j}(t) \rangle) \bigg\rangle
 \end{equation}
 
 The eigenvectors of the covariance matrix, $C$ define the set of orthogonal axes along which maximize variance. Note that $\langle \quad \rangle$ denotes a time average. Due to the constraints imposed by the backbone, only a limited number of eigenvectors are expected to contribute most to global movements.
