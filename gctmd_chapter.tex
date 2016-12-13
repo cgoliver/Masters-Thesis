@@ -9,9 +9,40 @@ In order to understand the effect of phosphorylation at Y11, we took two approac
 
 \section{NMR}
 
-NMR experiments were done by collaborators in the Department of Chemistry at McGill on the WT and YD forms of the \gct. Through protein NMR spectroscopy we are able to obtain accurate \vitro measurements of the structural and dynamic properties of polypeptides. Among these are secondary structure state, dynamic conformational changes, and structural properties such as diffusion rates. Given that the \gct is intrinsically disordered and therefore highly dynamic, this makes NMR a particularly well suited to this problem. Diffusion measurements show that the major conformation of both forms corresponds to that of a collapsed polypeptide \figref{fig:nmr_diffusion}. By computing the effective hydrodynamic radius of the polypeptides using the Stokes-Einstein equation ~\ref{eq:stokes} we can compare the compactness of the \gct to other known structures. For WT we obtain \diffusion=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits}, $R_h = \SI{14.2}{\angstrom} \pm 0.2$ and \diffusion= \num{1.224e-6} $\pm$ \SI{3.503e-8}{\dcunits}, $R_h = \SI{15.6}{\angstrom} \pm 0.2$ for the YD mutant. Both are close to the hydrodynamic radius of the folded fibronectin binding protein D3 ($r = \SI{14.9}{\angstrom}$) ~\cite{wilkins1999hydrodynamic} and well under the predicted Stokes radius of an extended 39 amino acid chain \figref{fig:nmr_diffusion}. This is a surprising finding given the high content of negatively charged residues (15 of 39 residues) in both forms would be expected to promote open conformations. However, because the \gct also has a relatively high number of hydrophobic residues (14/39), it is likely that there are other forces, such as the hydrophobic effect, acting on the packing of the polypeptide. We also note that the YD has a slightly higher Stokes radius than the WT suggesting some shifts in conformational sampling that are absent in the WT. Chemical shift secondary structure predictions show that both forms occupy a disordered random coil state and do not show evidence of adopting any secondary structure domains \figref{fig:nmr_ss}. We do not observe any disorder-order transitions that are typical of functionally-coupled phosphorylated IDPs. However, relaxation-dispersion experiments, which detect changes in the chemical environment of residues on the micro-millisecond timescale, show that the Y11D mutant undergoes large coordinated transitions between two states, while the WT dispersion profile is flat \figref{fig:nmr_r2}. The two states explored by the mutant are calculated to exchange between a major state populated to 97.5 \% and a minor state populated to 2.5\% with an exchange rate of \SI{2252}{\sec^{-1}}. Combining the dispersions brought about by the YD mutation with the shift in global \diffusion to more open conformations, we hypothesize that the YD mutation induces collective motions between a collapsed major state and an extended minor state. 
+NMR experiments were done by collaborators in the Department of Chemistry at McGill on the WT and YD forms of the \gct. Through protein NMR spectroscopy we are able to obtain accurate \vitro measurements of the structural and dynamic properties of polypeptides. Among these are secondary structure state, dynamic conformational changes, and structural properties such as diffusion rates. Given that the \gct is intrinsically disordered and therefore highly dynamic, this makes NMR a particularly well suited to this problem. Diffusion measurements show that the major conformation of both forms corresponds to that of a collapsed polypeptide \figref{fig:nmr_diffusion}. By computing the effective hydrodynamic radius of the polypeptides using the Stokes-Einstein equation ~\ref{eq:stokes} we can compare the compactness of the \gct to other known structures. For WT we obtain \diffusion=\num{1.25e-6} $\pm$  \SI{1e-8}{\dcunits}, $R_h = \SI{14.2}{\angstrom} \pm 0.2$ and \diffusion= \num{1.224e-6} $\pm$ \SI{3.503e-8}{\dcunits}, $R_h = \SI{15.6}{\angstrom} \pm 0.2$ for the YD mutant. Both are close to the hydrodynamic radius of the folded fibronectin binding protein D3 ($r = \SI{14.9}{\angstrom}$) ~\cite{wilkins1999hydrodynamic} and well under the predicted Stokes radius of an extended 39 amino acid chain \figref{fig:nmr_diffusion}. This is a surprising finding given the high content of negatively charged residues (15 of 39 residues) in both forms would be expected to promote open conformations. However, because the \gct also has a relatively high number of hydrophobic residues (14/39), it is likely that there are other forces, such as the hydrophobic effect, acting on the packing of the polypeptide. We also note that the YD has a slightly higher Stokes radius than the WT suggesting some shifts in conformational sampling that are absent in the WT. Chemical shift secondary structure predictions show that both forms occupy a disordered random coil state and do not show evidence of adopting any secondary structure domains \figref{fig:nmr_ss}. We do not observe any disorder-order transitions that are typical of functionally-coupled phosphorylated IDPs ~\ref{fig:nmr_shifts}. However, relaxation-dispersion experiments, which detect changes in the chemical environment of residues on the micro-millisecond timescale, show that the Y11D mutant undergoes large coordinated transitions between two states, while the WT dispersion profile is flat \figref{fig:nmr_r2}. The two states explored by the mutant are calculated to exchange between a major state populated to 97.5 \% and a minor state populated to 2.5\% with an exchange rate of \SI{2252}{\sec^{-1}}. Combining the dispersions brought about by the YD mutation with the shift in global \diffusion to more open conformations, we hypothesize that the YD mutation induces collective motions between a collapsed major state and an extended minor state. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{nmr_diffusion}
+\FigureCaption{NMR Diffusion Measurements}{NMR gradient diffusion data. The natural logarithms of normalized 1H methyl peak intensities ($\ln{\frac{I}{I_0}}$) are plotted as a function of the square of the strength of the magnetic field gradient ($G_{z}^2$) applied during a diffusion delay for WT  (filled squares) and Y11D (hollow squares) \gct polypeptides. The slopes (solid lines) are proportional to the translational diffusion constants.  Experimental uncertainties are smaller than the symbols used. The dashed line corresponds to the expected $\ln{\frac{I}{I_0}}$} versus $G_{z}^2$ relationship for a typical random coil polypeptide of 39 amino acids ~\cite{boschitsch2002fast}.
+\label{fig:nmr_diffusion}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{nmr_r2}
+\FigureCaption{NMR Dispersion Measurements}{Magnitudes of 15N relaxation dispersion profiles, $\Delta$R2=R2($\nu_{CPMG}=1000Hz$)–R2($\nu_{CPMG}=1000 Hz$), plotted as a function of residue number for WT (squares) and Y11D (triangles) \gct polypeptides. Gaps in the data are due to overlap in 1H-15N correlation NMR spectra. Large $\Delta$R2 values indicate micro-millisecond timescale changes in chemical environment per residue. }
+\label{fig:nmr_r2}
+\end{figure}
+
 
 In this work we use MD simulations of both \gct forms to gain further insight into the transition hypothesized by NMR.  
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{nmr_ss}
+\FigureCaption{NMR Secondary Structure Assignments}{Secondary structure content determined from backbone NMR chemical shifts  plotted as a function of residue number for WT (solid line) and Y11D \gct (dashed line) polypeptides with black, blue, green, and red indicating the percentage of random coil, $\alpha$-helical, $\beta$-sheet, and poly-proline II helical conformations, respectively.
+}
+\label{fig:nmr_ss}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{nmr_shifts}
+\FigureCaption{NMR Chemical Shifts}{1H-15N correlation spectra of WT (black) and Y11D (red) \gct polypeptides. The blue inset shows an enlargement of the central region. Residue-specific assignments are indicated for each peak. Black labels correspond to the WT and overlaying Y11D peaks. Assignments of perturbed Y11D peaks are indicated in red.}
+\label{fig:nmr_shifts}
+\end{figure}
+
 
 \section{MD simulation set-up}
 
@@ -20,14 +51,9 @@ Molecular Dynamics simulations (MDS) on WT and Y11D \gct were carried out using 
 
 \section{Conformational sampling of \gct}
 
-\todo{mention single peptide used}
-We computed atomic trajectories for the WT and YD forms of the \gct in all-atom MD simulations with durations of \SI{2}{\us}. We choose this simulation length because timescale of transitions observed in NMR are on the micro-millisecond order. While our nano-microsecond MD simulations do not reach such timescales due to computational limitations, long timescale motions measured in NMR have been reproduced in shorter timescale MD simulations but with faster exchange rates ~\cite{massi2004nmr, stafford2015conformational, henzler2007dynamic}. From the resulting trajectories we are able to capture dynamics and conformational sampling that are remarkably consistent with those measured in NMR.\\
-
-\todo{talk about convergence. RMSD plots. cosine content?}
+We computed atomic trajectories for two separate peptides, the WT and YD forms of the \gct in all-atom MD simulations with durations of \SI{2}{\us}. We choose this simulation length because timescale of transitions observed in NMR are on the micro-millisecond order. While our nano-microsecond MD simulations do not reach such timescales due to computational limitations, long timescale motions measured in NMR have been reproduced in shorter timescale MD simulations but with faster exchange rates ~\cite{massi2004nmr, stafford2015conformational, henzler2007dynamic}. From the resulting trajectories we are able to capture dynamics and conformational sampling that are remarkably consistent with those measured in NMR. It should be noted that a major concern in MD simulations is the problem of sufficient sampling and convergence. While we are fortunate to have direct experimental validation available in the NMR data, it is left to future work to perform further repetitions of the simulation under different initial states to obtain deeper sampling. This is especially important in the case of disordered systems where the range of conformations sampled can be very high and a large amount of sampling is required to obtain appropriate ensemble averages.\\
 
 {\it \gct does not adopt any stable secondary structure}
-
-\todo{better quantify dssp. mention threshold, probability values}
 
 The first question we addressed was whether the structures in our MD trajectories feature the same lack of global structure that was observed in NMR. We used the \texttt{dssp} algorithm ~\cite{kabsch1983dictionary} in the VMD software package ~\cite{humphrey1996vmd} to compute secondary structure assignments on each residue in the chain. Assignments by \texttt{dssp} are based on computations of hydrogen bonding energies between all atoms. Since hydrogen bonds are the primary stabilizing interaction that gives rise to backbone secondary structure, \texttt{dssp} is able to classify geometries arising from potential hydrogen bonds to a category of secondary structure motif found in a large database of annotated structures. We apply this algorithm to every frame in the trajectories at \SI{1}{\ns} intervals to assess secondary structure motifs at every residue as a function of simulation time \figref{fig:ss}. Apart from some local helicity in the middle residues, secondary structure assignment plots for both trajectories point to a consistent absence of global secondary structure motif. The major classes of secondary structure present are turn and coil geometries which correspond to a largely unstructured ensemble of conformations. 
 
@@ -144,14 +170,11 @@ We therefore focus our attention on the two first major modes of motion. \figref
 
 In order to visualize the transitions, we generate a porcupine plot depicting the direction of motion between conformations on two extremes of the second principal component projection \figref{fig:porcupine}.  We show that the transition between collapsed and extended is indeed driven by a separation of the N and C terminus in a correlated fashion. With this analysis we are able to propose a physical mechanism to explain the concerted global dynamics and diffusion coefficient shift observed in NMR as the action of correlated motions brought about by a local change in electrostatic environment. 
 
-%When choosing which component to use for the visualization we computed cosine content values of each projection. This has been shown to be an effective method for detecting the presence of diffusion in signals from trajectories which often dominate the first few eigenvectors. The only component with significantly high cosine content was the first principal component of the YD simulation and so we focus our attention on projections along the second component.
 
-\begin{figure}
-\includegraphics[height=0.4\textheight]{yd_porcupine}
-\FigureCaption{Extreme projection along opening-closing axis.}{Arrows indicate direction of motion along opening/closing axis from YD PCA where the purple cloud represents the most extreme projection along the axis and illustrates the collective separation of N and C terminus.}
-\label{fig:porcupine}
-\end{figure}  
 
+
+\afterpage{%
+\thispagestyle{empty}
 \begin{figure}
 	\centering     %%% not \center
 	\subfigure[Porcupine Plot]{\label{fig:porc}\includegraphics[height=0.4\textheight]{yd_porcupine}}
@@ -159,14 +182,20 @@ In order to visualize the transitions, we generate a porcupine plot depicting th
 	\FigureCaption{Extreme projection along opening-closing axis.}{\figref{fig:porc} Arrows indicate direction of motion along opening/closing axis from YD PCA where the purple cloud represents the most extreme projection along the axis. \figref{fig:extremecontact} Contact maps of the minimal (top triangle) and maximal (bottom triangle) projections along open/close axis show separation of N and C terminus. }
 	\label{fig:porcupine}
 \end{figure}
-
+\clearpage
+}
 
 
 \subsection{Whole protein simulations and conserved properties of \gct}
 
 Our analysis of \gct structural properties using NMR and corresponding MDS are based on the WT and Y11D \gct polypeptides in isolation. In order to determine whether the conformations and dynamics we observed for the isolated \gct are physically consistent when attached to the full-length \tub protein, we docked the minimum \diffusion \gct model \figref{fig:globular} onto the globular domain of an S.c. \tub homology model as an initial structure for a whole protein simulation. Due to the substantial increase in system size, simulation times were reduced to \SI{200}{\ns}.  Despite the shorter simulation time, with the Y11D \gct polypeptide, the \gct in the whole protein simulation underwent exchange between extended and compact conformations \figref{fig:globular}, suggesting both states are still accessible in the presence of the globular domain. We found no contacts between residues in the globular domain with the 39 residues of the \gct throughout the \SI{200}{\ns} simulation (minimal distance between any pair of residues is greater than 0.7 nm) \figref{fig:glob_contacts}. Structures for the full protein with the \gct at minimum radius of gyration (1.073 nm) and maximum radius of gyration (1.582 nm) are shown in \figref{fig:globular}. This suggests that the \gct opening-closing mechanism can act independently of the rest of the protein.
 
-
+\begin{figure}
+\centering
+\includegraphics[height=0.45\textheight]{glob_extended_contacts}
+\FigureCaption{YD Globular Contact Map}{Average contact map for full protein simulation with an extended YD \gct.}
+\label{fig:glob_contacts}
+\end{figure}
 
 \begin{figure}
 	\thispagestyle{empty}
@@ -179,7 +208,7 @@ Our analysis of \gct structural properties using NMR and corresponding MDS are b
 \end{figure}
 
 
-Finally, we obtain evolutionary evidence that the physical mechanism of the \gct described here is likely present in many other organisms, and that it is not akin to other tubulin tails.  We used the \texttt{MUSCLE} alignment tool \cite{edgar2004muscle} to generate multiple sequence alignments from sets of 71 $\beta$ and 85 $\gamma$- CTs primary sequences spanning various eukaryotic kingdoms from the UniProt database ~\cite{apweiler2004uniprot} \figref{fig:alignment}.  We see from the resulting alignments that both CTs are enriched in acidic residues (Asp, Glu). Whereas \gct across eukaryotes additionally contain clusters of hydrophobic or polar residues which are not found in $\alpha$- or $\beta$-CTs. Interestingly, the residues most broadened in Y11D NMR spectra, i.e. those most affected by the compact-to-extended transition (V15, D19, E20, A32, G34), are all found in positions conserved either on a sequence level or on a physical property level (polarity/charge) in the consensus \gct sequence. We therefore hypothesize that clusters of hydrophobic residues, including those that contribute to transitions between compact and extended conformations in the S.c. Y11 \gct, are a conserved feature of an otherwise diverse set of \gct s across many eukaryotic organisms. This feature appears to be absent in the well characterized $\beta$-CT \lq e-hook\rq IDRs which suggests that the \gct mechanism does not behave like $\alpha$ and $\beta$. MD simulations of the $\beta$-tubulin CTs suggest an extended ground state, unlike the collapsed ground state observed in \gct ~\cite{luchko2008conformational}.   Furthermore, given that the Y11 position is so pervasively conserved, it is likely that a similar mechanism of action to the one described in this work functions many other eukaryotes.
+Finally, we obtain evolutionary evidence that the physical mechanism of the \gct described here is likely present in many other organisms, and that it is not akin to other tubulin tails.  We used the \texttt{MUSCLE} alignment tool \cite{edgar2004muscle} to generate multiple sequence alignments from sets of 71 $\beta$ and 85 $\gamma$- CTs primary sequences spanning various eukaryotic kingdoms from the UniProt database ~\cite{apweiler2004uniprot} \figref{fig:alignment, fig:raw_alignments}.  We see from the resulting alignments that both CTs are enriched in acidic residues (Asp, Glu). Whereas \gct across eukaryotes additionally contain clusters of hydrophobic or polar residues which are not found in $\alpha$- or $\beta$-CTs. Interestingly, the residues most broadened in Y11D NMR spectra, i.e. those most affected by the compact-to-extended transition (V15, D19, E20, A32, G34), are all found in positions conserved either on a sequence level or on a physical property level (polarity/charge) in the consensus \gct sequence. We therefore hypothesize that clusters of hydrophobic residues, including those that contribute to transitions between compact and extended conformations in the S.c. Y11 \gct, are a conserved feature of an otherwise diverse set of \gct s across many eukaryotic organisms. This feature appears to be absent in the well characterized $\beta$-CT \lq e-hook\rq IDRs which suggests that the \gct mechanism does not behave like $\alpha$ and $\beta$. MD simulations of the $\beta$-tubulin CTs suggest an extended ground state, unlike the collapsed ground state observed in \gct ~\cite{luchko2008conformational}.   Furthermore, given that the Y11 position is so pervasively conserved, it is likely that a similar mechanism of action to the one described in this work functions many other eukaryotes.
 
 \begin{figure}
 \centering
@@ -188,17 +217,29 @@ Finally, we obtain evolutionary evidence that the physical mechanism of the \gct
 \label{fig:alignment}
 \end{figure}
 
+\begin{figure}
+	\centering     %%% not \center
+	\subfigure[\gct]{\label{fig:gammaaln}\includegraphics[height=0.75\textheight]{gamma_aln}}
+\end{figure}
+
+\begin{figure}\ContinuedFloat
+	\centering
+	\subfigure[$\beta$-CT]{\label{fig:betaaln}\includegraphics[height=0.75\textheight]{beta_aln}} 
+	\FigureCaption{Full $\gamma$ and $\beta$ Tubulin CT Multiple Sequence Alignments}{Primary sequence alignments of visualized by software tool \texttt{jalview} ~\cite{waterhouse2009jalview} and colored by amino acid physical properties. Blue: acidic, Red: basic, Orange: on-polar,Green: polar.}
+	\label{fig:raw_alignments}
+\end{figure}
+
 \section{Discussion}
 
 Through NMR measurements and MD computer simulations, we demonstrate the first example of an IDP acting as a disorder-to-disorder regulatory switch, and propose a physical mechanism to explain the regulation of an essential biological machine. 
 
-\todo{mention other paper finding electrostatics in regulation}
 
-Both NMR and MD are in strong agreement that the conformational sampling of the \gct lies entirely within the diordered ensemble, as no signal of secondary structure was detected by either method. Diffusion measurements show that the major conformational state of the \gct in the WT and in the YD is collapsed, with the YD having a slightly larger hydrodynamic radius on average. However, NMR and MD simulations both provide evidence that a single point mutation to a negatively charged residue Y>D produces concerted motions along the entire polypeptide that are not present in the WT \gct. Analysis of the collective motions detected in MDS by PCA correspond closely to transitions between collapsed and extended states which leads us to hypothesize that the changes in chemical environment detected in MDS and difference in hydrodynamic radius is a product of an correlated opening and closing motion brought about by the Y>D mutation. This coordinated opening is likely brought about by the effects of electrostatic repulsion as the Asp substituion introduces further negative charge in an already acidic region. It has been previously shown that charge has a strong influence on the conformational ensemble and diffusion rates in IDPs \cite{mao2010net}. Once the \gct enters the open state, several hydrophobic residues in the middle of the polypeptide(L464, A466, G468) become accessible for protein-protein interactions.
 
-\todo{ref 42 not accurate to say it says disordered ensembles are uniform}
- Because both WT and YD appear to have the same collapsed native state and differ only when the YD undergoes transient excursion to an extended state, we can model such behaviour as a two well potential system \figref{fig:wellsb}. The equilibrium between extended and collapsed conformations is shifted by phosphorylation to render extensions more accessible in the YD.  Previously, such dynamics were only observed in the well characterized order-to disorder transitions, or the folding-on-binding paradigm ~\cite{tompa2012intrinsically}. Furthermore, this model stands in contrast to the existing view of disordered ensembles as uniform \figref{fig:wellsa} spaces of random coils ~\cite{mittag2007atomic}. And instead, we observe that the disordered landscape has some structure that IDPs can selectively explore  through PTMs to modulate functionality by giving rise to switch-like behaviour while still remaining disordered. Such behaviour likely presents advantages to the cell through its ability to provide high specificity and low affinity binding at a low entropic cost. This suggests for the first time that the disordered conformational landscape can be organized and can therefore play host to coordinated and functional transitions.
+Both NMR and MD are in strong agreement that the conformational sampling of the \gct lies entirely within the diordered ensemble, as no signal of secondary structure was detected by either method. Diffusion measurements show that the major conformational state of the \gct in the WT and in the YD is collapsed, with the YD having a slightly larger hydrodynamic radius on average. However, NMR and MD simulations both provide evidence that a single point mutation to a negatively charged residue YD produces concerted motions along the entire polypeptide that are not present in the WT \gct. Analysis of the collective motions detected in MDS by PCA correspond closely to transitions between collapsed and extended states which leads us to hypothesize that the changes in chemical environment detected in MDS and difference in hydrodynamic radius is a product of an correlated opening and closing motion brought about by the YD mutation. This coordinated opening is likely brought about by the effects of electrostatic repulsion as the Asp substituion introduces further negative charge in an already acidic region. It has been previously shown that charge has a strong influence on the conformational ensemble and diffusion rates in IDPs \cite{mao2010net}. Once the \gct enters the open state, several hydrophobic residues in the middle of the polypeptide(L464, A466, G468) become accessible for protein-protein interactions.
 
+
+ Because both WT and YD appear to have the same collapsed native state and differ only when the YD undergoes transient excursion to an extended state, we can model such behaviour as a two well potential system \figref{fig:wellsb}. The equilibrium between extended and collapsed conformations is shifted by phosphorylation to render extensions more accessible in the YD.  Previously, such dynamics were mostly observed in the well characterized order-to disorder transitions, or the folding-on-binding paradigm ~\cite{tompa2012intrinsically}. This model stands in contrast to the view of disordered ensembles as uniform \figref{fig:wellsa} spaces of random coils ~\cite{mittag2007atomic}. And instead, we observe that the disordered landscape has some structure that IDPs can selectively explore  through PTMs to modulate functionality by giving rise to switch-like behaviour while still remaining disordered. A similar case has been described in ~\cite{mittag2008dynamic} whereby multisite phosphorylation was observed by NMR to cause transient structural changes in a predominantly compact IDR that regulates receptor binding. These changes were not enough to induce global ordering of the structure and were shown to remain within a disordered ensemble. The system observed in this work lends additional evidence to the hypothesis that order is not required to modulate interactions, and presents a novel mechanism of disordered control that is based in switch-like transitions in structural compactness. We claim that this transition is dependent on a phosphorylation event, which we model as a negatively charged mutation. By modelling phosphorylation with a negatively charged mutation, we propose that changes in electrostatic environment are a major driver shifting conformational sampling in this system. It is interesting to note that several past works have shown that IDRs in various other systems have demonstrated the role of electrostatics in controlling IDP interactions ~\cite{borg2007polyelectrostatic,chen2015theoretical,mao2010net}. 
+ 
 \begin{figure}
 \centering     %%% not \center
 \subfigure[Unstructured Landscape]{\label{fig:wellsa}\includegraphics[width=0.45\textwidth]{wells_a}}

@@ -35,7 +35,7 @@ The bonded energy term can be written as the sum of energies arising from the bo
 Non-bonded interactions can have two contributing factors; electrostatic force, and van der Waals force. The electrostatic potential ($E_{electrostatic}$) arises from the interaction of the charges of particles, while the van der Waals potential  ($E_{van der Waals}$ arises from the attraction or repulsion between uncharged groups. Combining all of these terms, we can write the full description of forces in the system as:
 
 \begin{equation}
-E(r_{N}) = E_{bond} + E_{angle} + E_{dihedral} + E_{van der Waals} + E_{electrostatic} 
+E(\vek{r_i},, ... \vek{r_{N}}) = E_{bond} + E_{angle} + E_{dihedral} + E_{van der Waals} + E_{electrostatic} 
 \end{equation}
 
 
@@ -47,7 +47,7 @@ In this work, we will be using the Optimized Potentials for Liquid Simulations -
 
 
 \begin{equation}
-E_{bond} = \sum_{bonds} K_{r} (r - r_{0})^2	
+E_{bond} = \sum_{bonds} K_{r} (\vek{r} - \vek{r_{0}})^2	
 \end{equation}
 
 \begin{equation}
@@ -73,6 +73,14 @@ Where $A$ and $C$ represent combining rules which allow us to obtain the interac
 
 We believe the OPLS-AA force field to be the best fit for modeling charge-dependent motions of the \gct. Whereas other popular force fields such as CHARMM were parametrized on X-ray crystallographic experimental values of folded globular proteins, the OPLS force field was optimized with quantum chemical calculations of charged short peptides ~\cite{kukol2008molecular}. This approach is likely to more accurately model the dynamics of unfolded peptides where other force fields may tend to favour the formation of collapsed stable secondary structure motifs ~\cite{henriques2015molecular, tran2008role}. Furthermore, it has been reported that the small and localized treatment of charged groups in OPLS-AA is well suited for systems where local charge interactions drive global dynamics ~\cite{vitalis2009absinth}. We show that a simulation under OPLS-AA is able to accurately produce an extended conformation for the \lq molecular ruler \rq polyproline ~\cite{schuler2005polyproline} \figref{fig:pp}. We also control the appropriateness of the force field by comparing MD values to NMR measurements on the same system.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{pp}
+\FigureCaption{Polyproline Simulation}{Simulation of 39-mer polyproline peptide known to be fully extended ~\cite{schuler2005polyproline} behaves as expected and accesses high radius of gyration conformations in a $1 \mu s$ simulation using the OPLS-AA force field.}
+\label{fig:pp}
+\end{figure}
+
+
 \subsection{Preparing the system for a simulation}
 
 The starting point of an MD simulation is a force field and a set of initial atomic coordinates for the system of interest. Before a simulation can be successfully run, there are several pre-processing steps that must be executed. 
@@ -85,17 +93,15 @@ At this point, we could begin an MD simulation and obtain trajectories in the NV
 
 \section{Trajectory Analysis}
 
-The MD simulation generates a set of coordinates for every atom in the system as a function of time, $r(t)$. From these trajectories we can compute several quantities to study conformational changes in the peptide over time. 
+The MD simulation generates a set of coordinates for every atom in the system as a function of time, $\vek{r(t)}$. From these trajectories we can compute several quantities to study conformational changes in the peptide over time. 
 
 \subsection{Root Mean Square Deviation}
 
-We measure the square displacement between the coordinates of atom $i$ at time $t$ weighted by the mass of the atom $m_i$. We iterate this process for every atom in the peptide to obtain a measure of the degree of change between two conformations in time.
+We measure the square displacement between the coordinates of atom $i$ at time $t$ weighted by the mass of the atom $m_i$. We iterate this process for every atom in the peptide to obtain a measure of the degree of change between two conformations in time weighted by atomic masses in matrix $M$.
 
-\todo{define M}
 \begin{equation}
 \text{RMSD}(t_1, t_2) = \bigg[ M^{-1} \sum_{i=1}^{N} m_{i} \lvert \lvert \vek{r_{i}}(t_{1}) - \vek{r_{i}}(t_{2}) \rvert \rvert^2 \bigg]^\frac{1}{2}
 \end{equation}
-
 
 \subsection{Radius of gyration}
 
@@ -136,10 +142,9 @@ Where $R_h$ is the hydrodynamic radius and $\eta$ is the viscosity of the solven
 
 When analyzing MD trajectories, we are often interested in observing coordinated, or correlated motions. This is because global motions are likely to be involved in some functional mechanism. However, molecular trajectories typically feature complex motions along many axes and time scales which can often make it difficult to detect coordinated motions. Local rearrangements, vibrations, rotations, and random diffusion are examples of non-coordinated motions that likely do not contribute to a functional mechanism. The goal in MD trajectory covariance analysis is to obtain the axes of motion where atoms in the peptide of interest show a high degree of correlation which could be indicative of a global coordinated motion. 
 
-Covariance analysis, or principal component analysis is a mathematical tool which isolates principal axes, or components of correlated motion by computing the covariance between atoms at every time point in the simulation. We compute the covariance for all $N$ atoms in $3$ dimensions, resulting in a covariance matrix of size $3N$.
+Covariance analysis, or principal component analysis is a mathematical tool which isolates principal axes, or components of correlated motion by computing the covariance between atoms at every time point in the simulation. We compute the covariance for pairs $r_i$, $r+j$ of $N$ atoms  in $3$ dimensions resulting in a covariance matrix of size $3N$. $M$ is again a matrix of atomic weights.
 
-\todo{define indices}
-\todo{use r instead of x}
+
 \begin{equation}
 C_{ij} = \bigg\langle M_{ii}^{\frac{1}{2}} (\vek{r_i}(t) - \langle \vek{r_i}(t) \rangle) M_{jj}^{\frac{1}{2}} (\vek{r_j}(t) - \langle \vek{r_j}(t) \rangle) \bigg\rangle
 \end{equation}
@@ -155,7 +160,7 @@ Where R is the transformation matrix whose columns contain an eigenvector. Using
 If we wish to visualize motions along a particular axis and filter out motions along other axes, we can project the coordinates of each atom along a specific eigenvector. We can use following transformation to obtain the new set of coordinates $\vek{p}(t)$.
 
 \begin{equation}
-\vek{p}(t) = R^{T}M^{\frac{1}{2}}\vek{x}(t)
+\vek{p}(t) = R^{T}M^{\frac{1}{2}}\vek{r}(t)
 \end{equation}
 
 The resulting trajectory lets us visualize motions along any component and is a useful tool for detecting coordinated structural changes. 
